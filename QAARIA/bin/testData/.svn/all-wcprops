@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/asitrepo/!svn/ver/141169/QA/QAARIA/bin/testData
+END
+ExcelTestData.xlsx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/asitrepo/!svn/ver/141169/QA/QAARIA/bin/testData/ExcelTestData.xlsx
+END
+~$ExcelTestData.xlsx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/bin/testData/~$ExcelTestData.xlsx
+END
+ExcelTestData_UCP.xlsx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/bin/testData/ExcelTestData_UCP.xlsx
+END

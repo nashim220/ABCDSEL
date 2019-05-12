@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Dev Suite" parallel="false">
+
+
+	<test name="Batch">
+		<parameter name="browser" value="chrome" />
+		<packages></packages>
+		<classes>
+			<class
+				name="testCases.AriaSettings.ConfigClientSettings" />
+			
+		</classes>
+	</test>
+
+</suite>

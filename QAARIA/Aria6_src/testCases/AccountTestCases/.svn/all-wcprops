@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases
+END
+Cls_PromotionalCredit.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_PromotionalCredit.java
+END
+Cls_ParentChildDiscounting.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_ParentChildDiscounting.java
+END
+AssignChildToParent.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/AssignChildToParent.java
+END
+Cls_SupplPlanAnniversaryChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_SupplPlanAnniversaryChange.java
+END
+Cls_ValidateAccountDetailsAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_ValidateAccountDetailsAPI.java
+END
+Cls_GenerateInvoice.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_GenerateInvoice.java
+END
+Cls_ParentChildNewAccountCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_ParentChildNewAccountCreation.java
+END
+Cls_GenerateInvoiceandValidateTaxes.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_GenerateInvoiceandValidateTaxes.java
+END
+Cls_ChangeAccountPONumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_ChangeAccountPONumber.java
+END
+Cls_BanAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_BanAccount.java
+END
+Cls_API_ChangeCustomAccountFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_API_ChangeCustomAccountFields.java
+END
+ChangeAccountBillingContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/ChangeAccountBillingContact.java
+END
+Cls_RetrieveByAPIUpdatedCustomerInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_RetrieveByAPIUpdatedCustomerInfo.java
+END
+Cls_VoidPerforms.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_VoidPerforms.java
+END
+Cls_TerminatePlanAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_TerminatePlanAccount.java
+END
+Cls_UpdatePlanUnitByAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_UpdatePlanUnitByAPI.java
+END
+Cls_CreateAccountWithWorkplace.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_CreateAccountWithWorkplace.java
+END
+Cls_ChangeCustomAccountFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_ChangeCustomAccountFields.java
+END
+Cls_VerifyAdditionofMultipleCouponsAndDiscount.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_VerifyAdditionofMultipleCouponsAndDiscount.java
+END
+Cls_VerifyZeroRatedUsageRetained.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_VerifyZeroRatedUsageRetained.java
+END
+Cls_RuntimeNewParentNewChildAccountCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_RuntimeNewParentNewChildAccountCreation.java
+END
+AriaAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/AriaAccount.java
+END
+Cls_VerifyCreditReasons.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_VerifyCreditReasons.java
+END
+Cls_NewAccountCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AccountTestCases/Cls_NewAccountCreation.java
+END

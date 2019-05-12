@@ -1,0 +1,98 @@
+<project name="Selenium" default="usage" basedir=".">
+  <property environment="env"/>
+  <property name="ws.home" value="${basedir}"/>
+  <property name="ws.jar" value="${ws.home}"/>
+  <!-- property name="ws.jar" value="C:\\MyData\\MyProject\\Automation\\Edison_Automation\\Libs"/ -->
+  <property name="test.dest" value="${ws.home}/Build"/>
+  <property name="test.src" value="${ws.home}/src"/>
+  <property name="test.report" value="test"/>
+
+ <!--
+<target name="setclassPath" unless="test.classpath">
+	<path id="classpath_jars">
+		<fileset dir="${ws.jar}" includes="*.jar"/>
+	</path>
+	<pathconvert pathsep=":"
+	  property="test.classpath"
+	  refind="classpath_jars"/>
+	</target>
+-->
+
+<path id="test.classpath">
+	  <fileset dir="${ws.jar}" includes="*.jar" /> 
+ </path>
+
+ <target name="setClassPath" unless="test.classpath">
+    <path id="classpath_jars">
+       <fileset dir="${ws.jar}" includes="*.jar*"/>
+    </path>
+    <pathconvert pathsep=":"
+    property="test.classpath"
+    refid="classpath_jars"/>
+</target>
+	
+<target name="init" depends="setClassPath">
+<tstamp>
+<format property ="start.time" pattern="MM/dd/yyyy hh:mm:aa"/>
+</tstamp>
+<condition property ="ANT"
+value="${env.ANT_HOME}/bin/ant.bat"
+else="${env.ANT_HOME}/bin/ant">
+<os family="windows" />
+</condition>
+<taskdef name="testng" classpath="${test.classpath}" 
+	classname="org.testng.TestNGAntTask" />
+</target>
+<!-- All -->
+<target name="all">
+</target>
+<!-- clean -->
+  <target name="clean">
+     <delete dir="${test.dest}"/>
+  </target>
+	
+<!-- Compile -->
+<target name="compile" depends="init, clean">
+   <delete includeemptydirs="true" quiet="true">
+      <fileset dir="${test.dest}" includes="**/*"/>
+   </delete>
+   <echo message="making directory..."/>
+   <mkdir dir="${test.dest}"/>
+   <echo message="classpath---------:${test.classpath}"/>
+   <echo message="compiling......."/>
+   <javac
+        debug="true"
+        destdir="${test.dest}"
+        srcdir="${test.src}"
+        classpath="${test.classpath}"
+    >
+    </javac>
+ </target>
+
+<target name="build" depends="init">
+</target>
+<target name="usage">
+<echo>
+ant run exceute
+</echo>
+</target>
+
+<!-- Run -->	
+
+ <target name="run"  depends="compile">
+    <testng classpath="${test.classpath}:${test.dest}" suitename="Suit">
+ 	<xmlfileset dir="${ws.home}" includes="testng.xml"/>
+ 
+ 	</testng>
+</target>
+
+	
+	<target name="testng" depends="run">
+	  <mkdir dir="${test.report}/runtime-totals/output" /> 
+	<xslt in="${ws.home}/test-output/testng-results.xml" style="src/xslt/testng-results.xsl" out="${test.report}/runtime-totals/output/index.html" classpathref="test.classpath" processor="SaxonLiaison">
+	  <param name="testNgXslt.outputDir" expression="${ws.home}/${test.report}/runtime-totals/output/" /> 
+	  <param name="testNgXslt.showRuntimeTotals" expression="true" /> 
+	  </xslt>
+	  </target>
+
+</project>

@@ -1,0 +1,13 @@
+invoice_charges_before_tax,proc_cavv_response,proc_merch_comments,error_msg,invoice_no,proc_cvv_response,session_id,proc_avs_response,out_new_acct_plan_contracts,third_party_errors,new_acct_invoice_line_items,proc_status_code,invoicing_error_msg,invoice_total_amount,out_userid,invoice_credit_amount,acct_no,error_code,invoice_charges_after_tax,proc_status_text,proc_payment_id,invoicing_error_code,invoice_tax_charges,proc_auth_code
+0,,,OK,426801,,,,,,,,Invoice: success - Email: failed,0,DAA_TAX_7_14_21099.8129802662,0,79446,0,0,,,1029,0,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+0,,,OK,426802,,,,,,,,Invoice: success - Email: failed,0,DAA_TAX_7_14_5274.95324506655,0,79447,0,0,,,1029,0,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,
+,,,Invalid parent account user id.,,,,,,,,,,,,,,5033,,,,,,

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/asitrepo/!svn/ver/144810/QA/QAARIA
+END
+batch-after.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/asitrepo/!svn/ver/143285/QA/QAARIA/batch-after.xml
+END
+batch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/asitrepo/!svn/ver/143285/QA/QAARIA/batch.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/.classpath
+END
+testng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/asitrepo/!svn/ver/142008/QA/QAARIA/testng.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/.project
+END
+log4j.out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/log4j.out.xml
+END
+UIAutomationFramework.iml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/asitrepo/!svn/ver/141074/QA/QAARIA/UIAutomationFramework.iml
+END
+UIAutomation.log
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/asitrepo/!svn/ver/141169/QA/QAARIA/UIAutomation.log
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/build.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/log4j.xml
+END

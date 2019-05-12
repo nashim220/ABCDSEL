@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/Brwser_Driverssrc
+END
+IEDriverServer.exe
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/Brwser_Driverssrc/IEDriverServer.exe
+END
+chromedriver.exe
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/Brwser_Driverssrc/chromedriver.exe
+END
+chromedriver.log
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/Brwser_Driverssrc/chromedriver.log
+END
+selenium-server-standalone-2.42.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/Brwser_Driverssrc/selenium-server-standalone-2.42.2.jar
+END
+startClient_FF.bat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/Brwser_Driverssrc/startClient_FF.bat
+END
+startClient_IE.bat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/Brwser_Driverssrc/startClient_IE.bat
+END

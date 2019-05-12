@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login to application]]>
+    </line>
+    <line>
+      <![CDATA[C:\WorkSpac_new\QAARIA\Screenshots/Screenshots_04072016-1013/]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\WorkSpac_new\QAARIA\Screenshots/Screenshots_04072016-1013/"> Clickhere </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\WorkSpac_new\QAARIA\Screenshots/Screenshots_04072016-1013/ariaLogin_BeforeAssert.jpg"><img src="file:///C:\WorkSpac_new\QAARIA\Screenshots/Screenshots_04072016-1013/ariaLogin_BeforeAssert.jpg" alt=""height='800' width='1200'/> <br />]]>
+    </line>
+    <line>
+      <![CDATA[Get Main Window Handle]]>
+    </line>
+    <line>
+      <![CDATA[Main tab : CDwindow-C618E638-2E3A-4A01-9C07-C1B9A4DE3FF7]]>
+    </line>
+    <line>
+      <![CDATA[Switch to postedReportDisplay frame]]>
+    </line>
+    <line>
+      <![CDATA[Web  Data [Acct No, Client Acct ID, Senior Acct No, Company Code, Domain ID, Company Name, Billing Name, Invoice No, Invoice Type, Line Item, Usage From, Usage To, Usage Type Code, Usage Units, Usage Rate, Amount, Invoice Date, Void Date, Currency]]]>
+    </line>
+    <line>
+      <![CDATA[Reading file: C:\WorkSpac_new\QAARIA\src\testData\TestData.xlsx and worksheet: ValidateReport]]>
+    </line>
+    <line>
+      <![CDATA[File has been read successfully !]]>
+    </line>
+    <line>
+      <![CDATA[File   Data [Acct No, Client Acct ID, Senior Acct No, Company Code, Domain ID, Company Name, Billing Name, Invoice No, Invoice Type, Line Item, Usage From, Usage To, Usage Type Code, Usage Units, Usage Rate, Amount, Invoice Date, Void Date]]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Acct No]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Client Acct ID]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Senior Acct No]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Company Code]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Domain ID]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Company Name]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Billing Name]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Invoice No]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Invoice Type]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Line Item]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Usage From]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Usage To]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Usage Type Code]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Usage Units]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Usage Rate]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Amount]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Invoice Date]]>
+    </line>
+    <line>
+      <![CDATA[The Account Fields values are matching for Field Name ::Void Date]]>
+    </line>
+    <line>
+      <![CDATA[Logging out]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="145537" started-at="2016-07-04T04:43:09Z" finished-at="2016-07-04T04:45:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="145537" started-at="2016-07-04T04:43:09Z" finished-at="2016-07-04T04:45:34Z">
+      <class name="testCases.AccountTestCases.Cls_ValidateSwedishInvoiceReport">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.AccountTestCases.Cls_ValidateSwedishInvoiceReport@750868a1]" name="beforeMethod" is-config="true" duration-ms="31669" started-at="2016-07-04T10:13:09Z" finished-at="2016-07-04T10:13:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to application]]>
+            </line>
+            <line>
+              <![CDATA[C:\WorkSpac_new\QAARIA\Screenshots/Screenshots_04072016-1013/]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\WorkSpac_new\QAARIA\Screenshots/Screenshots_04072016-1013/"> Clickhere </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\WorkSpac_new\QAARIA\Screenshots/Screenshots_04072016-1013/ariaLogin_BeforeAssert.jpg"><img src="file:///C:\WorkSpac_new\QAARIA\Screenshots/Screenshots_04072016-1013/ariaLogin_BeforeAssert.jpg" alt=""height='800' width='1200'/> <br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fn_ValidateSwedishInvoiceReport(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountTestCases.Cls_ValidateSwedishInvoiceReport@750868a1]" name="fn_ValidateSwedishInvoiceReport" duration-ms="97050" started-at="2016-07-04T10:13:41Z" description="ValidateSwedishInvoiceReport" data-provider="objectTestData1" finished-at="2016-07-04T10:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidateReport]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[213335]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer Reference]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Self Managed Cloud Workplace]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Record_usage_30May16.csv]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Immediate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Get Main Window Handle]]>
+            </line>
+            <line>
+              <![CDATA[Main tab : CDwindow-C618E638-2E3A-4A01-9C07-C1B9A4DE3FF7]]>
+            </line>
+            <line>
+              <![CDATA[Switch to postedReportDisplay frame]]>
+            </line>
+            <line>
+              <![CDATA[Web  Data [Acct No, Client Acct ID, Senior Acct No, Company Code, Domain ID, Company Name, Billing Name, Invoice No, Invoice Type, Line Item, Usage From, Usage To, Usage Type Code, Usage Units, Usage Rate, Amount, Invoice Date, Void Date, Currency]]]>
+            </line>
+            <line>
+              <![CDATA[Reading file: C:\WorkSpac_new\QAARIA\src\testData\TestData.xlsx and worksheet: ValidateReport]]>
+            </line>
+            <line>
+              <![CDATA[File has been read successfully !]]>
+            </line>
+            <line>
+              <![CDATA[File   Data [Acct No, Client Acct ID, Senior Acct No, Company Code, Domain ID, Company Name, Billing Name, Invoice No, Invoice Type, Line Item, Usage From, Usage To, Usage Type Code, Usage Units, Usage Rate, Amount, Invoice Date, Void Date]]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Acct No]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Client Acct ID]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Senior Acct No]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Company Code]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Domain ID]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Company Name]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Billing Name]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Invoice No]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Invoice Type]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Line Item]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Usage From]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Usage To]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Usage Type Code]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Usage Units]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Usage Rate]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Amount]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Invoice Date]]>
+            </line>
+            <line>
+              <![CDATA[The Account Fields values are matching for Field Name ::Void Date]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fn_ValidateSwedishInvoiceReport -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.AccountTestCases.Cls_ValidateSwedishInvoiceReport@750868a1]" name="afterMethod" is-config="true" duration-ms="16366" started-at="2016-07-04T10:15:18Z" finished-at="2016-07-04T10:15:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.AccountTestCases.Cls_ValidateSwedishInvoiceReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

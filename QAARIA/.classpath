@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="Build" path="src"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/apache-log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/ATU_DataDrivenFrmework_1.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/cssparser-0.9.14.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/fontbox-2.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/ganymed-ssh2-build210.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/guava-12.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/htmlunit-2.15.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/htmlunit-core-js-2.15.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/httpclient-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/httpmime-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/jetty-http-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/jetty-io-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/jetty-util-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/jetty-websocket-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/junit-dep-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/jxl.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/nekohtml-1.9.21.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/pdfbox-2.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/selenium-java-2.42.2.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/selenium-java-2.42.2-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/selenium-server-standalone-2.42.2.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/selenium-server-standalone-2.43.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/testng-6.8.6beta.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/ProjectQAARIA/Libs/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/jfr.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/jfxrt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

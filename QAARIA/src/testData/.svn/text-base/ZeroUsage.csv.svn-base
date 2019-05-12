@@ -1,0 +1,5 @@
+usage_type_code,usage_units,billable_units,amt,rate,telco_from,telco_to,comments,exclude_from_billing,exclusion_comments,qualifier_1,qualifier_2,qualifier_3,qualifier_4,parent_usage_rec_no,caller_id,alt_caller_id,optional_transaction_qualifiers,˜qualifier_name,˜qualifier_value
+GB RAM,5229.1989,5229.1989,0,0,,,BulkLoad10019638@61811.4727086806_3rdPartyRate_'_Amt_,,,,,,,,UsagePuneQAAutomation,,,,
+Windows_Server_2012_R2,1259.1998,1259.1998,0,0,,,BulkLoad10019638@61811.4727086806_3rdPartyRate_'_Amt_,,,,,,,,UsagePuneQAAutomation,,,,
+MS_SQL_Server_Web,9599.1998,9599.1998,0,0,,,BulkLoad10019638@61811.4727086806_3rdPartyRate_'_Amt_,,,,,,,,UsagePuneQAAutomation,,,,
+vCPU,1400.1865,1400.1865,0,0,,,BulkLoad10019638@61811.4727086806_3rdPartyRate_'_Amt_,,,,,,,,UsagePuneQAAutomation,,,,

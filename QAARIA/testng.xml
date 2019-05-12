@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="Dev Suite" parallel="false">
+
+
+ <test name="Dev" preserve-order="true">
+ <parameter name="browser" value="chrome" />
+  <packages>
+    <package name="testCases.AriaSettings"/>
+    <package name="testCases.AuditLog"/>
+      <!--<package name="testCases.AriaConfiguration"/>-->
+      <package name="testCases.AccountTestCases"/>
+  </packages>
+     <classes>
+         <class name="testCases.AriaConfiguration.Cls_ConfigurationPaymentSettings"/>
+         <class name="testCases.AriaProducts.Cls_ProductCtlgPlansRatesUpdate"/>
+         <class name="testCases.AriaSettings.CustomAccountFields"/>
+         <class name="testCases.AriaSettings.InvoiceSuppression"/>
+         <class name="testCases.AriaSettings.ConfigClientSettings"/>
+         <class name="testCases.AriaSettings.ConfigTaxSettings"/>
+         <class name="testCases.AuditLog.AdministrativeLog"/>
+         <class name="testCases.AuditLog.CsrUserReport"/>
+         <class name="testCases.AccountTestCases.Cls_NewAccountCreation"/>
+         <class name="testCases.AriaSettings.ServicesTestCase"/>
+         <class name="testCases.AccountTestCases.Cls_BanAccount"/>
+         <class name="testCases.AccountTestCases.ChangeAccountBillingContact"/>
+         <class name="testCases.AccountTestCases.Cls_ParentChildNewAccountCreation"/>
+         <class name="testCases.AccountTestCases.AssignChildToParent"/>
+         <class name="testCases.AccountTestCases.Cls_RuntimeNewParentNewChildAccountCreation"/>
+         <class name="testCases.AccountTestCases.Cls_RuntimeNewParentNewChildAccountCreation"/>
+         <class name="testCases.AriaSettings.CompanyProfile"/>
+         <class name="testCases.AccountTestCases.Cls_GenerateInvoice"/>
+         <class name="testCases.AccountTestCases.Cls_VerifyZeroRatedUsageRetained"/>
+         <class name="testCases.AccountTestCases.Cls_CreateAccountWithWorkplace"/>
+         <class name="testCases.AccountTestCases.Cls_ChangeCustomAccountFields"/>
+         <class name="testCases.AccountTestCases.Cls_RetrieveByAPIUpdatedCustomerInfo"/>
+         <class name="testCases.AriaConfiguration.Cls_NotificationSettings"/>
+         <class name="testCases.Cls_SECustomerCreation"/>
+     </classes>
+ </test>
+
+</suite>

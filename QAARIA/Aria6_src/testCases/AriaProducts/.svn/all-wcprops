@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaProducts
+END
+Cls_ClientPlansBasic.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaProducts/Cls_ClientPlansBasic.java
+END
+Cls_MappingTaxGrpToTaxCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaProducts/Cls_MappingTaxGrpToTaxCategory.java
+END
+Cls_Validate_Rates.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaProducts/Cls_Validate_Rates.java
+END
+Cls_Validate_SEK_Rates.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaProducts/Cls_Validate_SEK_Rates.java
+END
+Cls_ProductCtlgPlansRatesUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaProducts/Cls_ProductCtlgPlansRatesUpdate.java
+END

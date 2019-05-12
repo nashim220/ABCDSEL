@@ -1,0 +1,6 @@
+invoice_charges_before_tax,proc_cavv_response,proc_merch_comments,error_msg,invoice_no,proc_cvv_response,session_id,proc_avs_response,out_new_acct_plan_contracts,third_party_errors,new_acct_invoice_line_items,proc_status_code,invoicing_error_msg,invoice_total_amount,out_userid,invoice_credit_amount,acct_no,error_code,invoice_charges_after_tax,proc_status_text,proc_payment_id,invoicing_error_code,invoice_tax_charges,proc_auth_code
+0,,,OK,343811,,,,,,,,Invoice: success - Email: failed,0,DAA_6_16_21085.7413287037,0,69177,0,0,,,1029,0,
+0,,,OK,343812,,,,,,,,OK,0,DAA_6_16_14057.1608858024,0,69178,0,0,,,0,0,
+0,,,OK,343813,,,,,,,,Invoice: success - Email: failed,0,DAA_6_16_10542.8706643518,0,69179,0,0,,,1029,0,
+0,,,OK,343814,,,,,,,,Invoice: success - Email: failed,0,DAA_6_16_8434.29653148148,0,69180,0,0,,,1029,0,
+0,,,OK,343815,,,,,,,,Invoice: success - Email: failed,0,DAA_6_16_7028.58044290123,0,69181,0,0,,,1029,0,

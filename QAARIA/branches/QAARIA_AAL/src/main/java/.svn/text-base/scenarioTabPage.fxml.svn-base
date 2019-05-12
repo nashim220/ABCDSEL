@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.collections.FXCollections?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ScenariosController">
+        <children>
+            <ComboBox fx:id="scenarioDropDown" layoutX="73.0" layoutY="23.0" prefWidth="150.0" />
+            <Label layoutX="14.0" layoutY="28.0" prefHeight="16.0" prefWidth="59.0" text="Scenario:" />
+        </children>
+</AnchorPane>

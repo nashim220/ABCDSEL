@@ -1,0 +1,5 @@
+usage_type_code,usage_units,acct_no,caller_id,usage_date,billable_units,amt,rate,telco_from,telco_to,comments,exclude_from_billing,exclusion_comments,qualifier_1,qualifier_2,qualifier_3,qualifier_4,parent_usage_rec_no,Client_record_id,alt_caller_id,optional_transaction_qualifiers,qualifier_name,qualifier_value
+GB_RAM,234.84453,80076,Pune QA Automation_Usage,,234.84453,,,"Philladephia, US",19980,Workplace_BulkLoad5050@|19980|,,,Self Managed Cloud,Pune QA Automation_Usage,,,,6,,,,
+Windows_Server_2012_R2,634.12349,80076,Pune QA Automation_Usage,,634.12349,,,"Philladephia, US",19980,Workplace_BulkLoad5050@|19980|,,,Self Managed Cloud,Pune QA Automation_Usage,,,,7,,,,
+MS_SQL_Server_Web,87.9908,80076,Pune QA Automation_Usage,,87.9908,,,"Philladephia, US",19980,Workplace_BulkLoad5050@|19980|,,,Self Managed Cloud,Pune QA Automation_Usage,,,,84,,,,
+vCPU,4329.6686,80076,Pune QA Automation_Usage,,4329.6686,,,"Philladephia, US",19980,Workplace_BulkLoad5050@|19980|,,,Self Managed Cloud,Pune QA Automation_Usage,,,,65,,,,

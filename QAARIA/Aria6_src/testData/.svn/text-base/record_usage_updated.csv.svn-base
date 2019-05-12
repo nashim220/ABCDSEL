@@ -1,0 +1,3 @@
+usage_type_code,usage_units,billable_units,amt,rate,telco_from,telco_to,comments,exclude_from_billing,exclusion_comments,qualifier_1,qualifier_2,qualifier_3,qualifier_4,parent_usage_rec_no,caller_id,alt_caller_id,optional_transaction_qualifiers,˜qualifier_name,˜qualifier_value
+GB RAM,61811.47271,,,,,,BulkLoad10019638@61811.4727086806_3rdPartyRate_'_Amt_,,,,,,,,UsageDavidAlbin,,,,
+RHEL,61799.47271,,,,,,BulkLoad10019626@61799.4727086806_3rdPartyRate_'_Amt_,,,,,,,,UsageDavidAlbin,,,,

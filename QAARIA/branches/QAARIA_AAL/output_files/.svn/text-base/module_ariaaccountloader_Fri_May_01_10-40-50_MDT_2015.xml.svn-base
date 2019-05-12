@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_ariaaccountloader" default="compile.module.ariaaccountloader">
+  <dirname property="module.ariaaccountloader.basedir" file="${ant.file.module_ariaaccountloader}"/>
+  
+  <property name="module.jdk.home.ariaaccountloader" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.ariaaccountloader" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.ariaaccountloader" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.ariaaccountloader" value="-encoding UTF-8 -source 1.6 ${compiler.args}"/>
+  
+  <property name="ariaaccountloader.output.dir" value="${module.ariaaccountloader.basedir}/out/production/AriaAccountLoader"/>
+  <property name="ariaaccountloader.testoutput.dir" value="${module.ariaaccountloader.basedir}/out/test/AriaAccountLoader"/>
+  
+  <path id="ariaaccountloader.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="ariaaccountloader.module.production.classpath">
+    <path refid="${module.jdk.classpath.ariaaccountloader}"/>
+    <path refid="library.java-json.classpath"/>
+    <path refid="library.controlsfx-8.20.classpath"/>
+    <path refid="library.httpcore-4.4.1.classpath"/>
+    <path refid="library.httpclient-4.4.1.classpath"/>
+    <path refid="library.commons-logging-1.2.classpath"/>
+  </path>
+  
+  <path id="ariaaccountloader.runtime.production.module.classpath">
+    <pathelement location="${ariaaccountloader.output.dir}"/>
+    <path refid="library.java-json.classpath"/>
+    <path refid="library.controlsfx-8.20.classpath"/>
+    <path refid="library.httpcore-4.4.1.classpath"/>
+    <path refid="library.httpclient-4.4.1.classpath"/>
+    <path refid="library.commons-logging-1.2.classpath"/>
+  </path>
+  
+  <path id="ariaaccountloader.module.classpath">
+    <path refid="${module.jdk.classpath.ariaaccountloader}"/>
+    <pathelement location="${ariaaccountloader.output.dir}"/>
+    <path refid="library.java-json.classpath"/>
+    <path refid="library.controlsfx-8.20.classpath"/>
+    <path refid="library.httpcore-4.4.1.classpath"/>
+    <path refid="library.httpclient-4.4.1.classpath"/>
+    <path refid="library.commons-logging-1.2.classpath"/>
+  </path>
+  
+  <path id="ariaaccountloader.runtime.module.classpath">
+    <pathelement location="${ariaaccountloader.testoutput.dir}"/>
+    <pathelement location="${ariaaccountloader.output.dir}"/>
+    <path refid="library.java-json.classpath"/>
+    <path refid="library.controlsfx-8.20.classpath"/>
+    <path refid="library.httpcore-4.4.1.classpath"/>
+    <path refid="library.httpclient-4.4.1.classpath"/>
+    <path refid="library.commons-logging-1.2.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.ariaaccountloader">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.ariaaccountloader">
+    <patternset refid="excluded.from.module.ariaaccountloader"/>
+  </patternset>
+  
+  <path id="ariaaccountloader.module.sourcepath">
+    <dirset dir="${module.ariaaccountloader.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.ariaaccountloader" depends="compile.module.ariaaccountloader.production,compile.module.ariaaccountloader.tests" description="Compile module AriaAccountLoader"/>
+  
+  <target name="compile.module.ariaaccountloader.production" depends="register.custom.compilers" description="Compile module AriaAccountLoader; production classes">
+    <mkdir dir="${ariaaccountloader.output.dir}"/>
+    <javac2 destdir="${ariaaccountloader.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.ariaaccountloader}/javac">
+      <compilerarg line="${compiler.args.ariaaccountloader}"/>
+      <bootclasspath refid="ariaaccountloader.module.bootclasspath"/>
+      <classpath refid="ariaaccountloader.module.production.classpath"/>
+      <src refid="ariaaccountloader.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.ariaaccountloader"/>
+    </javac2>
+    
+    <copy todir="${ariaaccountloader.output.dir}">
+      <fileset dir="${module.ariaaccountloader.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.ariaaccountloader.tests" depends="register.custom.compilers,compile.module.ariaaccountloader.production" description="compile module AriaAccountLoader; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.ariaaccountloader" description="cleanup module">
+    <delete dir="${ariaaccountloader.output.dir}"/>
+    <delete dir="${ariaaccountloader.testoutput.dir}"/>
+  </target>
+</project>

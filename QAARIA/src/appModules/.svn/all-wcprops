@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/asitrepo/!svn/ver/144833/QA/QAARIA/src/appModules
+END
+AriaLoginLogout.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/asitrepo/!svn/ver/143972/QA/QAARIA/src/appModules/AriaLoginLogout.java
+END
+Cls_NotificationSettingsActns.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/asitrepo/!svn/ver/144587/QA/QAARIA/src/appModules/Cls_NotificationSettingsActns.java
+END
+AccountFunctions_Plans.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/asitrepo/!svn/ver/144697/QA/QAARIA/src/appModules/AccountFunctions_Plans.java
+END
+SelectBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/asitrepo/!svn/ver/144622/QA/QAARIA/src/appModules/SelectBrowser.java
+END
+AccountFunctions_Invoices.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/asitrepo/!svn/ver/144697/QA/QAARIA/src/appModules/AccountFunctions_Invoices.java
+END
+AriaDashboard.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/asitrepo/!svn/ver/144623/QA/QAARIA/src/appModules/AriaDashboard.java
+END
+Cls_ChangeDeleteClientDefinedFieldActns.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/asitrepo/!svn/ver/144514/QA/QAARIA/src/appModules/Cls_ChangeDeleteClientDefinedFieldActns.java
+END
+ValidateAriaCompanyProfileInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/asitrepo/!svn/ver/144833/QA/QAARIA/src/appModules/ValidateAriaCompanyProfileInformation.java
+END
+AccountFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/asitrepo/!svn/ver/144713/QA/QAARIA/src/appModules/AccountFunctions.java
+END
+Cls_GetAuthenticationKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/asitrepo/!svn/ver/144716/QA/QAARIA/src/appModules/Cls_GetAuthenticationKey.java
+END
+AriaCompanyProfileInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/asitrepo/!svn/ver/144626/QA/QAARIA/src/appModules/AriaCompanyProfileInformation.java
+END

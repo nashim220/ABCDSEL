@@ -1,0 +1,304 @@
+/*
+ Author     		:	Aashish bhutkar
+ Class Name			: 	AccountFunctions_Plans 
+ Purpose     		: 	Purpose of this file is :
+						1. To perform various Account related functions related to Plans.
+
+ Date       		:	06/06/2016
+ Modified Date		:	
+ Version Information:	Version 1.0
+ 
+ Copyright notice	:	Copyright(C) 2015 Sungard Availability Services - 
+ 						All Rights Reserved 
+*/
+
+package appModules;
+
+import java.util.List;
+
+import org.json.JSONObject;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
+
+import pageObjects.AccountPlansUsage;
+import pageObjects.AriaEOM;
+import utility.ApiHandler;
+import utility.Log;
+import utility.Utils;
+import utility.VerificationMethods;
+
+public class AccountFunctions_Plans {
+
+/*
+	Function fn_GetPlans: Takes in the Plan Name to be searched and returns the Plan Number for the Plan in current instance.
+*/	
+	public String fn_GetPlans(WebDriver driver, WebDriverWait webWait, String strPlanName, String strTestCaseName) throws Exception	{
+		
+		AriaEOM objAriaEOM = new AriaEOM();
+		
+		//TODO: After login, Navigate to the Products -> Plans and get the Plan Number for Name requested.
+		objAriaEOM.fn_clickProducts(driver, webWait).click();
+		objAriaEOM.fn_clickProductsPlans(driver, webWait).click();
+		objAriaEOM.fn_getDataTable(driver, webWait);
+		Thread.sleep(1500);
+		Utils.takeScreenshot(driver, strTestCaseName);
+		//TODO: Create objects to read data table contents into.
+		WebElement tblPlans = objAriaEOM.fn_getDataTable(driver, webWait).findElement(By.tagName("tbody"));
+		List<WebElement> lstwebPlansRows = tblPlans.findElements(By.tagName("tr"));
+
+		//TODO: Loop to traverse through the rows to identify the right Plan requested for. 
+		for(WebElement rows: lstwebPlansRows) {
+			
+			List<WebElement> cols = rows.findElements(By.tagName("td"));
+		
+			if(cols.size() != 0) {	// this is to avoid the header read in the loop.
+
+				// get the boolean status in the variables to proceed further on the action of selecting the correct plan.
+				Boolean blnPlanType = cols.get(3).getAttribute("innerText").toString().trim().contentEquals(strPlanName);
+				Boolean blnPlanStatus = cols.get(5).getAttribute("innerText").toString().trim().contentEquals("Active");
+				if(blnPlanType == true && blnPlanStatus == true) {
+					
+					String strPlanNumber = cols.get(1).getAttribute("innerText").toString().trim();
+					Log.info("The Active Plan is found and Plan Number for it will be returned which is: "+strPlanNumber);
+					return strPlanNumber;
+				}
+			}
+			else if(!(cols.iterator().hasNext())) {
+				
+				Log.error("ERROR: The Plans table is empty or without Active Plan details.");
+				Reporter.log("ERROR: The Plans table is empty or without Active Plan details.");
+				return "";				
+			}
+		}
+		
+		return "";
+	}
+
+	
+/*
+	Function fn_VerifySupplementalPlans: Takes in the details Account Number to verify if Supplemental Plan has been assigned to it
+	
+	Output: Returns String type value of the Plan's Instance ID. 
+										
+*/    
+    public String fn_VerifySupplementalPlans(WebDriver driver, WebDriverWait webWait, String strAccountNum
+    		, String strSPI, String strTestCaseName) throws Exception {
+    	
+    	//TODO: Create class objects for the common functions to be used for plans verification.
+    	Cls_ChangeDeleteClientDefinedFieldActns objClientDefAct = new Cls_ChangeDeleteClientDefinedFieldActns();
+    	AccountPlansUsage objAccountPlans = new AccountPlansUsage();
+		AriaEOM objAriaEOM = new AriaEOM();
+		
+    	//TODO: Navigate to the Supplemental Plans details for Account Number requested for.
+    	try {
+    		
+        	//TODO: Search the account number for which the Supplemental Plans assignment is to be verified.
+			objClientDefAct.AccountSearch(driver, webWait, strAccountNum);			
+			objAriaEOM.fn_clickAcctOvrvwResetPassword(driver, webWait);
+			objAriaEOM.fn_clickAccountPlans(driver, webWait).click();	// navigated to the Plans sub-menu.
+			objAriaEOM.fn_getDataTable(driver, webWait);
+			objAccountPlans.fn_clickPlansTab(driver, webWait).click();	// navigate to Plans tab.
+			objAriaEOM.fn_getDataTable(driver, webWait);
+			Utils.takeScreenshot(driver, strTestCaseName);
+			
+			//TODO: Read the data table to get the actual status of the Account's Supplemental Plan assignment.
+			WebElement tblPlans = objAriaEOM.fn_getDataTable(driver, webWait).findElement(By.tagName("tbody"));
+			List<WebElement> lstwebPlansRows = tblPlans.findElements(By.tagName("tr"));
+    		for(WebElement rows : lstwebPlansRows){
+    			
+    			List<WebElement> cols = rows.findElements(By.tagName("td"));
+    			
+    			if(cols.size() != 0) {	// this is to avoid the header read in the loop.
+
+    				String strConfirmSPI = cols.get(0).findElement(By.tagName("span")).getAttribute("innerHTML").toString().trim();
+    				
+    				if(strConfirmSPI.contains("/ui/images/hierarchy_arrow.png")) {
+    					
+    					String strSPIName = cols.get(1).getAttribute("innerText").toString().trim();
+    					String strSPIStatus = cols.get(4).getAttribute("innerText").toString().trim();
+    					String strSPIInstanceID = cols.get(2).getAttribute("innerText").toString().trim();
+    					
+    					if(strSPIName.contentEquals(strSPI) && strSPIStatus.contentEquals("Active")) {
+    						
+    						objAriaEOM.fn_clickAnalyticsReporting(driver, webWait).click();
+        					Log.info("Correct Supplemental Plan has already been Assigned to the Account: "+strAccountNum
+        										+ ", with Instance ID as: "+strSPIInstanceID);
+        					
+        					return strSPIInstanceID;	// Supplemental Plan has been assigned.
+    					}    					
+    				}
+    			}
+    			else if(!(cols.iterator().hasNext())) {
+    				
+    				Log.error("ERROR: The Supplemental Plans table is empty or without Plan details.");
+    				Reporter.log("ERROR: The Supplemental Plans table is empty or without Plan details.");
+					objAriaEOM.fn_clickAnalyticsReporting(driver, webWait).click();
+					
+    				return "";				
+    			}
+    		}			
+    	}
+    	catch (Exception exception) {
+    		
+    		Log.error("ERROR: The Supplemental Plan couldn't be verified due to exception: "+exception.toString());
+    		Reporter.log("ERROR: The Supplemental Plan couldn't be verified due to exception: "+exception.toString());
+    		throw exception;
+    	}
+    	
+		objAriaEOM.fn_clickAnalyticsReporting(driver, webWait).click();
+    	return "";
+    }
+    
+	
+/*
+	Function fn_AssignSuppPlan: Takes in the details Account Number & Plan number to make a Post call for Assigning the Supplemental Plan.
+*/  
+    
+    public void fn_AssignSuppPlan(WebDriver driver, WebDriverWait webWait, String strAccountNum, 
+    		String strPlanNum, String strAPIURL) throws Exception {
+
+        AccountFunctions objAccountFunc = new AccountFunctions();
+    	
+    	ApiHandler api = new ApiHandler();        
+        
+        //TODO: Get the Full URL with the authentication details for current instance. 
+        String strFullUrl = objAccountFunc.fn_GetFullUrl(driver, webWait, strAPIURL, "assign_supp_plan");
+        strFullUrl = strFullUrl+"&acct_no="+strAccountNum+"&supp_plan_no="+strPlanNum+"&assignment_directive=2";
+        
+        api.makeSimplePostCall(strFullUrl);	// make the Post call to Assign the Supplemental Plan.
+    }
+    
+	
+/*
+	Function fn_GetPlanInstanceID: Takes in the details for Account Number and returns the Instance ID for the Plan (Master / Supplementary) assigned to it.
+	
+	*** NOTE:	The Instance ID's sent are: 'Plan Instance ID'#'Client Defined Identifier' .	***
+				Both are returned so that they can be used as need be.
+*/  
+    
+    public String fn_GetPlanInstanceID(WebDriver driver, WebDriverWait webWait, String strAccountNum, 
+    		String strTestCaseName, String strPlanName) throws Exception {
+
+    	//TODO: Create class objects for the common functions to be used for plans verification.
+    	Cls_ChangeDeleteClientDefinedFieldActns objClientDefAct = new Cls_ChangeDeleteClientDefinedFieldActns();
+    	AccountPlansUsage objAccountPlans = new AccountPlansUsage();
+    	AriaEOM objAriaEOM = new AriaEOM();
+    	String strInstanceID = "";
+    	
+		objClientDefAct.AccountSearch(driver, webWait, strAccountNum);			
+		objAriaEOM.fn_clickAcctOvrvwResetPassword(driver, webWait);
+		objAriaEOM.fn_clickAccountPlans(driver, webWait).click();
+		objAriaEOM.fn_getDataTable(driver, webWait);
+		objAccountPlans.fn_clickPlansTab(driver, webWait).click();	// navigate to Plans tab.
+    	
+    	//TODO: Read the Data table and click the Plan Units to note the Plan Instance ID.
+    	WebElement tblSupplementalPlans = objAriaEOM.fn_getDataTable(driver, webWait).findElement(By.tagName("tbody"));
+		List<WebElement> lstwebSupplementalPlansRows = tblSupplementalPlans.findElements(By.tagName("tr"));
+		for(WebElement rows : lstwebSupplementalPlansRows) {
+
+			List<WebElement> cols = rows.findElements(By.tagName("td"));
+			
+			if(cols.size() != 0) {	// this is to avoid the header read in the loop.
+
+				String strReadPlanName = cols.get(1).getAttribute("innerText").toString().trim();
+				String strReadStatus = cols.get(4).getAttribute("innerText").toString().trim();
+				
+				if(strReadPlanName.contentEquals(strPlanName) && strReadStatus.contentEquals("Active")) {
+
+					// record the Plan Instance ID first.
+					strInstanceID = cols.get(0).getAttribute("innerText").toString().trim();
+					// add a separator like # to help separate the received ID's
+					strInstanceID = strInstanceID + "#";
+					// record the Client Defined Identifier now.
+					strInstanceID = strInstanceID + cols.get(2).getAttribute("innerText").toString().trim();
+					
+					Log.info("The "+strPlanName+" Plan ID's have been noted as '"+strInstanceID+"' and have been returned !");
+					objAriaEOM.fn_clickAnalyticsReporting(driver, webWait).click();
+					return strInstanceID;	//instance ID has been returned.
+				}
+			}
+			else if(!(cols.iterator().hasNext())) {
+
+				Log.error("ERROR: The "+strPlanName+" Plan's Instance ID couldn't be retrieved");
+				Reporter.log("ERROR: The "+strPlanName+" Plan's Instance ID couldn't be retrieved.");
+				objAriaEOM.fn_clickAnalyticsReporting(driver, webWait).click();
+				VerificationMethods.assertTrue(false, "ERROR: The "+strPlanName+" Plan's Instance ID couldn't be retrieved");
+			}
+		}
+		
+		objAriaEOM.fn_clickAnalyticsReporting(driver, webWait).click();
+    	return strInstanceID;
+    }
+
+	
+/*
+	Function fn_setMPI: Takes in the details for Account Number and MPI ID and sets the MPI for Immediate Billing.
+*/  
+  
+    public Boolean fn_setMPI (WebDriver driver,  WebDriverWait webWait,	String strAPIURL, String strAccountNum, 
+    				String strMPIID) throws Exception {
+    	
+        AccountFunctions objAccountFunc = new AccountFunctions();
+    	ApiHandler api = new ApiHandler();
+    	
+    	Boolean blnMPIUpdated = false;
+/*
+ * 		client_no=6000076&auth_key=7RKnupEJM8b3u9jx9tMqAF9uBvjBKvEg
+ * 		&rest_call=update_acct_plan_status_m&acct_no=212335
+ * 		&client_plan_instance_id=54947
+ * 		&dunning_state=0
+ * 		&status_cd=1
+ * 		&force_bill_date_reset=1
+ *     	
+*/        
+        //TODO: Get the Full URL with the authentication details for current instance. 
+        String strFullUrl = objAccountFunc.fn_GetFullUrl(driver, webWait, strAPIURL, "update_acct_plan_status_m");
+        String strAPICancel = strFullUrl + "&acct_no="+strAccountNum + "&plan_instance_no="+strMPIID 
+        							+ "&dunning_state=0" + "&status_cd=-2";        
+        List<JSONObject> apiResponse = api.makeSimplePostCall(strAPICancel);	// make the Post call to Cancel the MPI @ first.
+        //TODO: Verify JSON response to validate success.
+        for(JSONObject response : apiResponse) {
+        	
+        	int errorCode = Integer.parseInt(response.get("error_code").toString());	
+            if(errorCode != 0) {
+            	
+                String errorMsg = response.get("error_msg").toString();
+                Log.error("ERROR: API call failed with message: "+errorMsg);
+                Reporter.log("ERROR: API call failed with message: " + errorMsg);
+                blnMPIUpdated = false;
+             }
+            else {
+            
+            	Log.info("The MPI '"+strMPIID+"' status has been set as Cancelled...");
+            	blnMPIUpdated = true;
+            }
+         }        
+        
+        String strAPIActive = strFullUrl + "&acct_no="+strAccountNum + "&plan_instance_no="+strMPIID 
+									+ "&dunning_state=0" + "&status_cd=1" + "&force_bill_date_reset=1";        
+        apiResponse = api.makeSimplePostCall(strAPIActive);	// make the Post call to set MPI Active &  
+        												//reset Bill thru Date to Current Date.
+        //TODO: Verify JSON response to validate success.
+        for(JSONObject response : apiResponse) {
+        	
+        	int errorCode = Integer.parseInt(response.get("error_code").toString());	
+            if(errorCode != 0) {
+            	
+                String errorMsg = response.get("error_msg").toString();
+                Log.error("ERROR: API call failed with message: "+errorMsg);
+                Reporter.log("ERROR: API call failed with message: " + errorMsg);
+                blnMPIUpdated = false;
+             }
+            else {
+            	
+            	Log.info("The MPI '"+strMPIID+"' status has been set as Active...");
+            	blnMPIUpdated = true;            	
+            }            	
+         }
+    	
+    	return blnMPIUpdated;
+    }
+}

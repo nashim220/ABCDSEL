@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases
+END
+Cls_SECustomerCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Cls_SECustomerCreation.java
+END
+AriaDashboard.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaDashboard.java
+END
+CreateAndVoidInvoice.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/CreateAndVoidInvoice.java
+END
+BaseTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/BaseTestCase.java
+END
+CreateNewAccountWithUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/CreateNewAccountWithUsage.java
+END

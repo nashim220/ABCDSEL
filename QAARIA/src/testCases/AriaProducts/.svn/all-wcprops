@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/asitrepo/!svn/ver/144831/QA/QAARIA/src/testCases/AriaProducts
+END
+Cls_MappingTaxGrpToTaxCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/asitrepo/!svn/ver/144386/QA/QAARIA/src/testCases/AriaProducts/Cls_MappingTaxGrpToTaxCategory.java
+END
+Cls_Validate_GBP_Rates.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/asitrepo/!svn/ver/144831/QA/QAARIA/src/testCases/AriaProducts/Cls_Validate_GBP_Rates.java
+END
+Cls_Validate_EURO_Rates.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/asitrepo/!svn/ver/144831/QA/QAARIA/src/testCases/AriaProducts/Cls_Validate_EURO_Rates.java
+END
+Cls_Validate_USD_Rates.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/asitrepo/!svn/ver/144831/QA/QAARIA/src/testCases/AriaProducts/Cls_Validate_USD_Rates.java
+END
+Cls_Validate_CAN_Rates.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/asitrepo/!svn/ver/144831/QA/QAARIA/src/testCases/AriaProducts/Cls_Validate_CAN_Rates.java
+END
+Cls_Validate_SEK_Rates.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/asitrepo/!svn/ver/144831/QA/QAARIA/src/testCases/AriaProducts/Cls_Validate_SEK_Rates.java
+END

@@ -1,0 +1,12 @@
+#Environment Properties
+--uatClientID=6000124
+--uatAuthKey=N8YCX65ymGrj77QppAvrhpmQr8Cdj3H3
+devClientID=6000076
+devAuthKey=7RKnupEJM8b3u9jx9tMqAF9uBvjBKvEg
+uatClientID=3760714
+uatAuthKey=YceVsJxfY3hdn3m3n7HPYn9vU3gKrJCc
+env=future
+
+#API Calls
+apiCalls =create_acct_complete_m,get_acct_plans_m,record_usage_m,gen_invoice_m,gen_statement_m,write_acct_comment,delete_acct_coupon_m,apply_coupon_to_acct_m,update_acct_plan_m
+

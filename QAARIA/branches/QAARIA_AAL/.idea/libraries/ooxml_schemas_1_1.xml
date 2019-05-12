@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ooxml-schemas-1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/ooxml-schemas-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/poi-ooxml-3.12.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/stax-api-1.0-2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/xmlbeans-xpath-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

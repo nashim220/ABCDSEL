@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/asitrepo/!svn/ver/144711/QA/QAARIA/src/testCases/AccountTestCases
+END
+ChangeAccountBillingContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/asitrepo/!svn/ver/144284/QA/QAARIA/src/testCases/AccountTestCases/ChangeAccountBillingContact.java
+END
+Cls_RetrieveByAPIUpdatedCustomerInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/asitrepo/!svn/ver/144704/QA/QAARIA/src/testCases/AccountTestCases/Cls_RetrieveByAPIUpdatedCustomerInfo.java
+END
+Cls_UpdatePlanUnitByAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/asitrepo/!svn/ver/144704/QA/QAARIA/src/testCases/AccountTestCases/Cls_UpdatePlanUnitByAPI.java
+END
+Cls_VerifyAdditionofMultipleCouponsAndDiscount.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/asitrepo/!svn/ver/144699/QA/QAARIA/src/testCases/AccountTestCases/Cls_VerifyAdditionofMultipleCouponsAndDiscount.java
+END
+Cls_VerifyZeroRatedUsageRetained.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/asitrepo/!svn/ver/144699/QA/QAARIA/src/testCases/AccountTestCases/Cls_VerifyZeroRatedUsageRetained.java
+END
+Cls_GenerateInvoiceandValidateTaxes.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/144699/QA/QAARIA/src/testCases/AccountTestCases/Cls_GenerateInvoiceandValidateTaxes.java
+END
+Cls_ChangeAccountPONumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/asitrepo/!svn/ver/144699/QA/QAARIA/src/testCases/AccountTestCases/Cls_ChangeAccountPONumber.java
+END
+Cls_VerifyCreditReasons.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/asitrepo/!svn/ver/144466/QA/QAARIA/src/testCases/AccountTestCases/Cls_VerifyCreditReasons.java
+END
+Cls_API_ChangeCustomAccountFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/asitrepo/!svn/ver/144229/QA/QAARIA/src/testCases/AccountTestCases/Cls_API_ChangeCustomAccountFields.java
+END
+Cls_BanAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/asitrepo/!svn/ver/144711/QA/QAARIA/src/testCases/AccountTestCases/Cls_BanAccount.java
+END

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Selected browser to launch application: firefox]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/"> Clickhere </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/appLogin_BeforeAssert.jpg"><img src="file:///C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/appLogin_BeforeAssert.jpg" alt=""height='800' width='1200'/> <br />]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/"> Clickhere </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/appLogin_AfterAssert.jpg"><img src="file:///C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/appLogin_AfterAssert.jpg" alt=""height='800' width='1200'/> <br />]]>
+    </line>
+    <line>
+      <![CDATA[Verified and Post is successfully published]]>
+    </line>
+    <line>
+      <![CDATA[WpDemo || All Data iterated successfully. -- PASS 
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45407" started-at="2015-03-17T13:31:39Z" finished-at="2015-03-17T13:32:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45407" started-at="2015-03-17T13:31:39Z" finished-at="2015-03-17T13:32:24Z">
+      <class name="testCases.WpDemo">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testCases.WpDemo@1f42b49]" name="beforeClass" is-config="true" duration-ms="6441" started-at="2015-03-17T19:01:39Z" finished-at="2015-03-17T19:01:45Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Selected browser to launch application: firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchSite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.WpDemo@1f42b49]" name="launchSite" duration-ms="27974" started-at="2015-03-17T19:01:46Z" description="Launch the WordPress Site" data-provider="objectTestData" finished-at="2015-03-17T19:02:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sample Post 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sample Content 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/"> Clickhere </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/appLogin_BeforeAssert.jpg"><img src="file:///C:\MyData\MyProject\Automation\Edison_Automation\UIAutomationFramework\Screenshots/Screenshots_17032015-0701/appLogin_BeforeAssert.jpg" alt=""height='800' width='1200'/> <br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.WpDemo@1f42b49]" name="afterClass" is-config="true" duration-ms="10489" started-at="2015-03-17T19:02:14Z" finished-at="2015-03-17T19:02:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[WpDemo || All Data iterated successfully. -- PASS 
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.WpDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

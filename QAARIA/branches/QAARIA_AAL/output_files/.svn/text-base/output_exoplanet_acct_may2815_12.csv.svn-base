@@ -1,0 +1,6 @@
+invoice_charges_before_tax,proc_cavv_response,proc_merch_comments,error_msg,invoice_no,proc_cvv_response,session_id,proc_avs_response,out_new_acct_plan_contracts,third_party_errors,new_acct_invoice_line_items,proc_status_code,invoicing_error_msg,invoice_total_amount,out_userid,invoice_credit_amount,acct_no,error_code,invoice_charges_after_tax,proc_status_text,proc_payment_id,invoicing_error_code,invoice_tax_charges,proc_auth_code
+,,,OK,,,,,,,,,Recurring billing not allowed because account is a TEST account.,,DAA_5_28_21076.3950178241,,61914,0,,,,7001,,
+,,,OK,,,,,,,,,Recurring billing not allowed because account is a TEST account.,,DAA_5_28_14050.9300118827,,61915,0,,,,7001,,
+,,,OK,,,,,,,,,Recurring billing not allowed because account is a TEST account.,,DAA_5_28_10538.197508912,,61916,0,,,,7001,,
+,,,OK,,,,,,,,,Recurring billing not allowed because account is a TEST account.,,DAA_5_28_8430.55800712963,,61917,0,,,,7001,,
+,,,OK,,,,,,,,,Recurring billing not allowed because account is a TEST account.,,DAA_5_28_7025.46500594136,,61918,0,,,,7001,,

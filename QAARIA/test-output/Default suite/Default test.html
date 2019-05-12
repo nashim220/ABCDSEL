@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 04 10:13:09 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>145 seconds (145537 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.AccountTestCases.Cls_ValidateSwedishInvoiceReport.fn_ValidateSwedishInvoiceReport()'><b>fn_ValidateSwedishInvoiceReport</b><br>Test class: testCases.AccountTestCases.Cls_ValidateSwedishInvoiceReport<br>Test method: ValidateSwedishInvoiceReport<br>Parameters: TestData.xlsx, ValidateReport, 213335, Customer Reference, Self Managed Cloud Workplace, https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?, Record_usage_30May16.csv, Immediate<br/>
+<a href="#Output-959470844" onClick='toggleBox("Output-959470844", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-959470844" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-959470844">
+Get Main Window Handle<br/>
+Main tab : CDwindow-C618E638-2E3A-4A01-9C07-C1B9A4DE3FF7<br/>
+Switch to postedReportDisplay frame<br/>
+Web  Data [Acct No, Client Acct ID, Senior Acct No, Company Code, Domain ID, Company Name, Billing Name, Invoice No, Invoice Type, Line Item, Usage From, Usage To, Usage Type Code, Usage Units, Usage Rate, Amount, Invoice Date, Void Date, Currency]<br/>
+Reading file: C:\WorkSpac_new\QAARIA\src\testData\TestData.xlsx and worksheet: ValidateReport<br/>
+File has been read successfully !<br/>
+File   Data [Acct No, Client Acct ID, Senior Acct No, Company Code, Domain ID, Company Name, Billing Name, Invoice No, Invoice Type, Line Item, Usage From, Usage To, Usage Type Code, Usage Units, Usage Rate, Amount, Invoice Date, Void Date]<br/>
+The Account Fields values are matching for Field Name ::Acct No<br/>
+The Account Fields values are matching for Field Name ::Client Acct ID<br/>
+The Account Fields values are matching for Field Name ::Senior Acct No<br/>
+The Account Fields values are matching for Field Name ::Company Code<br/>
+The Account Fields values are matching for Field Name ::Domain ID<br/>
+The Account Fields values are matching for Field Name ::Company Name<br/>
+The Account Fields values are matching for Field Name ::Billing Name<br/>
+The Account Fields values are matching for Field Name ::Invoice No<br/>
+The Account Fields values are matching for Field Name ::Invoice Type<br/>
+The Account Fields values are matching for Field Name ::Line Item<br/>
+The Account Fields values are matching for Field Name ::Usage From<br/>
+The Account Fields values are matching for Field Name ::Usage To<br/>
+The Account Fields values are matching for Field Name ::Usage Type Code<br/>
+The Account Fields values are matching for Field Name ::Usage Units<br/>
+The Account Fields values are matching for Field Name ::Usage Rate<br/>
+The Account Fields values are matching for Field Name ::Amount<br/>
+The Account Fields values are matching for Field Name ::Invoice Date<br/>
+The Account Fields values are matching for Field Name ::Void Date<br/>
+</div>
+</td>
+<td></td>
+<td>97</td>
+<td>testCases.AccountTestCases.Cls_ValidateSwedishInvoiceReport@750868a1</td></tr>
+</table><p>
+</body>
+</html>

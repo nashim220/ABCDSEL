@@ -1,0 +1,13 @@
+invoice_charges_before_tax,proc_cavv_response,proc_merch_comments,error_msg,invoice_no,proc_cvv_response,session_id,proc_avs_response,out_new_acct_plan_contracts,third_party_errors,new_acct_invoice_line_items,proc_status_code,invoicing_error_msg,invoice_total_amount,out_userid,invoice_credit_amount,acct_no,error_code,invoice_charges_after_tax,proc_status_text,proc_payment_id,invoicing_error_code,invoice_tax_charges,proc_auth_code
+0,,,OK,426808,,,,,,,,Invoice: success - Email: failed,0,DAA_TAX2_7_14_21099.8193686343,0,79453,0,0,,,1029,0,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_14066.5462457562,,79454,0,,,,7004,,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_10549.9096843171,,79455,0,,,,7004,,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_8439.9277474537,,79456,0,,,,7004,,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_7033.27312287809,,79457,0,,,,7004,,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_6028.51981960979,,79458,0,,,,7004,,
+0,,,OK,426809,,,,,,,,Invoice: success - Email: failed,0,DAA_TAX2_7_14_5274.95484215857,0,79459,0,0,,,1029,0,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_4688.84874858539,,79460,0,,,,7004,,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_4219.96387372685,,79461,0,,,,7004,,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_3836.33079429714,,79462,0,,,,7004,,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_3516.63656143904,,79463,0,,,,7004,,
+,,,OK,,,,,,,,,Recurring billing not allowed. Account is a child account that does not pay for its own service.,,DAA_TAX2_7_14_3246.12605671296,,79464,0,,,,7004,,

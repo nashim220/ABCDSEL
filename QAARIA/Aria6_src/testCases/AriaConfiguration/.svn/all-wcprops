@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration
+END
+Cls_FunctionalAcctGrpConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/Cls_FunctionalAcctGrpConfiguration.java
+END
+Cls_Validate_EUR_Currency.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/Cls_Validate_EUR_Currency.java
+END
+Cls_ValidateSequenceGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/Cls_ValidateSequenceGroup.java
+END
+Cls_ValidateBaseGLCodesIreland.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/Cls_ValidateBaseGLCodesIreland.java
+END
+Cls_ConfigurationInvoiceSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/Cls_ConfigurationInvoiceSettings.java
+END
+Cls_ConfigurationPaymentSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/Cls_ConfigurationPaymentSettings.java
+END
+Cls_NotificationSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/Cls_NotificationSettings.java
+END
+Cls_VAT_Tax_Settings_For_Ireland.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/Cls_VAT_Tax_Settings_For_Ireland.java
+END
+CompanyProfileInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaConfiguration/CompanyProfileInformation.java
+END

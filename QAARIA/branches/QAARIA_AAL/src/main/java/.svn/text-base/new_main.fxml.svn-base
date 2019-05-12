@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.collections.FXCollections?>
+
+<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+    <items>
+      <SplitPane dividerPositions="0.7537688442211056" maxHeight="-Infinity" minHeight="-Infinity" orientation="VERTICAL" prefHeight="505.0" prefWidth="598.0" SplitPane.resizableWithParent="false">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="393.0" prefWidth="908.0">
+               <children>
+                  <TabPane prefHeight="377.0" prefWidth="908.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <tabs>
+                      <Tab fx:id="apiTab" text="API Calls">
+                        <content>
+                          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="289.0" minWidth="575.0" prefHeight="344.0" prefWidth="905.0">
+                                 <children>
+                                    <ComboBox fx:id="apiComboBox" layoutX="120.0" layoutY="19.0" prefWidth="150.0">
+                                          <items>
+                                              <FXCollections fx:factory="observableArrayList">
+                                                  <String fx:value="1" />
+                                                  <String fx:value="20" />
+                                                  <String fx:value="300" />
+                                              </FXCollections>
+                                          </items>
+                                     </ComboBox>
+                                    <TextArea fx:id="outputTextArea" editable="false" layoutX="7.0" layoutY="58.0" prefHeight="284.0" prefWidth="894.0" wrapText="true" />
+                                    <Button fx:id="chooseFileButton" layoutX="349.0" layoutY="19.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Choose File" />
+                                    <TextField fx:id="filePathText" editable="false" layoutX="499.0" layoutY="19.0" prefHeight="26.0" prefWidth="257.0" />
+                                    <Label layoutX="45.0" layoutY="24.0" prefHeight="16.0" prefWidth="75.0" text="API Method" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab fx:id="scenarioTab" text="Test Data Management">
+                         <content>
+                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                     <ComboBox fx:id="scenarioDropDown" layoutX="149.0" layoutY="23.0" prefHeight="26.0" prefWidth="208.0">
+                                       <items>
+                                           <FXCollections fx:factory="observableArrayList">
+                                               <String fx:value="1" />
+                                           </FXCollections>
+                                       </items>
+                                     </ComboBox>
+                                     <Label layoutX="14.0" layoutY="28.0" prefHeight="16.0" prefWidth="59.0" text="Scenario:" />
+                                    <Button fx:id="scenarioDataBtn" layoutX="14.0" layoutY="202.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="125.0" text="Select Data File" />
+                                    <TextField fx:id="scenarioDataTxt" editable="false" layoutX="139.0" layoutY="202.0" prefHeight="26.0" prefWidth="266.0" />
+                                    <Button fx:id="recordUsageBtn" layoutX="15.0" layoutY="256.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="125.0" text="Record Usage File" />
+                                    <TextField fx:id="recordUsageTxt" editable="false" layoutX="139.0" layoutY="256.0" prefHeight="26.0" prefWidth="266.0" />
+                                    <Label layoutX="15.0" layoutY="78.0" text="Base Account Name:" />
+                                    <TextField fx:id="baseAcctNameTxt" layoutX="149.0" layoutY="73.0" prefHeight="26.0" prefWidth="266.0" />
+                                    <CheckBox fx:id="immortalAcctCb" layoutX="20.0" layoutY="298.0" mnemonicParsing="false" text="Immortal Account" />
+                                    <TextArea fx:id="scenarioOutputTextArea" editable="false" layoutX="445.0" layoutY="14.0" prefHeight="326.0" prefWidth="457.0" />
+                                    <Line endX="100.0" layoutX="115.0" layoutY="172.0" startX="-100.0" />
+                                    <Label layoutX="14.0" layoutY="149.0" text="Optional:" />
+                                    <Button fx:id="deactivateBtn" layoutX="12.0" layoutY="106.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="127.0" text="Select Date File" />
+                                    <TextField fx:id="deactivateTxtField" editable="false" layoutX="149.0" layoutY="106.0" prefHeight="26.0" prefWidth="266.0" />
+                                 </children>
+                             </AnchorPane>
+                         </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+               </children></AnchorPane>
+          <AnchorPane fx:id="uatCheckBox" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label contentDisplay="RIGHT" layoutX="30.0" layoutY="29.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="29.0" prefWidth="266.0" text="Client Num:">
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </Label>
+                  <Label contentDisplay="RIGHT" layoutX="30.0" layoutY="62.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="29.0" prefWidth="329.0" text="Auth Key:" />
+                  <Button fx:id="sendButton" layoutX="783.0" layoutY="35.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="96.0" text="Send" />
+                  <Label fx:id="userIdLabel" layoutX="661.0" layoutY="90.0" text="User ID:" />
+                  <TextField fx:id="userIdTextField" layoutX="716.0" layoutY="85.0" />
+                  <TextField fx:id="authKeyField" layoutX="111.0" layoutY="64.0" prefHeight="26.0" prefWidth="258.0" text="gNc55QR3vDrB4y3YEk57sbvM6Spjbswt" />
+                  <TextField fx:id="clientNumField" layoutX="111.0" layoutY="31.0" prefHeight="26.0" prefWidth="167.0" text="6000033" />
+                  <CheckBox id="uatCheckBox" layoutX="30.0" layoutY="5.0" mnemonicParsing="false" text="UAT" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </items>
+</SplitPane>

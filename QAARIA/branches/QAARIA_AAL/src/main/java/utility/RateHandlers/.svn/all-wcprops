@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/asitrepo/!svn/ver/144671/QA/QAARIA/branches/QAARIA_AAL/src/main/java/utility/RateHandlers
+END
+JsonHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/144671/QA/QAARIA/branches/QAARIA_AAL/src/main/java/utility/RateHandlers/JsonHandler.java
+END
+RateHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/144671/QA/QAARIA/branches/QAARIA_AAL/src/main/java/utility/RateHandlers/RateHandler.java
+END
+EomPlan.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/asitrepo/!svn/ver/144671/QA/QAARIA/branches/QAARIA_AAL/src/main/java/utility/RateHandlers/EomPlan.java
+END
+PlanService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/144671/QA/QAARIA/branches/QAARIA_AAL/src/main/java/utility/RateHandlers/PlanService.java
+END
+ServiceRate.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/144671/QA/QAARIA/branches/QAARIA_AAL/src/main/java/utility/RateHandlers/ServiceRate.java
+END

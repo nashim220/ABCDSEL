@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports
+END
+Cls_BillingSummary.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_BillingSummary.java
+END
+Cls_ValidatePaymentNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_ValidatePaymentNumber.java
+END
+Cls_CSRActivityReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_CSRActivityReport.java
+END
+Cls_ValidateDailyTieOutReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_ValidateDailyTieOutReport.java
+END
+Cls_VerifyGLLocationSegment.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_VerifyGLLocationSegment.java
+END
+Cls_ValidateDailyTieOutReport_Batch.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_ValidateDailyTieOutReport_Batch.java
+END
+ArValidateContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/ArValidateContent.java
+END
+Cls_PaymentTransactionByDateReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_PaymentTransactionByDateReport.java
+END
+Cls_AllTransactionsByAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_AllTransactionsByAccount.java
+END
+Cls_ARAgeingReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_ARAgeingReport.java
+END
+Cls_UnbilledUsageReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_UnbilledUsageReport.java
+END
+Cls_PaymentDetailsFinancialReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_PaymentDetailsFinancialReport.java
+END
+Cls_BatchSessionInformationReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_BatchSessionInformationReport.java
+END
+Cls_AccountUsageSummaryReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_AccountUsageSummaryReport.java
+END
+Cls_ValidatePaymentDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/Cls_ValidatePaymentDetails.java
+END
+BillingSummary.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/Reports/BillingSummary.java
+END

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/asitrepo/!svn/ver/144832/QA/QAARIA/src/testCases/AriaConfiguration
+END
+Cls_FunctionalAcctGrpConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/144268/QA/QAARIA/src/testCases/AriaConfiguration/Cls_FunctionalAcctGrpConfiguration.java
+END
+Cls_Validate_ChartOfAccounts.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/asitrepo/!svn/ver/144832/QA/QAARIA/src/testCases/AriaConfiguration/Cls_Validate_ChartOfAccounts.java
+END
+Cls_ValidateProductFieldCatagories.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/asitrepo/!svn/ver/144806/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateProductFieldCatagories.java
+END
+Cls_Validate_BillLagDays.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/asitrepo/!svn/ver/144608/QA/QAARIA/src/testCases/AriaConfiguration/Cls_Validate_BillLagDays.java
+END
+Cls_ValidateCustomInvoiceStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/asitrepo/!svn/ver/144607/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateCustomInvoiceStatus.java
+END
+Cls_ConfigurationInvoiceSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/asitrepo/!svn/ver/144627/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ConfigurationInvoiceSettings.java
+END
+ValidateCompanyProfileInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/asitrepo/!svn/ver/144686/QA/QAARIA/src/testCases/AriaConfiguration/ValidateCompanyProfileInformation.java
+END
+Cls_ValidateNotificationTemplateGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/asitrepo/!svn/ver/144607/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateNotificationTemplateGroup.java
+END
+Cls_ValidatePaymentMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/asitrepo/!svn/ver/144710/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidatePaymentMethods.java
+END
+Cls_ValidateCurrencies.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/asitrepo/!svn/ver/144832/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateCurrencies.java
+END
+Cls_ValidateEvents.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/asitrepo/!svn/ver/144607/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateEvents.java
+END
+Cls_ValidateEmailTemplates.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/asitrepo/!svn/ver/144607/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateEmailTemplates.java
+END
+Cls_ValidateProductFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/asitrepo/!svn/ver/144806/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateProductFields.java
+END
+Cls_ValidateProvisioningSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/asitrepo/!svn/ver/144607/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateProvisioningSettings.java
+END
+Cls_ValidateNotificationSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/asitrepo/!svn/ver/144585/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateNotificationSettings.java
+END
+Cls_Validate_Countries.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/asitrepo/!svn/ver/144832/QA/QAARIA/src/testCases/AriaConfiguration/Cls_Validate_Countries.java
+END
+Cls_ValidatePaymentSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/asitrepo/!svn/ver/144710/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidatePaymentSetting.java
+END
+Cls_ValidateStatementSending.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/asitrepo/!svn/ver/144607/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateStatementSending.java
+END
+Cls_ValidateTaxServiceGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/asitrepo/!svn/ver/144632/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateTaxServiceGroups.java
+END
+Cls_ValidateTaxationConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/asitrepo/!svn/ver/144684/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateTaxationConfiguration.java
+END
+Cls_ValidateBatchProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/asitrepo/!svn/ver/144607/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateBatchProcess.java
+END
+Cls_Validate_ContractsSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/asitrepo/!svn/ver/144607/QA/QAARIA/src/testCases/AriaConfiguration/Cls_Validate_ContractsSettings.java
+END
+Cls_ValidateClientParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/asitrepo/!svn/ver/144583/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateClientParams.java
+END
+CompanyProfileInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/asitrepo/!svn/ver/144152/QA/QAARIA/src/testCases/AriaConfiguration/CompanyProfileInformation.java
+END
+Cls_ValidateAccountFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/asitrepo/!svn/ver/144806/QA/QAARIA/src/testCases/AriaConfiguration/Cls_ValidateAccountFields.java
+END

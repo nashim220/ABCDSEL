@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/asitrepo/!svn/ver/144709/QA/QAARIA/src/utility
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/asitrepo/!svn/ver/144709/QA/QAARIA/src/utility/Utils.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/asitrepo/!svn/ver/141074/QA/QAARIA/src/utility/Log.java
+END
+VerificationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/src/utility/VerificationException.java
+END
+VerificationMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/asitrepo/!svn/ver/142664/QA/QAARIA/src/utility/VerificationMethods.java
+END
+ApiHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/asitrepo/!svn/ver/142662/QA/QAARIA/src/utility/ApiHandler.java
+END
+CsvHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/asitrepo/!svn/ver/141466/QA/QAARIA/src/utility/CsvHandler.java
+END
+EnvironmentDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/asitrepo/!svn/ver/142663/QA/QAARIA/src/utility/EnvironmentDetails.java
+END
+ReportUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/asitrepo/!svn/ver/143419/QA/QAARIA/src/utility/ReportUtils.java
+END
+WriteFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/asitrepo/!svn/ver/142976/QA/QAARIA/src/utility/WriteFiles.java
+END
+ReadFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/asitrepo/!svn/ver/141608/QA/QAARIA/src/utility/ReadFiles.java
+END

@@ -1,0 +1,2587 @@
+Oct 12, 2015 10:42:32 AM utility.XlsHandler readXlsxFile
+INFO: Reading Excel file....
+Oct 12, 2015 10:42:32 AM utility.XlsHandler readXlsxFile
+INFO: Parsing Headers
+Oct 12, 2015 10:42:32 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || acct_no
+Oct 12, 2015 10:42:32 AM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Oct 12, 2015 10:42:32 AM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 98768.0
+Oct 12, 2015 10:42:32 AM utility.ApiHandler makeMultiGetCall
+INFO: SIZE: 1
+Oct 12, 2015 10:42:34 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: error_msg || Value: OK
+Oct 12, 2015 10:42:34 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: all_plan_unit_instances || Value: [{"plan_type":"MASTER","plan_unit_instance":[{"client_plan_unit_inst_id":"55048","plan_unit_inst_status":"1","plan_unit_inst_no":55048,"plan_unit_inst_fields":null,"plan_unit_inst_services":null}],"plan_no":14708,"queued_ind":"A","client_plan_id":"Sungard_AS_Master_Plan","plan_name":"Sungard AS Master Plan"},{"plan_type":"SUPPLEMENTAL","plan_unit_instance":[{"client_plan_unit_inst_id":"55049","plan_unit_inst_status":"0","plan_unit_inst_no":55049,"plan_unit_inst_fields":null,"plan_unit_inst_services":null},{"client_plan_unit_inst_id":"efsefa123","plan_unit_inst_status":"1","plan_unit_inst_no":57524,"plan_unit_inst_fields":[{"field_value":"1.00","field_name":"workplace_budget"},{"field_value":"1","field_name":"budget_notification_level"},{"field_value":"JLA_Test_Workplace","field_name":"workplace_name"}],"plan_unit_inst_services":null}],"plan_no":14709,"queued_ind":"A","client_plan_id":"Public_Cloud_Workplace","plan_name":"Public Cloud Workplace"}]
+Oct 12, 2015 10:42:34 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: acct_no || Value: 98768
+Oct 12, 2015 10:42:34 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: error_code || Value: 0
+Oct 12, 2015 10:42:34 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: client_acct_id || Value: null
+Oct 12, 2015 10:43:20 AM utility.ApiHandler makeMultiGetCall
+INFO: The URL: https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=6000033&auth_key=fWSTQQB934p6AVh7Fnb5gm6wCcGyCCmM&rest_call=get_acct_plan_unit_instance_all
+Oct 12, 2015 10:43:20 AM utility.XlsHandler readXlsxFile
+INFO: Reading Excel file....
+Oct 12, 2015 10:43:20 AM utility.XlsHandler readXlsxFile
+INFO: Parsing Headers
+Oct 12, 2015 10:43:20 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || acct_no
+Oct 12, 2015 10:43:20 AM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Oct 12, 2015 10:43:20 AM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 98768.0
+Oct 12, 2015 10:43:20 AM utility.ApiHandler makeMultiGetCall
+INFO: SIZE: 1
+Oct 12, 2015 10:43:22 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: error_msg || Value: OK
+Oct 12, 2015 10:43:22 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: all_plan_unit_instances || Value: [{"plan_type":"MASTER","plan_unit_instance":[{"client_plan_unit_inst_id":"55048","plan_unit_inst_status":"1","plan_unit_inst_no":55048,"plan_unit_inst_fields":null,"plan_unit_inst_services":null}],"plan_no":14708,"queued_ind":"A","client_plan_id":"Sungard_AS_Master_Plan","plan_name":"Sungard AS Master Plan"},{"plan_type":"SUPPLEMENTAL","plan_unit_instance":[{"client_plan_unit_inst_id":"55049","plan_unit_inst_status":"0","plan_unit_inst_no":55049,"plan_unit_inst_fields":null,"plan_unit_inst_services":null},{"client_plan_unit_inst_id":"efsefa123","plan_unit_inst_status":"1","plan_unit_inst_no":57524,"plan_unit_inst_fields":[{"field_value":"1.00","field_name":"workplace_budget"},{"field_value":"1","field_name":"budget_notification_level"},{"field_value":"JLA_Test_Workplace","field_name":"workplace_name"}],"plan_unit_inst_services":null}],"plan_no":14709,"queued_ind":"A","client_plan_id":"Public_Cloud_Workplace","plan_name":"Public Cloud Workplace"}]
+Oct 12, 2015 10:43:22 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: acct_no || Value: 98768
+Oct 12, 2015 10:43:22 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: error_code || Value: 0
+Oct 12, 2015 10:43:22 AM utility.ApiHandler makeMultiGetCall
+INFO: Key: client_acct_id || Value: null
+Oct 12, 2015 10:49:38 AM controllers.MainController runFileChooser
+INFO: Loading file chooser
+Oct 12, 2015 10:49:48 AM controllers.MainController$12 handle
+INFO: Setting file directory: /Users/joe/Dev/AriaAccountLoader/DataFiles/record_usage_master.xlsx
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Reading Excel file....
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Parsing Headers
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || acct_no
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_type_code
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_type
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_units
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_date
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || billable_units
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || amt
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || rate
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || telco_from
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || telco_to
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || comments
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || exclude_from_billing
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || exclusion_comments
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_1
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_2
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_3
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_4
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 98768.0
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || GB RAM
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10000.0
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 2015-10-12
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loaded Via AAL
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 57524.0
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Oct 12, 2015 10:49:50 AM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: Setting acct to Live.
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: Setting acct to Live.
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: Setting acct to Live.
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=6000033&auth_key=fWSTQQB934p6AVh7Fnb5gm6wCcGyCCmM&rest_call=record_usage
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=6000033&auth_key=fWSTQQB934p6AVh7Fnb5gm6wCcGyCCmM&rest_call=record_usage
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: API POST: POST https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=6000033&auth_key=fWSTQQB934p6AVh7Fnb5gm6wCcGyCCmM&rest_call=record_usage HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 34,Chunked: false]
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=6000033&auth_key=fWSTQQB934p6AVh7Fnb5gm6wCcGyCCmM&rest_call=record_usage
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: API POST: POST https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=6000033&auth_key=fWSTQQB934p6AVh7Fnb5gm6wCcGyCCmM&rest_call=record_usage HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 152,Chunked: false]
+Oct 12, 2015 10:49:50 AM utility.ApiThread call
+INFO: API POST: POST https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=6000033&auth_key=fWSTQQB934p6AVh7Fnb5gm6wCcGyCCmM&rest_call=record_usage HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 34,Chunked: false]
+Oct 12, 2015 10:49:51 AM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Oct 12, 2015 10:49:51 AM utility.ApiThread call
+INFO: {"error_code":0,"usage_rec_no":490807,"error_msg":"OK"}
+
+Oct 12, 2015 10:49:51 AM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Oct 12, 2015 10:49:51 AM utility.ApiThread call
+INFO: {"error_code":1010,"error_msg":"One of the following parameters is required: userid, acct_no"}
+
+Oct 12, 2015 10:49:51 AM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Oct 12, 2015 10:49:51 AM utility.ApiThread call
+INFO: {"error_code":1010,"error_msg":"One of the following parameters is required: userid, acct_no"}
+
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Reading Excel file....
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Headers
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_master_plan_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_start_date
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_acct_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || userid
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || status_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || master_plan_units
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_supp_plan_ids
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_units
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || notify_method
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || promo_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || password
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || secret_question
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || secret_question_answer
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || first_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || mi
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || last_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || company_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address1
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address2
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || city
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || locality
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || state_prov
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || country
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || postal_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || phone_ext
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cell_phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || work_phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || work_phone_ext
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || email
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || birthdate
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_first_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_mi
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_last_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_company_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address1
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address2
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_city
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_locality
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_state_prov
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_country
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_postal_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_phone_ext
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_cell_phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_work_phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_work_phone_ext
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_email
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || pay_method
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_number
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_expire_mm
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_expire_yyyy
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_acct_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_routing_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || resp_level_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || senior_acct_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || senior_acct_user_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_senior_acct_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_func_acct_group_ids
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || collections_acct_groups[0]
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[0]
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[0]
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || test_acct_ind
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || status_until_alt_start
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || balance_forward
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_bill_day
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_full_invoicing
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_prorated_invoicing
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || master_plan_alt_rate_sched_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_alt_rate_sched_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_receipt_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || currency_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cvv
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || taxpayer_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_agreement_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || retroactive_start_date
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || coupon_codes[0]
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || new_acct_custom_rates
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_plan_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_service_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_seq_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_from_unit
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_to_unit
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_per_unit
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_msg_template_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || seq_func_group_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || new_acct_plan_contracts
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_plan_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_type_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_alt_recur_fee
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_length_months
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_cancel_fee
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_comments
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_start_date
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_end_date
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_acct_type
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address3
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address3
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_config
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_plan_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_reset_months
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || enable_usage_pooling_plan_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || enable_usage_pooling_plan_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_threshold_applicability
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || track_data1
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || track_data2
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_write
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || tax_exemption_level
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cn_alt_msg_template_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || invoice_approval_required
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || create_session
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_sp_alt_rate_sched_ids
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || surcharge_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || surcharge_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || rate_schedule_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || iban
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_check_digit
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_swift_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_country_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || mandate_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_id_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_branch_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_first_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_mi
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_last_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_company_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address1
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address2
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address3
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_city
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_locality
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_state_prov
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_country
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_postal_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_phone_ext
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_cell_phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_work_phone
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_work_phone_ext
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_email
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_pay_method
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_number
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_expire_mm
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_expire_yyyy
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_acct_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_routing_no
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_acct_type
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_agreement_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cvv
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || revrec_profile_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list_cc
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list_bcc
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || invoice_posting_method_cd
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || acct_start_date
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_caller_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || optional_transaction_qualifiers
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_name
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_value
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || application_id
+Nov 03, 2015 2:14:12 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || application_date
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[1]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[1]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[2]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[2]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[3]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[3]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[4]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[4]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[5]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[5]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[6]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[6]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[7]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[7]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[8]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[8]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[9]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[9]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[10]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[10]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[11]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[11]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[12]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[12]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[13]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[13]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[14]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[14]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[15]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[15]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[16]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[16]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[17]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[17]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[18]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[18]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[19]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[19]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[20]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[20]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[21]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[21]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[22]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[22]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[23]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[23]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[24]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[24]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[25]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[25]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[26]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[26]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[27]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[27]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[28]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[28]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[29]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[29]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[30]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[30]
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_field_directives
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_alt_msg_template_id
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Sungard_AS_Master_Plan
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || P
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Tester
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_Parent
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 1751 KINSEY RD
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOTHAN
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || HOUSTON
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AL
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 36303.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Bill_UAT
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || P
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT_US_AL
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_Parent - Bill_P_UAT_BeaujolaisUATUS2WP#
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 1751 KINSEY RD
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOTHAN
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || HOUSTON
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AL
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 36303.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 4.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_COMMENT
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || not in scope for Beaujolais release
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || usd
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 41923.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PHLSF51_324194
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loaded via AAL
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 42286.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_STATUS
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || co_code
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 01
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUST_CONTRACT_SIGNATORY
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUSTOMER_CORPORATE_ID
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 492.2015989
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOMAIN_ID
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AAL_Sourced_0x9x22_21131.2069719907
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Foreign Address Field
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Someplace Far Far Away
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LEGACY_CUSTOMER_NUMBER
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || QA_242262
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_SIGN_DATE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 9/15/2015
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_TYPE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_NAME
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Partner Testing
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_TYPE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Test
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PREVIOUS_CUSTOMER_NAME
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || N/A
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PRICE_INCREASE_PERCENTAGE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC_ID
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC84524X18CHARXA
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SUNGARD_AS_BUS_UNIT
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UnitB
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LIBBIE HENRIETTA HYMAN
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || base_currency_cd
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || cad
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CURRENT_PO_NUM
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PO2015_21131
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE_PHONE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || COMPANY_NAME
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Sungard_AS_Master_Plan
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Public_Cloud_Workplace
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || C
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Coupon credit 1000
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_AddMLTC
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 301 E. DAVE WARD DRIVE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CONWAY
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || FAULKNER
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AR
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 72032.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Bill_UAT
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || C
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT_Coupon credit 1000_US_AR ADD MANUAL COUPON
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b - Bill_C_UAT_BeaujolaisUATUS3WP#2&Parent=AAL_Sourced_0_9_16_21131.2069719907
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 301 E. DAVE WARD DRIVE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CONWAY
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AR
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 72032.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 4.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 2.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_COMMENT
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || not in scope for Beaujolais release
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || usd
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 41923.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || credit 1000
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PHLSF51_324194
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loaded via AAL
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 42286.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_STATUS
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || co_code
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 01
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUST_CONTRACT_SIGNATORY
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUSTOMER_CORPORATE_ID
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 585.0319769
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOMAIN_ID
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AAL_Sourced_0x9x22_14087.4713146605
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Foreign Address Field
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Someplace Far Far Away
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LEGACY_CUSTOMER_NUMBER
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || QA_342262
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loc_Code
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 530.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_SIGN_DATE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 9/15/2015
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_TYPE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_NAME
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Partner Testing
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_TYPE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Test
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PREVIOUS_CUSTOMER_NAME
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || N/A
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PRICE_INCREASE_PERCENTAGE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 31.0
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC_ID
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC84524X18CHARXA
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SUNGARD_AS_BUS_UNIT
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UnitB
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LIBBIE HENRIETTA HYMAN
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || base_currency_cd
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || cad
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CURRENT_PO_NUM
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PO2015_14087
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE_PHONE
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || COMPANY_NAME
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:14:13 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:14:14 PM utility.ApiThread call
+INFO: Found existing test acct status.
+Nov 03, 2015 2:14:14 PM utility.ApiThread call
+INFO: Found existing test acct status.
+Nov 03, 2015 2:14:14 PM utility.ApiThread call
+INFO: https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete
+Nov 03, 2015 2:14:14 PM utility.ApiThread call
+INFO: https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete
+Nov 03, 2015 2:14:14 PM utility.ApiThread call
+INFO: API POST: POST https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 3020,Chunked: false]
+Nov 03, 2015 2:14:14 PM utility.ApiThread call
+INFO: API POST: POST https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 2722,Chunked: false]
+Nov 03, 2015 2:14:16 PM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Nov 03, 2015 2:14:16 PM utility.ApiThread call
+INFO: {"error_code":1024,"acct_no":null,"out_userid":null,"invoicing_error_code":null,"invoicing_error_msg":null,"invoice_no":null,"proc_cvv_response":null,"proc_avs_response":null,"proc_cavv_response":null,"proc_status_code":null,"proc_status_text":null,"proc_payment_id":null,"proc_auth_code":null,"proc_merch_comments":null,"out_new_acct_plan_contracts":null,"new_acct_invoice_line_items":null,"third_party_errors":null,"session_id":null,"error_msg":"invalid date format","invoice_charges_before_tax":null,"invoice_tax_charges":null,"invoice_charges_after_tax":null,"invoice_credit_amount":null,"invoice_total_amount":null}
+
+Nov 03, 2015 2:14:16 PM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Nov 03, 2015 2:14:16 PM utility.ApiThread call
+INFO: {"error_code":5033,"acct_no":null,"out_userid":null,"invoicing_error_code":null,"invoicing_error_msg":null,"invoice_no":null,"proc_cvv_response":null,"proc_avs_response":null,"proc_cavv_response":null,"proc_status_code":null,"proc_status_text":null,"proc_payment_id":null,"proc_auth_code":null,"proc_merch_comments":null,"out_new_acct_plan_contracts":null,"new_acct_invoice_line_items":null,"third_party_errors":null,"session_id":null,"error_msg":"Invalid parent account user id.","invoice_charges_before_tax":null,"invoice_tax_charges":null,"invoice_charges_after_tax":null,"invoice_credit_amount":null,"invoice_total_amount":null}
+
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Reading Excel file....
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Headers
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_master_plan_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_start_date
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_acct_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || userid
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || status_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || master_plan_units
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_supp_plan_ids
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_units
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || notify_method
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || promo_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || password
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || secret_question
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || secret_question_answer
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || first_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || mi
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || last_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || company_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address1
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address2
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || city
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || locality
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || state_prov
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || country
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || postal_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || phone_ext
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cell_phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || work_phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || work_phone_ext
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || email
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || birthdate
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_first_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_mi
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_last_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_company_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address1
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address2
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_city
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_locality
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_state_prov
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_country
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_postal_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_phone_ext
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_cell_phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_work_phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_work_phone_ext
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_email
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || pay_method
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_number
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_expire_mm
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_expire_yyyy
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_acct_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_routing_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || resp_level_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || senior_acct_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || senior_acct_user_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_senior_acct_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_func_acct_group_ids
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || collections_acct_groups[0]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[0]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[0]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || test_acct_ind
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || status_until_alt_start
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || balance_forward
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_bill_day
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_full_invoicing
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_prorated_invoicing
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || master_plan_alt_rate_sched_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_alt_rate_sched_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_receipt_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || currency_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cvv
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || taxpayer_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_agreement_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || retroactive_start_date
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || coupon_codes[0]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || new_acct_custom_rates
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_plan_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_service_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_seq_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_from_unit
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_to_unit
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_per_unit
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_msg_template_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || seq_func_group_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || new_acct_plan_contracts
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_plan_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_type_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_alt_recur_fee
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_length_months
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_cancel_fee
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_comments
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_start_date
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_end_date
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_acct_type
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address3
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address3
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_config
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_plan_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_reset_months
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || enable_usage_pooling_plan_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || enable_usage_pooling_plan_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_threshold_applicability
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || track_data1
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || track_data2
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_write
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || tax_exemption_level
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cn_alt_msg_template_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || invoice_approval_required
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || create_session
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_sp_alt_rate_sched_ids
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || surcharge_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || surcharge_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || rate_schedule_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || iban
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_check_digit
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_swift_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_country_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || mandate_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_id_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_branch_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_first_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_mi
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_last_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_company_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address1
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address2
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address3
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_city
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_locality
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_state_prov
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_country
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_postal_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_phone_ext
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_cell_phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_work_phone
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_work_phone_ext
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_email
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_pay_method
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_number
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_expire_mm
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_expire_yyyy
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_acct_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_routing_no
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_acct_type
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_agreement_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cvv
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || revrec_profile_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list_cc
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list_bcc
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || invoice_posting_method_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || acct_start_date
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_caller_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || optional_transaction_qualifiers
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_name
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_value
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || application_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || application_date
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[1]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[1]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[2]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[2]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[3]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[3]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[4]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[4]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[5]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[5]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[6]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[6]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[7]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[7]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[8]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[8]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[9]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[9]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[10]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[10]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[11]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[11]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[12]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[12]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[13]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[13]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[14]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[14]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[15]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[15]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[16]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[16]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[17]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[17]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[18]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[18]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[19]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[19]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[20]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[20]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[21]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[21]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[22]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[22]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[23]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[23]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[24]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[24]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[25]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[25]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[26]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[26]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[27]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[27]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[28]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[28]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[29]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[29]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[30]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[30]
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_field_directives
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_alt_msg_template_id
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Sungard_AS_Master_Plan
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || P
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Tester
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_Parent
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 1751 KINSEY RD
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOTHAN
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || HOUSTON
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AL
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 36303.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Bill_UAT
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || P
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT_US_AL
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_Parent - Bill_P_UAT_BeaujolaisUATUS2WP#
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 1751 KINSEY RD
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOTHAN
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || HOUSTON
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AL
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 36303.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 4.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_COMMENT
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || not in scope for Beaujolais release
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || usd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PHLSF51_324194
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loaded via AAL
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 42286.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_STATUS
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || co_code
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 01
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUST_CONTRACT_SIGNATORY
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUSTOMER_CORPORATE_ID
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 492.2015989
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOMAIN_ID
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AAL_Sourced_0x9x22_21131.2069719907
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Foreign Address Field
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Someplace Far Far Away
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LEGACY_CUSTOMER_NUMBER
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || QA_242262
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_SIGN_DATE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 9/15/2015
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_TYPE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_NAME
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Partner Testing
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_TYPE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Test
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PREVIOUS_CUSTOMER_NAME
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || N/A
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PRICE_INCREASE_PERCENTAGE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC_ID
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC84524X18CHARXA
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SUNGARD_AS_BUS_UNIT
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UnitB
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LIBBIE HENRIETTA HYMAN
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || base_currency_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || cad
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CURRENT_PO_NUM
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PO2015_21131
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE_PHONE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || COMPANY_NAME
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Sungard_AS_Master_Plan
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Public_Cloud_Workplace
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || C
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Tester Child
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_AddMLTC
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 301 E. DAVE WARD DRIVE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CONWAY
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || FAULKNER
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AR
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 72032.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Bill_UAT
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || C
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT_US_Child
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b - Bill_C_UAT_BeaujolaisUATUS3WP#2&Parent=AAL_Sourced_0_9_16_21131.2069719907
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 301 E. DAVE WARD DRIVE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CONWAY
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AR
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 72032.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 4.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 2.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_COMMENT
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || not in scope for Beaujolais release
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || usd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PHLSF51_324194
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loaded via AAL
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 42286.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_STATUS
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || co_code
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 01
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUST_CONTRACT_SIGNATORY
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUSTOMER_CORPORATE_ID
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 585.0319769
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOMAIN_ID
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AAL_Sourced_0x9x22_14087.4713146605
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Foreign Address Field
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Someplace Far Far Away
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LEGACY_CUSTOMER_NUMBER
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || QA_342262
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loc_Code
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 530.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_SIGN_DATE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 9/15/2015
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_TYPE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_NAME
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Partner Testing
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_TYPE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Test
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PREVIOUS_CUSTOMER_NAME
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || N/A
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PRICE_INCREASE_PERCENTAGE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 31.0
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC_ID
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC84524X18CHARXA
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SUNGARD_AS_BUS_UNIT
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UnitB
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LIBBIE HENRIETTA HYMAN
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || base_currency_cd
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || cad
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CURRENT_PO_NUM
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PO2015_14087
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE_PHONE
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || COMPANY_NAME
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:15:29 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:15:29 PM utility.ApiThread call
+INFO: Found existing test acct status.
+Nov 03, 2015 2:15:29 PM utility.ApiThread call
+INFO: Found existing test acct status.
+Nov 03, 2015 2:15:29 PM utility.ApiThread call
+INFO: https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete
+Nov 03, 2015 2:15:29 PM utility.ApiThread call
+INFO: API POST: POST https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 2693,Chunked: false]
+Nov 03, 2015 2:15:29 PM utility.ApiThread call
+INFO: https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete
+Nov 03, 2015 2:15:29 PM utility.ApiThread call
+INFO: API POST: POST https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 2907,Chunked: false]
+Nov 03, 2015 2:15:30 PM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Nov 03, 2015 2:15:30 PM utility.ApiThread call
+INFO: {"error_code":5033,"acct_no":null,"out_userid":null,"invoicing_error_code":null,"invoicing_error_msg":null,"invoice_no":null,"proc_cvv_response":null,"proc_avs_response":null,"proc_cavv_response":null,"proc_status_code":null,"proc_status_text":null,"proc_payment_id":null,"proc_auth_code":null,"proc_merch_comments":null,"out_new_acct_plan_contracts":null,"new_acct_invoice_line_items":null,"third_party_errors":null,"session_id":null,"error_msg":"Invalid parent account user id.","invoice_charges_before_tax":null,"invoice_tax_charges":null,"invoice_charges_after_tax":null,"invoice_credit_amount":null,"invoice_total_amount":null}
+
+Nov 03, 2015 2:15:31 PM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Nov 03, 2015 2:15:31 PM utility.ApiThread call
+INFO: {"error_code":0,"acct_no":4291197,"out_userid":"Joe_aal_uat_b_Parent","invoicing_error_code":1029,"invoicing_error_msg":"Invoice: success - Email: failed","invoice_no":45637124,"proc_cvv_response":null,"proc_avs_response":null,"proc_cavv_response":null,"proc_status_code":null,"proc_status_text":null,"proc_payment_id":null,"proc_auth_code":null,"proc_merch_comments":null,"out_new_acct_plan_contracts":null,"new_acct_invoice_line_items":null,"third_party_errors":null,"session_id":null,"error_msg":"OK","invoice_charges_before_tax":0,"invoice_tax_charges":0,"invoice_charges_after_tax":0,"invoice_credit_amount":0,"invoice_total_amount":0}
+
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Reading Excel file....
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Headers
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_master_plan_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_start_date
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_acct_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || userid
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || status_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || master_plan_units
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_supp_plan_ids
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_units
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || notify_method
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || promo_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || password
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || secret_question
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || secret_question_answer
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || first_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || mi
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || last_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || company_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address1
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address2
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || city
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || locality
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || state_prov
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || country
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || postal_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || phone_ext
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cell_phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || work_phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || work_phone_ext
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || email
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || birthdate
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_first_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_mi
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_last_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_company_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address1
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address2
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_city
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_locality
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_state_prov
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_country
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_postal_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_phone_ext
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_cell_phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_work_phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_work_phone_ext
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_email
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || pay_method
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_number
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_expire_mm
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cc_expire_yyyy
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_acct_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_routing_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || resp_level_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || senior_acct_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || senior_acct_user_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_senior_acct_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_func_acct_group_ids
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || collections_acct_groups[0]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[0]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[0]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || test_acct_ind
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || status_until_alt_start
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || balance_forward
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_bill_day
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_full_invoicing
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_prorated_invoicing
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || master_plan_alt_rate_sched_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_alt_rate_sched_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_receipt_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || currency_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cvv
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || taxpayer_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_agreement_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || retroactive_start_date
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || coupon_codes[0]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || new_acct_custom_rates
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_plan_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_service_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_seq_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_from_unit
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_to_unit
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || custom_rate_per_unit
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_msg_template_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || seq_func_group_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || new_acct_plan_contracts
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_plan_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_type_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_alt_recur_fee
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_length_months
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_cancel_fee
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_comments
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_start_date
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || contract_end_date
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_acct_type
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || address3
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bill_address3
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_config
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_plan_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_accumulation_reset_months
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || enable_usage_pooling_plan_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || enable_usage_pooling_plan_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || usage_threshold_applicability
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || track_data1
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || track_data2
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || do_write
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || tax_exemption_level
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || cn_alt_msg_template_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || invoice_approval_required
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || create_session
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_sp_alt_rate_sched_ids
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || surcharge_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || surcharge_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || rate_schedule_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || iban
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_check_digit
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_swift_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_country_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || mandate_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_id_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bank_branch_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_first_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_mi
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_last_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_company_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address1
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address2
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_address3
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_city
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_locality
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_state_prov
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_country
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_postal_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_phone_ext
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_cell_phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_work_phone
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_work_phone_ext
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_email
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_pay_method
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_number
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_expire_mm
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cc_expire_yyyy
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_acct_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_routing_no
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bank_acct_type
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_bill_agreement_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || bkup_cvv
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || revrec_profile_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list_cc
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || stmnt_email_list_bcc
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || invoice_posting_method_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || acct_start_date
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || alt_caller_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || optional_transaction_qualifiers
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_name
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || qualifier_value
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || application_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || application_date
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[1]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[1]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[2]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[2]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[3]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[3]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[4]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[4]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[5]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[5]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[6]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[6]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[7]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[7]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[8]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[8]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[9]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[9]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[10]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[10]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[11]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[11]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[12]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[12]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[13]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[13]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[14]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[14]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[15]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[15]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[16]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[16]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[17]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[17]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[18]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[18]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[19]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[19]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[20]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[20]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[21]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[21]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[22]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[22]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[23]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[23]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[24]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[24]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[25]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[25]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[26]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[26]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[27]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[27]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[28]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[28]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[29]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[29]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_names[30]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_field_values[30]
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || supp_plan_field_directives
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Header Found || client_alt_msg_template_id
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Sungard_AS_Master_Plan
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || P
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Tester
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_Parent
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 1751 KINSEY RD
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOTHAN
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || HOUSTON
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AL
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 36303.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Bill_UAT
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || P
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT_US_AL
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_Parent - Bill_P_UAT_BeaujolaisUATUS2WP#
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 1751 KINSEY RD
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOTHAN
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || HOUSTON
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AL
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 36303.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 4.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_COMMENT
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || not in scope for Beaujolais release
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || usd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PHLSF51_324194
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loaded via AAL
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 42286.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_STATUS
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || co_code
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 01
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUST_CONTRACT_SIGNATORY
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUSTOMER_CORPORATE_ID
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 492.2015989
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOMAIN_ID
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AAL_Sourced_0x9x22_21131.2069719907
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Foreign Address Field
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Someplace Far Far Away
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LEGACY_CUSTOMER_NUMBER
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || QA_242262
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_SIGN_DATE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 9/15/2015
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_TYPE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_NAME
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Partner Testing
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_TYPE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Test
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PREVIOUS_CUSTOMER_NAME
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || N/A
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PRICE_INCREASE_PERCENTAGE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC_ID
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC84524X18CHARXA
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SUNGARD_AS_BUS_UNIT
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UnitB
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LIBBIE HENRIETTA HYMAN
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || base_currency_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || cad
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CURRENT_PO_NUM
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PO2015_21131
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE_PHONE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || COMPANY_NAME
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Parsing Values....
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Sungard_AS_Master_Plan
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Public_Cloud_Workplace
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 10.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || C
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Tester Child
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b_AddMLTC
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 301 E. DAVE WARD DRIVE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CONWAY
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || FAULKNER
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AR
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 72032.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Bill_UAT
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || C
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UAT_US_Child
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || arizona_aal_uat_b - Bill_C_UAT_BeaujolaisUATUS3WP#2&Parent=AAL_Sourced_0_9_16_21131.2069719907
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 301 E. DAVE WARD DRIVE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CONWAY
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AR
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 72032.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 4.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 2.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Joe_aal_uat_b_Parent
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_COMMENT
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || not in scope for Beaujolais release
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || usd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PHLSF51_324194
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || pc.aria.uat.test@gmail.com
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loaded via AAL
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 42286.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AUTOPAY_STATUS
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 0.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || co_code
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 01
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUST_CONTRACT_SIGNATORY
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CUSTOMER_CORPORATE_ID
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 585.0319769
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || DOMAIN_ID
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || AAL_Sourced_0x9x22_14087.4713146605
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Foreign Address Field
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Someplace Far Far Away
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LEGACY_CUSTOMER_NUMBER
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || QA_342262
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Loc_Code
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 530.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_SIGN_DATE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || 9/15/2015
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || MASTER_AGREEMENT_TYPE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || US
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_NAME
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Partner Testing
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PARTNER_TYPE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || Test
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PREVIOUS_CUSTOMER_NAME
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || N/A
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PRICE_INCREASE_PERCENTAGE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 31.0
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC_ID
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SFDC84524X18CHARXA
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || SUNGARD_AS_BUS_UNIT
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || UnitB
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || LIBBIE HENRIETTA HYMAN
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || base_currency_cd
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || cad
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || CURRENT_PO_NUM
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || PO2015_14087
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || ACCOUNT_EXECUTIVE_PHONE
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 9.057702431E9
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: String Cell Found || COMPANY_NAME
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Formula Cell Found || 1
+Nov 03, 2015 2:16:14 PM utility.XlsHandler readXlsxFile
+INFO: Numeric Cell Found || 1.0
+Nov 03, 2015 2:16:14 PM utility.ApiThread call
+INFO: Found existing test acct status.
+Nov 03, 2015 2:16:14 PM utility.ApiThread call
+INFO: Found existing test acct status.
+Nov 03, 2015 2:16:14 PM utility.ApiThread call
+INFO: https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete
+Nov 03, 2015 2:16:14 PM utility.ApiThread call
+INFO: API POST: POST https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 2693,Chunked: false]
+Nov 03, 2015 2:16:14 PM utility.ApiThread call
+INFO: https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete
+Nov 03, 2015 2:16:14 PM utility.ApiThread call
+INFO: API POST: POST https://secure.current.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php?client_no=3760701&auth_key=tx38GSY9gMPUSNUfJdH6nX474Y97NEYG&rest_call=create_acct_complete HTTP/1.1[Content-Type: application/x-www-form-urlencoded,Content-Length: 2907,Chunked: false]
+Nov 03, 2015 2:16:15 PM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Nov 03, 2015 2:16:15 PM utility.ApiThread call
+INFO: {"error_code":5036,"acct_no":null,"out_userid":null,"invoicing_error_code":null,"invoicing_error_msg":null,"invoice_no":null,"proc_cvv_response":null,"proc_avs_response":null,"proc_cavv_response":null,"proc_status_code":null,"proc_status_text":null,"proc_payment_id":null,"proc_auth_code":null,"proc_merch_comments":null,"out_new_acct_plan_contracts":null,"new_acct_invoice_line_items":null,"third_party_errors":null,"session_id":null,"error_msg":"Client Account ID is already assigned to other account","invoice_charges_before_tax":null,"invoice_tax_charges":null,"invoice_charges_after_tax":null,"invoice_credit_amount":null,"invoice_total_amount":null}
+
+Nov 03, 2015 2:16:16 PM utility.ApiThread call
+INFO: HTTP/1.1 200 OK
+Nov 03, 2015 2:16:16 PM utility.ApiThread call
+INFO: {"error_code":0,"acct_no":4291200,"out_userid":"Joe_aal_uat_b","invoicing_error_code":1029,"invoicing_error_msg":"Invoice: success - Email: failed","invoice_no":45637137,"proc_cvv_response":null,"proc_avs_response":null,"proc_cavv_response":null,"proc_status_code":null,"proc_status_text":null,"proc_payment_id":null,"proc_auth_code":null,"proc_merch_comments":null,"out_new_acct_plan_contracts":null,"new_acct_invoice_line_items":null,"third_party_errors":null,"session_id":null,"error_msg":"OK","invoice_charges_before_tax":0,"invoice_tax_charges":0,"invoice_charges_after_tax":0,"invoice_credit_amount":0,"invoice_total_amount":0}
+

@@ -1,0 +1,4 @@
+usage_type_code,usage_units,acct_no,caller_id,usage_date,billable_units,amt,rate,telco_from,telco_to,comments,exclude_from_billing,exclusion_comments,qualifier_1,qualifier_2,qualifier_3,qualifier_4,parent_usage_rec_no,Client_record_id,alt_caller_id,optional_transaction_qualifiers,qualifier_name,qualifier_value
+Managed_Firewall_100MBPS,3.1415178,,Pune QA Automation_Usage,,,,100,"Dublin, IE",78281,Workplace_BulkLoad5050@|19980|,,,Self Managed Cloud,Pune QA Automation_Usage,,,,2,,,,
+Managed_Firewall_1GBPS,6.2830356,,Pune QA Automation_Usage,,,,10,"Dublin, IE",78281,Workplace_BulkLoad5050@|19980|,,,Self Managed Cloud,Pune QA Automation_Usage,,,,3,,,,
+Managed_Firewall_2GBPS,21.9906246,,Pune QA Automation_Usage,,,,20,"Dublin, IE",78281,Workplace_BulkLoad5050@|19980|,,,Self Managed Cloud,Pune QA Automation_Usage,,,,4,,,,

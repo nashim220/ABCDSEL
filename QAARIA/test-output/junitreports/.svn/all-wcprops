@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/test-output/junitreports
+END
+TEST-appModules.TestHelloWorld.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/test-output/junitreports/TEST-appModules.TestHelloWorld.xml
+END
+TEST-testCases.WpDemo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/test-output/junitreports/TEST-testCases.WpDemo.xml
+END

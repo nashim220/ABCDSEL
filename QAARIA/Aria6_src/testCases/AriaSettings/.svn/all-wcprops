@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaSettings
+END
+ServicesTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaSettings/ServicesTestCase.java
+END
+ConfigTaxSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaSettings/ConfigTaxSettings.java
+END
+ConfigClientSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaSettings/ConfigClientSettings.java
+END
+CompanyProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaSettings/CompanyProfile.java
+END
+InvoiceSuppression.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaSettings/InvoiceSuppression.java
+END
+CustomAccountFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/asitrepo/!svn/ver/143939/QA/QAARIA/Aria6_src/testCases/AriaSettings/CustomAccountFields.java
+END

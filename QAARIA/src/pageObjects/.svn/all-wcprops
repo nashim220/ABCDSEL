@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/asitrepo/!svn/ver/144836/QA/QAARIA/src/pageObjects
+END
+CountriesPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/asitrepo/!svn/ver/144630/QA/QAARIA/src/pageObjects/CountriesPageObject.java
+END
+TaxSettingsPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/asitrepo/!svn/ver/144625/QA/QAARIA/src/pageObjects/TaxSettingsPageObject.java
+END
+ValidateDailyTieOutReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/asitrepo/!svn/ver/143973/QA/QAARIA/src/pageObjects/ValidateDailyTieOutReport.java
+END
+VerifyGLLocationSegment.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/asitrepo/!svn/ver/143973/QA/QAARIA/src/pageObjects/VerifyGLLocationSegment.java
+END
+ProductCatalogRateSheets.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/asitrepo/!svn/ver/144835/QA/QAARIA/src/pageObjects/ProductCatalogRateSheets.java
+END
+LocaleSettingsPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/asitrepo/!svn/ver/144414/QA/QAARIA/src/pageObjects/LocaleSettingsPageObject.java
+END
+ConfigurationInvoiceSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/asitrepo/!svn/ver/144628/QA/QAARIA/src/pageObjects/ConfigurationInvoiceSettings.java
+END
+AriaLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/asitrepo/!svn/ver/143973/QA/QAARIA/src/pageObjects/AriaLogin.java
+END
+ClientParamsPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/asitrepo/!svn/ver/144584/QA/QAARIA/src/pageObjects/ClientParamsPageObject.java
+END
+ProductsServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/asitrepo/!svn/ver/144385/QA/QAARIA/src/pageObjects/ProductsServices.java
+END
+CompanyProfileInformationObjects.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/asitrepo/!svn/ver/144638/QA/QAARIA/src/pageObjects/CompanyProfileInformationObjects.java
+END
+AriaDashboardPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/asitrepo/!svn/ver/144286/QA/QAARIA/src/pageObjects/AriaDashboardPageObject.java
+END
+AccountsPlans.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/asitrepo/!svn/ver/144698/QA/QAARIA/src/pageObjects/AccountsPlans.java
+END
+AriaEOM.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/asitrepo/!svn/ver/144836/QA/QAARIA/src/pageObjects/AriaEOM.java
+END
+ChangeDeleteClientDefinedFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/asitrepo/!svn/ver/144230/QA/QAARIA/src/pageObjects/ChangeDeleteClientDefinedFields.java
+END
+AccountsPaymentsCredits.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/asitrepo/!svn/ver/144804/QA/QAARIA/src/pageObjects/AccountsPaymentsCredits.java
+END
+NotificationSettingsPageObjects.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/asitrepo/!svn/ver/144611/QA/QAARIA/src/pageObjects/NotificationSettingsPageObjects.java
+END
+AccountPlansUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/asitrepo/!svn/ver/144251/QA/QAARIA/src/pageObjects/AccountPlansUsage.java
+END
+ValidateCompanyProfileInformationObjects.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/asitrepo/!svn/ver/144834/QA/QAARIA/src/pageObjects/ValidateCompanyProfileInformationObjects.java
+END
+ConfigurationAuditLogs.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/asitrepo/!svn/ver/144712/QA/QAARIA/src/pageObjects/ConfigurationAuditLogs.java
+END
+ClientSettingsPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/asitrepo/!svn/ver/144412/QA/QAARIA/src/pageObjects/ClientSettingsPageObject.java
+END
+AccountsAccountOverview.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/asitrepo/!svn/ver/144804/QA/QAARIA/src/pageObjects/AccountsAccountOverview.java
+END
+PaymentDetailsFinancialReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/asitrepo/!svn/ver/144171/QA/QAARIA/src/pageObjects/PaymentDetailsFinancialReport.java
+END
+AriaSearchPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/asitrepo/!svn/ver/144624/QA/QAARIA/src/pageObjects/AriaSearchPageObject.java
+END
+AccountsStatementsInvoices.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/asitrepo/!svn/ver/144804/QA/QAARIA/src/pageObjects/AccountsStatementsInvoices.java
+END
+ConfigurationClientSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/asitrepo/!svn/ver/144807/QA/QAARIA/src/pageObjects/ConfigurationClientSettings.java
+END
+AriaBillingContactValidationPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/asitrepo/!svn/ver/144285/QA/QAARIA/src/pageObjects/AriaBillingContactValidationPageObject.java
+END
+ConfigurationPayments.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/asitrepo/!svn/ver/144712/QA/QAARIA/src/pageObjects/ConfigurationPayments.java
+END
+IntegrationsPageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/asitrepo/!svn/ver/144685/QA/QAARIA/src/pageObjects/IntegrationsPageObject.java
+END
+ConfigurationIntegrations.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/asitrepo/!svn/ver/144715/QA/QAARIA/src/pageObjects/ConfigurationIntegrations.java
+END

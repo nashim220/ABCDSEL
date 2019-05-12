@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="Build" path="src"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/apache-log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/ATU_DataDrivenFrmework_1.0.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/cssparser-0.9.14.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/ganymed-ssh2-build210.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/guava-12.0.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/htmlunit-2.15.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/htmlunit-core-js-2.15.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/httpclient-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/httpmime-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/jetty-http-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/jetty-io-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/jetty-util-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/jetty-websocket-8.1.15.v20140411.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/junit-dep-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/jxl.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/nekohtml-1.9.21.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/selenium-server-standalone-2.45.0.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/testng-6.8.6beta.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/MyData/MyProject/Automation/Edison_Automation/Libs/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

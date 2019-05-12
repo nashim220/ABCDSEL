@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/test-output/Default%20suite
+END
+Default test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/test-output/Default%20suite/Default%20test.xml
+END
+testng-failed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/test-output/Default%20suite/testng-failed.xml
+END
+Default test.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/asitrepo/!svn/ver/140763/QA/QAARIA/test-output/Default%20suite/Default%20test.html
+END
