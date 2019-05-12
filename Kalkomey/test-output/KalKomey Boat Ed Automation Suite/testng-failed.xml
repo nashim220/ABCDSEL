@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [KalKomey Boat Ed Automation Suite]" parallel="classes">
+  <parameter name="os" value="windows 7"/>
+  <parameter name="environment" value="local"/>
+  <parameter name="browser" value="chrome_EM"/>
+  <test name="Boat Ed Automation Run on IE(failed)" parallel="classes">
+    <classes>
+      <class name="courses.BoatEd.TennesseeTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- courses.BoatEd.TennesseeTest -->
+      <class name="courses.BoatEd.StudyGuideTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="StudyGuide_Not_Exists_FV"/>
+          <include name="StudyGuide_Content_Verification"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.BoatEd.StudyGuideTest -->
+      <class name="courses.BoatEd.DashboardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Dashboard_ReLogin"/>
+          <include name="teardown"/>
+          <include name="Dashboard_VerifyAfterPayment"/>
+        </methods>
+      </class> <!-- courses.BoatEd.DashboardTest -->
+      <class name="courses.BoatEd.CanadaTest">
+        <methods>
+          <include name="Canada_VerifyApplyCodeNotDisplayed"/>
+          <include name="CanadaProvinceTrustPilot"/>
+          <include name="setUp"/>
+          <include name="Canada_VerifyFeeAndTaxes"/>
+          <include name="Canada_VerifyPraticeExam"/>
+          <include name="teardown"/>
+          <include name="Canada_AskedForPaymentAfterPassingExam"/>
+        </methods>
+      </class> <!-- courses.BoatEd.CanadaTest -->
+      <class name="courses.BoatEd.LoginForgotPasswordTest">
+        <methods>
+          <include name="Login_PasswordResetEmail"/>
+          <include name="setUp"/>
+          <include name="Login_PasswordReset"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.BoatEd.LoginForgotPasswordTest -->
+      <class name="courses.BoatEd.PaymentTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="PaymentStage2_ConfirmationPopUpDatails"/>
+          <include name="PaymentStage2_PaymentConfirmationEmail"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.BoatEd.PaymentTest -->
+      <class name="courses.BoatEd.CertificateTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Certificate_Email"/>
+        </methods>
+      </class> <!-- courses.BoatEd.CertificateTest -->
+      <class name="courses.BoatEd.ExamTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="FinalExam_MaxAttemptFV"/>
+          <include name="setUp"/>
+          <include name="FinalExam_ResumeExam"/>
+          <include name="PracticeExam_UIElementVerification"/>
+          <include name="PracticeExam_ResumeExam"/>
+        </methods>
+      </class> <!-- courses.BoatEd.ExamTest -->
+      <class name="courses.BoatEd.SpecialCases">
+        <methods>
+          <include name="teardown"/>
+          <include name="CourseComplete_ShareOnFacebook"/>
+          <include name="PaymentCode_Absolute_Banner"/>
+          <include name="Canada_ProvinceLinks"/>
+          <include name="setUp"/>
+          <include name="PaymentCode_Percentage_Banner"/>
+          <include name="Override_Global_Banner"/>
+          <include name="ShoppingFeedbackForm"/>
+          <include name="OR_VerifyReplacementCardSection"/>
+          <include name="PaymentCode__Banner_SpecificCourse"/>
+          <include name="PaymentCode_Banner_SpecificTimePeriod"/>
+          <include name="RI_VerifyDetailsOnPage"/>
+          <include name="PaymentCode_Pass_Banner"/>
+        </methods>
+      </class> <!-- courses.BoatEd.SpecialCases -->
+      <class name="courses.BoatEd.ProfileTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.BoatEd.ProfileTest -->
+      <class name="courses.BoatEd.RegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Registration_MimAgeValidation" invocation-numbers="2"/>
+          <include name="Registration_ValidationMessageForChooseUsername1"/>
+          <include name="Registration_VerifyAccountCreationEmail"/>
+          <include name="Registration_ValidationMessageForEmailRepeatEmailAddress"/>
+          <include name="Registration_ValidationMessageForPassword3"/>
+          <include name="Registration_ValidationMessageForChooseUsername2"/>
+          <include name="Registration_ValidationMessageForPassword1"/>
+          <include name="Registration_ValidationMessageForPasswordRepeatPassword"/>
+          <include name="Registration_ValidationMessageForPassword2"/>
+          <include name="teardown"/>
+          <include name="Registration_InputDataMessageCheck"/>
+        </methods>
+      </class> <!-- courses.BoatEd.RegistrationTest -->
+      <class name="courses.BoatEd.PaymentCodeTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="PaymentCode_Type_Percentage"/>
+        </methods>
+      </class> <!-- courses.BoatEd.PaymentCodeTest -->
+      <class name="courses.BoatEd.FLViolatorsTest">
+        <methods>
+          <include name="FLV_Stds_Req_AgeLimit"/>
+          <include name="FLV_PracticeExam"/>
+          <include name="teardown"/>
+          <include name="FLV_VerifyFee"/>
+          <include name="FLV_TimedCourseVerification"/>
+          <include name="FLV_Stds_Req_International_Address"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- courses.BoatEd.FLViolatorsTest -->
+      <class name="courses.BoatEd.HandbookTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <!-- <include name="Handbook_Web_QuickLinks" invocation-numbers="0"/> -->
+          <include name="BuyHandbook"/>
+        </methods>
+      </class> <!-- courses.BoatEd.HandbookTest -->
+      <class name="courses.BoatEd.OregonTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="OR_VerifyPraticeExam"/>
+        </methods>
+      </class> <!-- courses.BoatEd.OregonTest -->
+      <class name="courses.BoatEd.PayUpfrontTest">
+        <methods>
+          <include name="PayUpfront_PaymentInformation_PayWithCC"/>
+          <include name="PayUpfront_ViewReceipt_VerifyDetails"/>
+          <include name="PayUpfront_askedToPay" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="PayUpfront_PaymentInformation_ConfirmationPopUp_BillingAddress"/>
+          <include name="PayUpfront_PaymentInformation_Validation_InvalidValues"/>
+          <include name="PayUpfront_PaymentInformation_PayWithCoupon"/>
+          <include name="PayUpfront_ViewReceipt_StartYourCourse"/>
+          <include name="teardown"/>
+          <include name="PayUpfront_Registration_Contents"/>
+          <include name="PayUpfront_PaymentInformation_ConfirmationPopUp"/>
+          <include name="PayUpfront_PaymentInformation_Validation_MandatoryFields"/>
+          <include name="PayUpfront_PaymentInformation_ConfirmationEmail"/>
+        </methods>
+      </class> <!-- courses.BoatEd.PayUpfrontTest -->
+      <class name="courses.BoatEd.CommonCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="ErrorPages_Verify500ErrorPage"/>
+          <include name="teardown"/>
+          <include name="State_Home_UIElementVerification"/>
+          <include name="Home_WhatToExpectSection"/>
+        </methods>
+      </class> <!-- courses.BoatEd.CommonCases -->
+      <class name="courses.BoatEd.CourseContentsAndQuizzesTest">
+        <methods>
+          <include name="Contents_TimedCourseVerification"/>
+          <include name="Contents_ContentVerification"/>
+          <include name="Video_Transcript_BT"/>
+          <include name="Contents_ResumeLinkWorkingAsExpected"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="Contents_ContinueLeftOffButtonWorkingAsExpected"/>
+          <include name="Contents_NavigateNextPreviousPages"/>
+        </methods>
+      </class> <!-- courses.BoatEd.CourseContentsAndQuizzesTest -->
+      <class name="courses.BoatEd.MinnesotaTest">
+        <methods>
+          <include name="MN_VerifyPraticeExam"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.BoatEd.MinnesotaTest -->
+    </classes>
+  </test> <!-- Boat Ed Automation Run on IE(failed) -->
+</suite> <!-- Failed suite [KalKomey Boat Ed Automation Suite] -->

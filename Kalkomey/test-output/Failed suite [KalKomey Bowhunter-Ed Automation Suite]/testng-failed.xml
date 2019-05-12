@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Failed suite [KalKomey Bowhunter-Ed Automation Suite]]" parallel="classes">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="browser" value="Chrome_EM"/>
+  <listeners>
+    <listener class-name="utility.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="Bowhunter-Ed Automation Run on Win / Chrome(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="courses.BowhunterEd.CourseContentsAndQuizzesTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="Contents_ResumeLinkWorkingAsExpected"/>
+        </methods>
+      </class> <!-- courses.BowhunterEd.CourseContentsAndQuizzesTest -->
+      <class name="courses.BowhunterEd.DashboardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.BowhunterEd.DashboardTest -->
+      <class name="courses.BowhunterEd.ProfileTest">
+        <methods>
+          <include name="Profile_ValidationMessageForMandatoryFields"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.BowhunterEd.ProfileTest -->
+    </classes>
+  </test> <!-- Bowhunter-Ed Automation Run on Win / Chrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [KalKomey Bowhunter-Ed Automation Suite]] -->

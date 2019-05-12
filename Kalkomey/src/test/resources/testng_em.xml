@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--   @Parameter - 'environment' cab be - "local","grid" " --> 
+<!--   @Parameter - 'browser' cab be - "firefox","chrome" ,"ie" --> 
+<!--   @Parameter - 'os' cab be - "windows 7" -->
+
+<suite name="KalKomey EM - Register-Ed Automation Suite">
+
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="chrome_EM"/>
+	<parameter name="os" value="windows 7"/>
+	
+	 <listeners>
+    
+        <listener class-name="utility.ExtentTestNGIReporterListener" />
+        
+    </listeners> 
+    
+	<test name="EM - Register-Ed Automation Run on Google Chrome"> 
+	    <classes>
+	            
+	         
+	    	  <class name="products.EM.EventsTest">
+		         	<methods>
+		         		<include name="Event_Create_VerifyMandatoryFieldValidations"/>
+		         		<include name="Event_Create"/>
+		         		<include name="Event_Delete"/>
+		         		<include name="Event_MultiDayCreate"/>
+		         		<include name="Event_Edit1"/>
+		         		<include name="Event_Edit2"/>
+		         		<exclude name="Event_Create_OverrideDefaults"/>
+		         		<include name="Event_AdminApprovalRequired"/>
+		         		<include name="Event_Admin_ActivateEvent"/>
+						<exclude name="Event_Location_Edit"/>
+						<include name="Event_Assistant_Instructor_DeleteEvent"/>
+						<include name="Event_Roster_Messages"/>
+						<include name="Map_AutoUpdate"/>
+					 </methods>
+	          </class>
+	         
+	    		
+	    	  <class name="products.EM.ManageStudentTest">
+		         	 <methods>
+		         	    <include name="EM_RegisterStudent"/>
+		         	    <include name="EM_InviteStudent"/>
+		         	    <include name="ResultAllowDuplicateValue"/>
+		         	    <include name="ResultPreventDuplicateValue"/>
+		         		<include name="SearchStudentViaEM"/>
+		         		<exclude name="ClassTypeRun"/> 
+						<include name="CityStateAutofillZipcode"/>
+					 </methods>
+	          </class>		
+	         
+	    	  
+	    	  <class name="products.EM.StudentResult">
+		         	 <methods>
+		         	   <include name="NavigateToResult_UIVerification"/>
+		         	   <include name="NavigateToEventInfoAndUpdate"/>
+		         	   <include name="NavigateToStudentResultAndUpdateStudent"/>
+		         	   <include name="InstructorInfoUpdate"/>
+		         	   <include name="ClearInstructorInformation"/>	 
+	        	       <include name="NYViewDuplicateStudCertificate"/>
+		         	   <include name="VerifyStudentListingOrder"/>
+		         	   <include name="TNAllowQuarterHoursForInstructor"/>
+		         	   <include name="ReviewAndSubmitResult"/>
+					   <include name="AdminEventResultApproval"/>
+		         	   <include name="ValidationInstructorHrs"/> 
+					   <include name="StudentResultReportCapacity"/> 
+					   <include name="Error_Message"/> 
+					   <include name="Add_AnotherDate"/>
+					   <include name="HalfHours_ReportField"/>
+					 </methods>
+	          </class>	
+	    
+	    	  
+	    	  <class name="products.EM.ManageInstructorTest">
+		         	 <methods>
+		         	   <include name="AssignInstructorToEvent"/>
+		         	   <include name="AddInstructorToFavorite"/>
+		         	   <include name="SendEmailToInstructor"/>
+		         	   <include name="SearchAndUpdateInstructor"/>
+		         	</methods>
+	    	  </class>
+	    	  
+	    	  
+	    	  <class name="products.EM.FederalReportingTest">
+		         	<methods>
+			       	   <include name="EnableDisableFederalReporting"/>
+		         	   <include name="NewInstructorNeedEmailVerification"/>
+		         	   <include name="VerifyPINRequiredForInstructor"/>
+		         	   <include name="VerifyDailyInstructorReporting"/> 
+		         	   <include name="VerifyAdminRejectEvent"/>
+		         	   <include name="UploadFilePINDisable"/>
+		         	</methods>
+	    	  </class>
+	    	  
+	    	  
+	    	  <class name="products.EM.RegistrationStatus">
+		         	<methods>
+		         	   <include name="VerifyDetailsRegistrationOpen"/>
+		         	   <include name="VerifyRegistrationStatusForFutureEvents"/>
+		         	   <include name="RegistrationStatusFewStudentsEnrolled"/>
+		         	   <include name="RegistrationStatusClosed"/>
+		         	   <include name="RegistrationStatusWithWaitListEanabled"/>
+		         	   <include name="SpecialResistrationStatus"/>
+		         	   <exclude name="AddStudentViaUpdateRegistration"/>
+		         	   <include name="VerifyGroupRegistration"/>
+		         	</methods>
+	    	  </class>
+	    	  
+	    	   
+	    	  <class name="products.EM.EMStudentWaitList">
+		         	<methods>
+		         	   <include name="VerifyWaitListCapacity"/>
+		         	   <include name="VerifyWaitListStatus"/>
+		         	</methods>
+	    	  </class>
+	    	  	
+	    		
+	     	  <class name="products.EM.EventDetailsRegistrationOpenTest">
+		         	<methods>
+		        	   <include name="UI_EventRegistrationOpen"/>
+		         	   <include name="VerifySendAMessageFunctionality"/>
+		         	   <include name="GroupRegistrationWithMoreThanEventCapacity"/>
+		         	</methods>
+	    	  </class>
+	    	  
+	     	
+	    	  <class name="products.EM.EventDetailsRegistrationClosedTest">
+		         	<methods>
+		         	   <include name="UI_EventRegistrationClosed"/>
+		         	</methods>
+	    	  </class>
+	     	  
+	     	  
+	      	  <class name="products.EM.EventDetailsFullEventWithWaitListTest">
+		         	<methods>
+		         	   <include name="UI_EventFullWithWaitList"/>
+		         	   <include name="VerifyUserAbleToJoinWaitList"/>
+		         	   <include name="WaitListMandatoryFieldValidation"/>
+		         	   <include name="VerifyValidationInvalidInput"/>
+		         	   <include name="EventDetails"/>
+		         	</methods>
+	    	  </class>	
+	    	  
+	      	  
+	     	  <!-- <class name="products.EM.UpdateCancelRegistrationTest">
+		         	<methods>
+		         	   <include name="UI_UpdateCancelRegistration"/>
+		         	   <include name="VerifyValidationForEmail"/>
+		         	   <include name="VerifyConfirmationEmail"/>
+		         	   <include name="UI_IdentityVerificationPage"/>
+		         	   <include name="VerifyIdentityVerificationFunctionality"/>
+		         	   <include name="VerifyManageRegistration"/>
+		         	   <include name="VerifyCancelRegistration"/>
+		         	   <include name="VerifyUpdateRegistration"/>
+					    <include name="NoEditCancelRegistration"/>
+		         	</methods>
+	    	  </class>	 -->
+	    	  
+	    	   
+	    	  <class name="products.EM.RegistrationFirstStepTest">
+		           	<methods>
+		         	   <include name="VerifyFunctionalityRegisterNow"/>
+		         	   <include name="VerifyCancelLinkFunctionality"/>
+		         	   <include name="VerifyInlineMessageForContactSection"/>
+		         	   <include name="VerifyUserCanSelectCountryAndSuffix"/>
+		         	   <include name="VerifyMandatoryFieldValidation"/>
+		         	   <include name="VerifyConfirmEmailValidation"/>
+		         	   <include name="USPSValidationForMO"/>
+		         	   <include name="AddPhysicalAddress"/>
+		         	   <include name="RegisterWithCanadianAddress"/>
+		         	   <include name="USPSValidationForMO"/>
+		         	   <include name="VerifyUIRegistrationPageOne"/>
+		         	   <include name="VerifyUserRedirectedToStep2"/>
+		         	   <include name="VerifyPhysicalAddressHideUnhide"/>
+		         	   <include name="VerifyOptionalFields"/>
+		         	</methods>
+	    	  </class>	
+	    	  
+
+	    	  <class name="products.EM.RegistrationSecondStepTest">
+		         	<methods>
+		         	   <include name="VerifyCancelLinkFunctionalityStep2"/>
+		         	   <include name="AddAnotherStudentLinkStep2"/>
+		         	   <include name="EditStudentDetails"/>
+		         	   <include name="UI_Step2WithoutPayment"/>
+		         	   <include name="UI_Step2WithPayment"/>
+		         	</methods>
+	    	  </class>	
+	     	   
+	    	  
+	    	  <class name="products.EM.RegistrationThirdStepTest">
+		         	<methods>
+		         	   <include name="VerifyUserRedirectedToStep3"/>
+		         	   <include name="StepPreview"/>
+		         	   <include name="EventDetailsStep3"/>
+		         	   <include name="VerifyTitleStep3"/>
+		         	   <include name="VerifyPrintOptionStep3"/>
+		         	   <include name="VerifyEventPoliciesInstructions"/>
+		         	   <include name="VerifyWhatNextSection"/>
+		         	   <exclude name="ConfirmationEmailReceived"/>
+		         	   <exclude name="VerifyContentEmail"/>
+		         	   <include name="VerifyHeaderFooter"/>
+		         	   <include name="VerifyHideUnhideStudentDetails"/>	   
+		         	   <include name="VerifyUserDownloadFile"/>
+		         	</methods>
+	    	  </class>	
+	    	
+	    	
+	    	 <class name="products.EM.MinimumAgeValidationTest">
+	         	   <methods>
+	      			  <include name="SetMinAge"/>
+	         		  <include name="SetMinAgeDate"/>
+	         		  <include name="VerifyMinAgeMessageUnderDOB"/>
+	         		  <include name="AgeValidationRegisterEd"/>
+	         		  <include name="AgeValidationEM"/>
+	         		  <include name="VerifyMinAgePolicyAtEventDetails"/>
+	         		  <include name="MinimumAgePolicy"/>
+	         	   </methods>
+	         </class> 
+	         
+	         <class name="products.EM.MaximumAgeValidationTest">
+	         	   <methods>
+	      			  <include name="SetMaxAge"/>
+	         		  <include name="SetMaxAgeDate"/>
+	         		  <include name="AgeValidationRegisterEd"/>
+	         		  <include name="AgeValidationEM"/>
+	         		  <include name="MaximumAgePolicy"/>
+	         	   </methods>
+	         </class> 
+	         
+	     	 
+	    	 <class name="products.EM.MaximumNumberOfRegistrationsTest">
+	               <methods>
+	      			  <include name="SetMaxNoOfRegistrationEM"/>
+	         		  <include name="VerifyLimitExceedsForMaxRegistration"/>
+	         		  <include name="VerifyNoValidationAtEM"/>
+	         		  <include name="GroupRegistrationWithSameEmail"/>
+	         	   </methods>
+	         </class> 
+	         
+	         
+	         <class name="products.EM.LoginTest">
+	               <methods>
+	         		  <include name="Login_UIElementVerification"/>
+	         		  <include name="Login_LoginSuccessful"/>
+	         		  <include name="Login_LoginFailure_BlankInputs"/>
+	         		  <include name="Login_LoginFailure_InvalidEmail"/>
+	         		  <include name="Login_LoginFailure_InvalidPass"/>
+					  <include name="Login_RestrictedPages"/>
+					  <include name="Login_Logout"/>
+				   </methods>
+	         </class>
+	         
+	         
+	         <class name="products.EM.ForgotPasswordTest">
+	           	   <methods>
+	      			  <include name="ForgotPasswordUIElementVerification"/>
+	         		  <include name="VerifyValidation"/>
+	         		  <include name="VerifyCancelLinkFunctionality"/>
+	         		  <include name="ForgotPasswordValidInput"/>
+	         		  <exclude name="VerifySecurityQueAns"/>
+	         		  <include name="VerifyValidationForInvalidUsername"/>
+	         		  <include name="VerifyValidationForUsernameWithoutRegisteredEmail"/>
+	         	   </methods>
+	         </class>
+ 
+	         
+	         <class name="products.EM.MainPagesTest">
+	               <methods>
+	         		  <include name="Instructor_Home_VerifyElements"/>
+	         		  <include name="Instructor_Profile_VerifyElements"/>
+	         		  <include name="Instructor_Profile_VerifyMessageForMandatoryFields"/>
+	         		  <include name="Instructor_Profile_Edit"/>
+	         		  <include name="Instructor_Locations_SearchAndLinks"/>
+	         		  <include name="Instructor_Locations_Add_Validation"/>   	
+	         		  <include name="Instructor_Locations_Add"/> 
+	         	      <include name="Instructor_Schedule_VerifyElements"/> 
+	         		  <include name="Instructor_Schedule_NavigateToEventPage"/> 
+	         		  <include name="Instructor_Event_VerifyElements"/> 
+	         		  <include name="Instructor_Event_VerifyMandatoryFieldValidations"/> 
+	         		  <include name="Instructor_Event_Create"/>
+	         		   <include name="Asterisks_Fields"/>  
+	         		  
+	         	 </methods>
+	         </class>
+	        
+	       
+	         <class name="products.EM.CreateUserTest">
+	         	   <methods>
+	         		  <include name="VerifyAdminRun"/>
+	         		  <include name="VerifyInstructorRun"/>
+	         		  <include name="VerifyLimitedUserRun"/>
+	         		  <include name="DuplicateInstrNoOnEditNew"/>
+	         		  <include name="DuplicateInstrNoOnCreateNew"/>
+	         		  <include name="BypassInstrNumber"/>
+	         		  <include name="MandatoryFieldsRun"/>
+	         		  <include name="VerifyCancelFunc"/>
+	         		  <include name="VerifyActAsUser"/>
+	         		  <include name="EmailMadatoryForLimited"/>
+					  <exclude name="AccountCreateInvite"/>
+					  <exclude name="VerifyPINResetNew"/>
+					  <include name="EventName_ActionRequired"/>
+					  <include name="Verify_CustomerServiceRole"/>
+				   </methods>
+	         </class>
+	         
+	          
+	         <class name="products.EM.SuperAdminTest">
+	         	   <methods>
+	      			  <include name="VerifySuperAdminRun"/>
+	         		  <include name="VerifyAgencySelection"/>
+	         		  <include name="VerifyChangeAgency"/>
+	         		  <include name="VerifySearchEvent"/>
+	         	   </methods>
+	         </class>
+	        
+	         
+	         <class name="products.EM.RegisterEdGeneralTest">
+	         	   <methods>
+	         	      <include name="HeaderUIElementVerification"/>
+	         	      <include name="BillboardVerification"/>
+	         	      <include name="Home_SelectStateMenu"/>
+	         	      <include name="Footer_UIElementVarification"/>
+	         		  <include name="ActiveProgram"/>
+	         		  <include name="NC_USOnly"/>
+	         		  <include name="ViewRSSFeed"/>
+	         		  <include name="DisableRSS_iCalFeeds"/> 
+					  <include name="AgencywideEventSchedule"/> 
+				  </methods>
+	         </class>	         
+			  
+			 <class name="products.EM.SearchTest">
+				<methods>
+					<include name="Fullname_Search"/>
+					<include name="Leading_Space"/>
+					<include name="SearchType_Name"/>
+					<include name="PlaceHolder_Text"/>
+				</methods>
+			</class>
+			 
+	         <class name="products.EM.EventListingTest">
+	         	   <methods>
+	      			  <include name="EventListingFromActivePrograms"/>
+	      			  <include name="VerifySearchPanel"/>
+	      			  <include name="RemoveLocationLink"/>
+	      			  <include name="ChangeEbook"/>
+				      <include name="StateSpecificMessaging"/>
+					  <include name="VerifyEventDetails"/>    
+					  <exclude name="VerifyPagination"/>
+					  <include name="VerifyUseMyCurrentLocationButton"/>
+	         	  </methods>
+	         </class> 
+	    	 
+	         
+	    	 <class name="products.EM.PaymentTest">
+	           	   <methods>
+	      			  <include name="ConfigurePaymentSettings"/>
+	      			  <include name="RegistrationWithPayment"/>
+	      			  <include name="SetConfigurationAfterEventActivation"/>
+	      			  <include name="RegistrationWithPaymentModeOff"/>
+	      			  <include name="RegistrationWithGlobalUsingInventory"/>
+	      			  <include name="VerifyRollUpFunctionality"/>
+					  <include name="EM_NumberOfDigitsInCards"/>
+					  <include name="MasterCards_Range"/>
+	         	  </methods>
+	         </class> 
+	        
+	    	 
+	    	 <class name="products.EM.EMConfigurationTest">
+	           	   <methods>
+	         	      <include name="VerifyTokenRequiredFunctionality"/>
+	         	      <include name="VerifyDisplayOnlyEvents"/>
+	         	      <include name="VerifyCancellationPolicy"/>
+	         	      <include name="PreventDuplicateRegistration"/>
+	         	      <include name="EventVisibilityCondition"/>
+	         	      <include name="RegistrationCondition"/>
+	         	      <include name="RegistrationCloseCondition"/>
+	      			  <include name="UploadFileViaFileManager"/>
+	      			  <include name="Manage_Config_Options"/>
+	    	  	  </methods>
+	    	 </class>
+	    	 
+	    	 
+	    	 <class name="products.EM.ReportTest">
+	           	   <methods>
+	      			  <include name="StudentDemographicsSummaryWithEthnicity"/>
+	      			  <include name="StudentDemographicsSummaryWithGender"/>
+	      			  <include name="WaitListeeReports"/> 
+					  <include name="InstructorAuditReport_InstructorDetails"/>
+					  <include name="Program_Selection"/>
+					  <include name="Report_Link"/>
+					  <include name="GradeOption_No_Show"/>
+					  <include name="Program_Event_Info"/>
+	         	  </methods>
+	         </class>
+	         
+	    	 <!--  
+	    	 <class name="products.EM.EmailTest">
+	           	   <methods>
+	      			  <include name="EventActivatedEmail"/>
+	      			  <include name="EventActivationRequiredEmail"/>
+	      			  <include name="CancelRegistrationEmail"/>
+	      			  <include name="CancelEventEmail"/>
+	         	  </methods>
+	         </class>-->
+	    	  
+	    	  <class name="products.EM.MaximumNumberOfRegistrationsTest">
+	           	   <methods>
+	      			  <include name="SetMaxNoOfRegistrationEM"/>
+	      			  <include name="VerifyLimitExceedsForMaxRegistration"/>
+	      			  <include name="VerifyNoValidationAtEM"/>
+	      			  <include name="GroupRegistrationWithSameEmail"/>
+	         	  </methods>
+	         </class>
+	         
+	    	   <class name="products.EM.SpecialCasesTest">
+		         	<methods>
+		         		<include name="SendAMessage"/>
+		         		<exclude name="CancelRegistration"/>
+		         		<include name="SendCertificate"/>
+		         		<include name="ResendConfirmationEmail"/>
+		         		<include name="ResendReceipt"/>
+		         		<exclude name="MoveToNewEventAction"/>
+		         		<include name="HelpTextEventDetails"/>
+		         		<include name="CreateNewInstructorRedirection"/>
+		         		<include name="CreateUserRedirection"/>
+						<exclude name="InstructorDOBDisplay"/>
+						<include name="VerifyPresenceOfClickHere"/>
+						<include name="UploadFileXLSX_VerifyFile"/>
+						<include name="UploadFileXLSX_VerifyDescription"/>
+						<include name="NullValueDateWindow"/>
+						<include name="Back_Search"/>
+						<include name="LocationRoomView"/>
+						<include name="EventStatusHistoryAdminApproval"/>
+						<include name="EventStatusHistoryNoAdminApproval"/>
+						<include name="EditLocation_Instructor"/>
+						<include name="VerifyInstructorNameAndEmail"/>
+						<include name="ContactSupport_LoginPage"/>
+						<include name="ContactSupport_KalkomeyAdministrationPage"/>
+						<include name="ContactSupport_AgencySettingPage"/>
+						<include name="DisplayZipCode"/>
+						<include name="NonAuthorizedAdmin_NoUserView"/>
+						<include name="SortEventByDate"/>
+						<exclude name="DisplaySystemDetails"/>
+						<include name="InPersonRedirectToRegisterEd"/>
+						<include name="ProctorChangesProfile"/>
+						<include name="EventSearchUI"/>
+						<include name="SearchEventByName"/>                 
+						<include name="SearchEvent_NoAgencyOption"/>
+						<include name="VerifyInactiveAgencies"/>
+						<include name="SendMessageEventAdmin"/>
+						<include name="PlaceHolderDisappears"/>
+						<exclude name="EM_SMSPreferencesForPending"/>
+						<include name="EM_SMSPreferencesForNA"/>
+						<include name="EM_StudentRegistrationCollapsibleSections"/>
+						<include name="VerifyRaceAndEthnicityInStudentResults"/>
+						</methods>
+	          </class>
+	          
+	    	    <class name="products.EM.EMCourseRedirection">
+		         	<methods>
+	         		<include name="InPersonRedirectToRegisterEd"/>
+	         		</methods>
+	          </class>
+	    	 
+	   	</classes>
+ 	</test> <!-- Test -->
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Failed suite [KalKomey Hunter Ed Automation Suite]]" parallel="classes">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="browser" value="chrome_EM"/>
+  <listeners>
+    <listener class-name="utility.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="Hunter Ed Automation Run on Win / Chrome(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="courses.HunterEd.StudyGuideTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.HunterEd.StudyGuideTest -->
+      <class name="courses.HunterEd.DashboardTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- courses.HunterEd.DashboardTest -->
+      <class name="courses.HunterEd.SpecialCases">
+        <methods>
+          <include name="VerifyPowderHookMapsPage"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.HunterEd.SpecialCases -->
+      <class name="courses.HunterEd.CourseContentsAndQuizzesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.HunterEd.CourseContentsAndQuizzesTest -->
+      <class name="courses.HunterEd.RegistrationNewTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.HunterEd.RegistrationNewTest -->
+    </classes>
+  </test> <!-- Hunter Ed Automation Run on Win / Chrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [KalKomey Hunter Ed Automation Suite]] -->

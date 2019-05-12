@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Single Test on Local" parallel="classes">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="browser" value="Chrome_EM"/>
+  <test name="Local run on single class" parallel="classes">
+      <!-- <listeners>
+         <listener class-name="utility.RetryListener"/>
+        <listener class-name="utility.ExtentTestNGIReporterListener" />
+    </listeners>  -->
+    <classes>
+        <class name="products.EM.EMConfigurationTest">
+   		<methods>
+          <include name="setUp"/>
+         <include name="teardown"/>
+          <include name="Manage_Config_Options"/>
+          <!-- <include name="Login_LoginFailure_InvalidEmail"/>
+          <include name="Login_LoginFailure_InvalidPass"/> -->
+      	</methods> 
+      </class> 
+      
+       <!-- <class name="products.EM.RegisterEdGeneralTest">
+   		<methods>
+          <include name="setUp"/>
+         <include name="teardown"/>
+          <include name="NC_USOnly"/>
+          <include name="ViewRSSFeed"/>
+         
+      	</methods> 
+      </class>  -->
+         </classes>
+  </test> 
+</suite> 

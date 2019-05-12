@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Failed suite [KalKomey CM - ILMC Automation Suite]]" parallel="classes">
+  <parameter name="os" value="windows 7"/>
+  <parameter name="environment" value="local"/>
+  <parameter name="browser" value="chrome_EM"/>
+  <test name="CM - ILMC Automation Run on Win/Chrome Re-Run(failed)" parallel="classes">
+    <classes>
+      <class name="products.CM.ManageSearchCertifications">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.CM.ManageSearchCertifications -->
+      <class name="products.CM.EditProfileTest">
+        <methods>
+          <include name="EditProfile_ViewCertUpdateOnYourProfile"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.CM.EditProfileTest -->
+      <class name="products.CM.CertificationDetailsTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="StudentActivitylogDetils"/>
+          <include name="HideAdditionalStudentInfo"/>
+          <include name="setUp"/>
+          <include name="SeeAdditionalStudentInfo"/>
+        </methods>
+      </class> <!-- products.CM.CertificationDetailsTest -->
+      <class name="products.CM.CertificationActivityTest">
+        <methods>
+          <include name="VerifySupporText"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.CM.CertificationActivityTest -->
+      <class name="products.CM.ManageAgencyTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.CM.ManageAgencyTest -->
+      <class name="products.CM.CreateCertificationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.CM.CreateCertificationTest -->
+      <class name="products.CM.RolesPermissionsTest">
+        <methods>
+          <include name="VerifyPermissionCanSendCourseCompletion"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.CM.RolesPermissionsTest -->
+      <class name="products.CM.ReportTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.CM.ReportTest -->
+      <class name="products.CM.USPSValidationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="VerifyValidationEditAddress"/>
+        </methods>
+      </class> <!-- products.CM.USPSValidationTest -->
+      <class name="products.CM.AgencyImporterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="AgencyImportGoodFile"/>
+        </methods>
+      </class> <!-- products.CM.AgencyImporterTest -->
+    </classes>
+  </test> <!-- CM - ILMC Automation Run on Win/Chrome Re-Run(failed) -->
+</suite> <!-- Failed suite [Failed suite [KalKomey CM - ILMC Automation Suite]] -->

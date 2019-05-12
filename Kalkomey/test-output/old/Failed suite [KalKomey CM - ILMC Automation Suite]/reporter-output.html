@@ -1,0 +1,280 @@
+<h2>Reporter output</h2><table><tr><td>====
+Test 9 : Verify Forbid Kalkomey employees without the Agency Administrator role from manually going to the Agency CRUD
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to application and navigating to Manage Agency  page</td></tr>
+<tr><td>Step 3 : Verify The 'Manage Agencies' link is not  be visible.</td></tr>
+<tr><td>Success !!  The 'Manage Agencies' link is not visible.</td></tr>
+<tr><td>Step 4 : Verify  Denied  message for unauthorized '/agencies','/agencies/new','/agencies/<id>'</td></tr>
+<tr><td>Success !! 'You are not authorized to look at this page.' message is displayed.</td></tr>
+<tr><td>Success !! 'You are not authorized to look at this page.' message is displayed.</td></tr>
+<tr><td>Success !! 'You are not authorized to look at this page.' message is displayed.</td></tr>
+<tr><td>====
+Test 8 : VerifyAgency links are NOT present on cert collections and users when not logged in as agency admin
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to application and navigating to Manage Agency  page</td></tr>
+<tr><td>Step 3 : Open the Admin menu,select Manage Collections. and verify Lists the Certification Collections as normal.</td></tr>
+<tr><td>Success !! Lists the Certification Collections as normal   is present</td></tr>
+<tr><td>Step 4 :  Check whether the agency on each certification collection links to an agency page entry. and Each certification collection entry MUST not  link to an agency. </td></tr>
+<tr><td>Success !! Each certification collection entry MUST NOT link to an agency.</td></tr>
+<tr><td>Step 5 :  Open the Admin menu and select Manage Users. and Lists the users as normal.</td></tr>
+<tr><td>Success !! Lists the users as normal   is present</td></tr>
+<tr><td>Step 6 : Check whether the agency on each user links to an agency page entry. and Each user entry MUST NOT link to an agency.</td></tr>
+<tr><td>Success !! Each user entry MUST NOT link to an agency.</td></tr>
+<tr><td>Step 7:  Click on an arbitrary user,,Check whether the Agency listed on the profile page links to the corresponding Agency page. and The agency listed MUST NOT link to the corresponding agency page.</td></tr>
+<tr><td>Success !! The agency listed MUST NOT link to the corresponding agency page.</td></tr>
+<tr><td>====
+Test 7 : Edit Profile - Verify View Cert update on your profile.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Verify Login to application</td></tr>
+<tr><td>Step 3 : Verify and navigate to the certifications page.</td></tr>
+<tr><td>Success !! User has navigated to the certifications page.</td></tr>
+<tr><td>Step 4 : Enter the valid data in mandatory field for Search Certifications functionality and click on Search button.</td></tr>
+<tr><td>Step 5 : Click on the first certification record that shows up</td></tr>
+<tr><td>Step 6 : Verify user has navigated to an individual certification record in KPS.</td></tr>
+<tr><td>Success !! user has navigated to an individual certification record in KPS.</td></tr>
+<tr><td>Step 7 : Click on Edit Link</td></tr>
+<tr><td>Step 8 : Verify this will take you to the edit form for this certification record. </td></tr>
+<tr><td>Success !! user has succesfully navigated to edit form.</td></tr>
+<tr><td>Step 9 :  Change the information of any address field to the desired input.</td></tr>
+<tr><td>Step 10:  Click on Continue button.</td></tr>
+<tr><td>Step 11 : Verifying changes has updated successfully or not</td></tr>
+<tr><td>Success !! changes has updated successfully</td></tr>
+<tr><td>Step 12 : Navigate to User Profile > Edit page</td></tr>
+<tr><td>Step 13 : Verify user has navigated back to profile page.</td></tr>
+<tr><td>Success !! user has navigated back to profile page</td></tr>
+<tr><td>Step 14 : Verify the changes that you made to the Certification is same as profile page, located on the right, under the words 'Activitiy in the Last Month'</td></tr>
+<tr><td>====
+Test 2 : Edit Profile - Verify that user can edit details
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to application and navigating to User Profile > Edit page</td></tr>
+<tr><td>Step 3 : On Edit page, editing Name</td></tr>
+<tr><td>Success !! Name is updated on Profile page</td></tr>
+<tr><td>====
+Test 10 : Verify Review Duplicate Certification
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to application and navigating to User Create New Certification page</td></tr>
+<tr><td>Step 3 : Creating new Certificate</td></tr>
+<tr><td>Success !! alert message is displayed i.e. Certification was successfully created.</td></tr>
+<tr><td>Success !! Name is correctcerti126546546 testing</td></tr>
+<tr><td>Step 4 : Try to create duplicate new Certificate</td></tr>
+<tr><td>Success !! alert message is displayed i.e. We've sent you to the latest certification for this student. To view the older certification you just tried to access, click here.</td></tr>
+<tr><td>Step 5 : Click on Link to view older certificate</td></tr>
+<tr><td>Success !! User is redirected to proper page.https://kps.staging.kalkomey.com/certifications/5185839?force=true</td></tr>
+<tr><td>====
+Test 1 : Verify user can navigate to reports section
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login with valid credentials</td></tr>
+<tr><td>Step 3: Click on Report tab and verify control is redirected to Report Page</td></tr>
+<tr><td>Success !! Control is redirected to Report Page. i.e. Toggle Reports Menu</td></tr>
+<tr><td>Step 4: Click On  'toggle reports menu' link  for  Hide filter</td></tr>
+<tr><td>Success !! Toggle Reports Menu  link Filter  is   Hide</td></tr>
+<tr><td>Step 5: Click On  'toggle reports menu' link  for  UnHide filter</td></tr>
+<tr><td>Success !! Toggle Reports Menu  link Filter  is   UnHide</td></tr>
+<tr><td>Step 6 : Observe Details on Reports Menu</td></tr>
+<tr><td>Success !! State  Text  Box is Present</td></tr>
+<tr><td>Success !! Course  Text  Box is Present</td></tr>
+<tr><td>Success !! FromDate Slsect Field is present </td></tr>
+<tr><td>Success !! ToDate Slsect Field  is present</td></tr>
+<tr><td>Success !! Generate Button   is present</td></tr>
+<tr><td>Step 7: Verify report is generated</td></tr>
+<tr><td>Success !! Dashboard  Tab is Present</td></tr>
+<tr><td>Success !! Details  Tab is Present</td></tr>
+<tr><td>====
+Test 11 : Verify all the activity gets logged
+====</td></tr>
+<tr><td>Step 1 : Navigate to ILMC Application : https://citizen-portal.staging.kalkomey.com/</td></tr>
+<tr><td>Step 2 : Select state and course and go to search page</td></tr>
+<tr><td>Step 3 : Enter valid record and go to certification page</td></tr>
+<tr><td>Step 4 : Verify user can place order successfully</td></tr>
+<tr><td>Success !! Order placed successfully. i.e. The payment was successfully processed.</td></tr>
+<tr><td>Success !! Correct Support Text is displayed. i.e. Your receipt and temporary certificate have been emailed to you. You may print your temporary certificate for use until your permanent card arrives. If you have any problems, you may contact Kalkomey customer service at support@ilostmycard.com or by calling 800-830-2268.</td></tr>
+<tr><td>Step 6 :  Login As  Admin  User and navigating to Certification page</td></tr>
+<tr><td>Step 7 : Verify Able to Search </td></tr>
+<tr><td>Success !! Certification manager icon is present in the header</td></tr>
+<tr><td>Success !!  Student  Info TextBox is present</td></tr>
+<tr><td>Success !!  Edit Tabis present</td></tr>
+<tr><td>Step 8 : Verify Admin is Able to Edit UserDetails</td></tr>
+<tr><td>====
+Test 9 : User's page: test that on page load, individual activity log items' details are hidden and that you are able to view each that has a 'Details' button. Not every item should have a 'Details' button.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to application </td></tr>
+<tr><td>Step 3 : Look for the Activity Log on the right hand side of the page titled 'Activity'.  and verify You should see a list of activity items below the activity log.</td></tr>
+<tr><td>Success !! List of activity items are displayed below the activity log.</td></tr>
+<tr><td>Success !! Activity details items are 'collapsed',</td></tr>
+<tr><td>Step 4 : Click on any action that has a 'Details' button/link and user see more details to the action slide down, below the link. </td></tr>
+<tr><td>Success !! User see more details to the action slide down, below the link.</td></tr>
+<tr><td>Step 5 : Click the same detail button and verify same details that previously were revealed should be hidden again.</td></tr>
+<tr><td>Success !! Activity details items are 'collapsed',</td></tr>
+<tr><td>====
+Test 3 : Certification Details - Verify that user can see additional student info.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to the application and verify User is logged in successfully.</td></tr>
+<tr><td>Success !! Login  message is displayed i.e. Signed in!</td></tr>
+<tr><td>Step 3 : Go to certification details page (select jurisdication say PA , type :Hunting while searching for certifications)</td></tr>
+<tr><td>Step 4 :  Verify, User is on https://kps.kalkomey.com/certifications/<id></td></tr>
+<tr><td>Success !!https://kps.staging.kalkomey.com/certifications is present</td></tr>
+<tr><td>Step 5 : Click on 'Show more info' link and verify User should be able to see Additional details of the student</td></tr>
+<tr><td>====
+Test 21 : Details Certification - Testing that quantity is added to a student's activity log when a card is ordered.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login with valid credentials</td></tr>
+<tr><td>Step 3 : Search Certifications and navigate to user page</td></tr>
+<tr><td>Step 4 : Verify user has naviagted to  particular student's certification page or not.</td></tr>
+<tr><td>Success !! User is on cert. details screen</td></tr>
+<tr><td>Step 5 : Order a certification</td></tr>
+<tr><td>Step 6 : On the right in the activity log, you should see an action that says 'Replacement Certificate(s) Ordered' with Date-time stamp & agency user name link�and 'Quantity: #' with your selected quantity below.�</td></tr>
+<tr><td>Success !! 'Replacement Certificate(s) Ordered' with Date-time stamp is displayed</td></tr>
+<tr><td>Failure !!  Certificate 'Quantity: #' is not match with user selected quantity</td></tr>
+<tr><td>====
+Test 7 : Certification Details - Verify elements on Certificate info details section
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login with valid credentials</td></tr>
+<tr><td>Step 3 : Search Certifications and navigate to certification details page</td></tr>
+<tr><td>Step 4 : Verify elements on Certificate info details section </td></tr>
+<tr><td>Success !! Agency name text  is present</td></tr>
+<tr><td>Success !! Certificate Collection name text  is present</td></tr>
+<tr><td>Success !! Certificate Status text is present</td></tr>
+<tr><td>Success !! Certification Date Text is present</td></tr>
+<tr><td>Success !! Certification ID Text is present</td></tr>
+<tr><td>Success !! Certification Origin Text is present</td></tr>
+<tr><td>Success !! Last Issued  Date Text is present</td></tr>
+<tr><td>Success !! Certification Preview is present</td></tr>
+<tr><td>Success !! Certification Preview is present</td></tr>
+<tr><td>Success !! Show More Information Textis present</td></tr>
+<tr><td>====
+Test 4 : Expose payment bypass info in edit activity log
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login with valid credentials</td></tr>
+<tr><td>Step 3 : Go to certification details page (select jurisdication say PA , type :hunting while searching for certifications)</td></tr>
+<tr><td>Step 4 : Verify User should be able to search the certification</td></tr>
+<tr><td>Success !! User is able to search the certification</td></tr>
+<tr><td>Step 5 : Click on Order Replacement Certificate and verify User is able to successfully place an order</td></tr>
+<tr><td>Success !! User has successfully place an order</td></tr>
+<tr><td>Step 6 : Perform a payment bypass, choose any reason and enter comments</td></tr>
+<tr><td>Step 7 : Verify Bypass payment is working or not.</td></tr>
+<tr><td>Success !!  Payment has been bypassed for this certification order Text is present</td></tr>
+<tr><td>Step 8 : Go back to the certification page</td></tr>
+<tr><td>Step 9 : Verify   Activity for bypass payment is appear��as well as the payment bypass or not.</td></tr>
+<tr><td>Success !!  Activity for bypass payment is appear��as well as the payment bypass</td></tr>
+<tr><td>====
+Test 5 : Certification Details - Verify that user can hide additional student info.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to the application and verify User is logged in successfully.</td></tr>
+<tr><td>Success !! Login  message is displayed i.e. Signed in!</td></tr>
+<tr><td>Step 3 : Go to certification details page (select jurisdication say PA , type :Boating while searching for certifications)</td></tr>
+<tr><td>Step 4 : Click on 'Show more info' link and verify User should be able to see Additional details of the student</td></tr>
+<tr><td>====
+Test 3 : Verify agency importer functionality with Unauthorized User
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to application</td></tr>
+<tr><td>Step 3 : Navigate to agency importer and verify error message for unauthorized user</td></tr>
+<tr><td>Success !! User is not authorized. i.e. You are not authorized to look at this page.</td></tr>
+<tr><td>====
+Test 2 : Verify agency importer functionality with good file
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to application and navigating to Agency Importer page</td></tr>
+<tr><td>Step 3 : Try to import good file and verify success message</td></tr>
+<tr><td>====
+Test 5 : Verify search records are displayed while search by Name and/or city and/or DOB
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login with valid credentials</td></tr>
+<tr><td>Step 3: Adding new ceritificate</td></tr>
+<tr><td>Success !! alert message is displayed i.e. Certification was successfully created.</td></tr>
+<tr><td>Step 4 : Navigate to 'Search Certifications' and search for added Cerificate with Name and city and DOB e.g. certi820145962 and Dallas and 12/28/1989</td></tr>
+<tr><td>Success !! Certificate is displayed with correct name.  i.e.TESTING, CERTI616196064</td></tr>
+<tr><td>Success !! Certificate is displayed with correct City.  i.e. Dallas</td></tr>
+<tr><td>Success !! Certificate is displayed with correct DOB.  i.e. 12/28/1989</td></tr>
+<tr><td>====
+Test 1 : Verify ILMC USPS Address Validation
+====</td></tr>
+<tr><td>Step 1 : Navigate to ILMC Application : https://citizen-portal.staging.kalkomey.com/</td></tr>
+<tr><td>Step 2 : Select state and course and go to search page</td></tr>
+<tr><td>Step 3 : Enter valid record and go to certification page</td></tr>
+<tr><td>Step 4 : Verify USPS validation is displayed for mailing address</td></tr>
+<tr><td>Success !! USPS validation is displayed for mailing address. i.e. We had trouble verifying your mailing address. If it is incorrect, please correct it.</td></tr>
+<tr><td>====
+Test 6 : Role Permission - Verify permission can create certifications
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Enter valid login credentials and click on Login button.</td></tr>
+<tr><td>Step 3 : Go to manage users > User > Edit account</td></tr>
+<tr><td>Success !!Role Permissions Text is present</td></tr>
+<tr><td>Step 4 : Navigate to permissions section > Check 'Can create Certifications' user option and Submit</td></tr>
+<tr><td>Step 5 : Login with user 1.</td></tr>
+<tr><td>Success !! Login  message is displayed i.e. Signed in!</td></tr>
+<tr><td>Step 6 : Verify User should be able to add new Certifications view 'New certification' link under Certifications listings</td></tr>
+<tr><td>Success !! alert message is displayed i.e. Certification was successfully created.</td></tr>
+<tr><td>Step 7 :  Navigate  to permissions section > Uncheck 'Can Edit Certifications' user option and Submit</td></tr>
+<tr><td>Step 8 : Login with User1 and verify user is not able to create certificate</td></tr>
+<tr><td>Success !! User is not able to see edit button on Certification details screen</td></tr>
+<tr><td>====
+Test 10 : Role Permission  - Verify permission 'Can send course completion documents
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Enter valid login credentials and click on Login button.</td></tr>
+<tr><td>Step 3 : Go to manage users > User > Edit account</td></tr>
+<tr><td>====
+Test 19 : Role Permission - Verify Only collection editors can add or edit a collection mapping.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Enter valid login credentials and click on Login button.</td></tr>
+<tr><td>Step 3 : Verify user Should NOT see a url for managing collection origins.</td></tr>
+<tr><td> Success!! Manage Collection Origins Link is NOT present </td></tr>
+<tr><td>Step 4 : Navigate to /certification_collections URL and Verify Error Mesage  </td></tr>
+<tr><td>Success !! 'You are not authorized to look at this page.' message is displayed.</td></tr>
+<tr><td>Step 5 : Log in as a user that does has 'Can edit collections' permissions</td></tr>
+<tr><td>Success !!Manage Collection Origins Link is present</td></tr>
+<tr><td>Step 6 :Navigate to /certification_collections URL and Verify  user can see the certification origins listing page. </td></tr>
+<tr><td> Success!!  user can see the certification origins listing page. </td></tr>
+<tr><td>====
+Test 4 : Role Permission - Verify user with permission 'Can Manage user' is able to Manage user
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Enter valid login credentials and click on Login button.</td></tr>
+<tr><td>Step 3 : Go to manage users > User > Edit account</td></tr>
+<tr><td>Success !!Role Permissions Text is present</td></tr>
+<tr><td>Step 4 : Navigate to permissions section > Check 'Can Manage' user option and Submit</td></tr>
+<tr><td>Step 5 : Login with user 1.</td></tr>
+<tr><td>Success !! Login  message is displayed i.e. Signed in!</td></tr>
+<tr><td>Step 6 : Verifying  user have Read state </td></tr>
+<tr><td>Success !! Admin Link is present</td></tr>
+<tr><td>Success !! Manage users Link is present</td></tr>
+<tr><td>Success !! Certification Activity Link is present</td></tr>
+<tr><td>Step 7 : Navigate to admin > remove this permission</td></tr>
+<tr><td>Step 8 : Login with user 1.</td></tr>
+<tr><td>Step 9 : VerifyA warning message 'You are not authorized to look at this page.' should be displayed</td></tr>
+<tr><td>Success !! 'You are not authorized to look at this page.' message is displayed.</td></tr>
+<tr><td>Step 9 : Reset user to default role</td></tr>
+<tr><td>Step 10 : Sucessfully updated user to its default role!!</td></tr>
+<tr><td>====
+Test 5 :Role Permission - Verify that a user with permission 'Can Edit Certifications' should be able to edit Certifications
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Enter valid login credentials and click on Login button.</td></tr>
+<tr><td>Step 3 : Go to manage users > User > Edit account</td></tr>
+<tr><td>Success !!Role Permissions Text is present</td></tr>
+<tr><td>Step 4 : Navigate to permissions section > Check 'Can Edit Certifications' user option and Submit</td></tr>
+<tr><td>Step 5 : Login with user 1.</td></tr>
+<tr><td>Success !! Login  message is displayed i.e. Signed in!</td></tr>
+<tr><td>Step 6 : Verifying  Edit button is enabled under certifications details and User should be able to edit Certifications</td></tr>
+<tr><td>Success !! Edit Info Link is enabled</td></tr>
+<tr><td>Success !! User is able to edit Certifications</td></tr>
+<tr><td>Step 7 :  Change the information of any address field to the desired input and Click on Continue button.</td></tr>
+<tr><td>Step 8 : Verifying changes has updated successfully or not</td></tr>
+<tr><td>Success !! changes has updated successfully</td></tr>
+</table>

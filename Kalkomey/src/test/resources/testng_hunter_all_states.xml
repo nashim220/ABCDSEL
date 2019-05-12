@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--  @Parameter - 'environment' cab be - "local","grid" "  -->
+<!--  @Parameter - 'browser' cab be - "firefox","chrome" ,"ie"  -->
+<!--  @Parameter - 'os' cab be - "windows 7" -->
+
+<suite name="KalKomey Boat Ed Automation Suite" parallel="classes" thread-count="2">
+<!-- <suite name="KalKomey Automation Suite" > -->
+
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="os" value="windows 7"/>
+	
+	<test name="Boat Ed Automation Run on Firefox"> 
+	    <classes>
+	        <class name="courses.HunterAllStates.RegistrationAllTest">
+	        	<methods>
+	         			<include name="RegistrationAllStates"/>
+						<include name="Registration_ValidationMessageForMandatoryFields"/>
+						<include name="Registration_ValidationMessageForChooseUsername1"/>
+						<include name="Registration_ValidationMessageForChooseUsername2"/>
+						<include name="Registration_ValidationMessageForDOB1"/>
+						<include name="Registration_ValidationMessageForDOB2"/>
+						<include name="Registration_ValidationMessageForEmailAddress"/>
+						<include name="Registration_VerifyTitle"/>
+						<include name="Registration_MimAgeValidation"/>
+	         	</methods>
+	         </class>
+	    
+	        <class name="courses.HunterAllStates.StudyGuideAllStatesTest">
+				<methods>
+						<include name="Navigate_To_StudyGuide_Page"/>
+						<include name="StudyGuide_Content_Verification"/>
+						<include name="StudyGuide_Topic_Sequence"/>
+						<include name="Navigate_To_StudyGuide_Page"/>
+				</methods>
+			</class>
+			
+			<class name="courses.HunterAllStates.CourseContentsAndQuizzesAllTest">
+				<methods>
+						<include name="Contents_Navigation"/>
+						<include name="Contents_ResumeLinkWorkingAsExpected"/>
+						<include name="Contents_ContinueLeftOffButtonWorkingAsExpected"/>
+						<include name="Contents_VerifyUnitTopicPageNumber"/>
+						<include name="Contents_NavigateNextPreviousPages"/>
+						<include name="Contents_NextButton_Timer_Tooltip"/>
+						<include name="Quiz_IntroductionPage"/>
+						<include name="Quiz_Questionnaire1"/>
+						<include name="Quiz_Questionnaire2"/>
+						<include name="Quiz_ResumeQuiz"/>
+						<include name="Quiz_QuizResultFail"/>
+						<include name="Quiz_QuizResultPass"/>
+						<include name="Quiz_QuizResultFail_SeeCritiquebutton"/>
+						<include name="Quiz_QuizResultFail_Previousbutton"/>
+						<include name="Quiz_QuizResultPass_NextPreviousButtons"/>
+						<include name="Contents_course_outline"/>
+						<include name="Contents_ContentVerification"/>
+						<include name="Contents_TimedCourseVerification"/>
+				</methods>
+			</class>
+			
+			<class name="courses.HunterAllStates.DashboardAllTest">
+	        	<methods>
+	         			<include name="Dashboard_ResumeQuiz"/>
+						<include name="Dashboard_ReLogin"/>
+						<include name="Dashboard_CompleteApplication"/>
+						<include name="Dashboard_VerifyAfterPayment"/>
+	         	</methods>
+	         </class>
+			
+			
+			<class name="courses.HunterAllStates.ExamAllTest">
+				<methods>
+						<include name="PracticeExam_UIElementVerification"/>
+						<include name="PracticeExam_UI_Buttons"/>
+						<include name="PracticeExam_ResumeExam"/>
+						<include name="PracticeExam_QuitExam"/>
+						<include name="FinalExam_UIElementVerification"/>
+						<include name="FinalExam_UI_Buttons"/>
+						<include name="FinalExam_QuestionPage_UIVerification_1"/>
+						<include name="FinalExam_QuestionPage_UIVerification_2"/>
+						<include name="FinalExam_ResumeExam"/>
+						<include name="FinalExam_ResultsFail"/>
+						<include name="FinalExam_ResultsFail_SeeCritique"/>
+						<include name="FinalExam_ResultsPass"/>
+						<include name="FinalExam_ResultsPass_CompleteApplicationButton"/>
+				</methods>
+			</class>
+			
+			<class name="courses.HunterAllStates.PaymentAllTest">
+				<methods>
+						<include name="PaymentStage1_UI_Verification"/>
+						<include name="PaymentStage1_Validation_MandatoryFields"/>
+						<include name="PaymentStage1_Validation_InvalidInputs"/>
+						<include name="PaymentStage1_RegionLocalityFieldLabelChange"/>
+						<include name="PaymentStage1_ConfirmationPopUpDatails"/>
+						<include name="PaymentStage1_ConfirmationPopUpDatails_Phy_Address"/>
+						<include name="PaymentStage1_EditUpdateFields"/>
+						<include name="PaymentStage1_NavigateToNextStage"/>
+						<include name="PaymentStage2_UI_Verification"/>
+						<include name="PaymentStage2_BillingAddress"/>
+						<include name="PaymentStage2_Validation_MandatoryFields"/>
+						<include name="PaymentStage2_Validation_InvalidInputs"/>
+						<include name="PaymentStage2_ConfirmationPopUpDatails_SameAddress"/>
+						<include name="PaymentStage2_PayWithCoupon"/>
+						<include name="PaymentStage2_PayWithCreditCard"/>
+						<include name="PaymentStage2_PaymentConfirmationEmail"/>
+						<include name="PaymentStage3_ViewReceiptPageDetails"/>
+						<include name="PaymentStage3_NavigateToCourseCompeletePage"/>
+						<include name="PaymentStage3_VerifyCourseCompeletePage"/>
+						<include name="BillingInfoPersistAfterCoupon_Hunt"/>
+				</methods>
+			</class>
+			
+			<class name="courses.HunterAllStates.ProfileAllTest">
+				<methods>
+						<include name="Profile_UIElementVerification"/>
+						<include name="Profile_YourHunterEdAccountSection"/>
+						<include name="Profile_ResetPassword"/>
+						<include name="Profile_Edit1"/>
+						<include name="Profile_Edit2"/>
+						<include name="Profile_DefaultValues"/>
+						<include name="Profile_ValidationMessageForInvalidEmail"/>
+						<include name="Profile_ValidationMessageForInvalidZip"/>
+						<include name="Profile_ValidationMessageForInvalidPhone"/>
+						<include name="Profile_ValidationMessageForMandatoryFields"/>
+						<include name="Profile_HideUnhidePhysicalAddress"/>
+						<include name="Profile_RegionLocalityFieldLabelChange"/>
+				</methods>
+			</class>
+			
+		</classes>
+ 	</test> <!-- Test -->
+  
+</suite> <!-- Suite -->

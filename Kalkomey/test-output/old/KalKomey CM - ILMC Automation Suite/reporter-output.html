@@ -1,0 +1,103 @@
+<h2>Reporter output</h2><table><tr><td>====
+Test 2 : Certification Details - Verify elements on Student info details section
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Enter valid login credentials and click on Login button.</td></tr>
+<tr><td>Step 3 : Search for a certification and click on student name.</td></tr>
+<tr><td>Step 4 : Verify student information page section data is displayed properly or not.</td></tr>
+<tr><td>Success !! Student name  data is present</td></tr>
+<tr><td>Failure !! Physical Address data is not present </td></tr>
+<tr><td>Success !! Physical Phone Number data is present</td></tr>
+<tr><td>Success !! Date of birth  data is present</td></tr>
+<tr><td>Success !! Gender data is present</td></tr>
+<tr><td>Failure !!  Mailling address data is not present </td></tr>
+<tr><td>Success !! Mailing phone number data is present</td></tr>
+<tr><td>Success !! Email address Text is present</td></tr>
+<tr><td>Success !! Show more Information link is present</td></tr>
+<tr><td>Success !! Edit link is present</td></tr>
+<tr><td>---- Test Failed. Please check the console or TestNg report for details</td></tr>
+<tr><td>====
+Test 3 : Certification Details - Verify that user can see additional student info.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to the application and verify User is logged in successfully.</td></tr>
+<tr><td>Success !! Login  message is displayed i.e. Signed in!</td></tr>
+<tr><td>Step 3 : Go to certification details page (select jurisdication say PA , type :Hunting while searching for certifications)</td></tr>
+<tr><td>====
+Test 5 : Certification Details - Verify that user can hide additional student info.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to the application and verify User is logged in successfully.</td></tr>
+<tr><td>Success !! Login  message is displayed i.e. Signed in!</td></tr>
+<tr><td>Step 3 : Go to certification details page (select jurisdication say PA , type :Boating while searching for certifications)</td></tr>
+<tr><td>Step 4 : Click on 'Show more info' link and verify User should be able to see Additional details of the student</td></tr>
+<tr><td>====
+Test 21 : Details Certification - Testing that quantity is added to a student's activity log when a card is ordered.
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login with valid credentials</td></tr>
+<tr><td>Step 3 : Search Certifications and navigate to user page</td></tr>
+<tr><td>Step 4 : Verify user has naviagted to  particular student's certification page or not.</td></tr>
+<tr><td>Success !! User is on cert. details screen</td></tr>
+<tr><td>Step 5 : Order a certification</td></tr>
+<tr><td>Step 6 : On the right in the activity log, you should see an action that says 'Replacement Certificate(s) Ordered' with Date-time stamp & agency user name link�and 'Quantity: #' with your selected quantity below.�</td></tr>
+<tr><td>Success !! 'Replacement Certificate(s) Ordered' with Date-time stamp is displayed</td></tr>
+<tr><td>Failure !!  Certificate 'Quantity: #' is not match with user selected quantity</td></tr>
+<tr><td>Success !!  Agency user name link is present</td></tr>
+<tr><td>Step 7 : Navigate Through the bypass payment</td></tr>
+<tr><td>Step 8 : Verify an action that says 'Payment bypassed for replacement certificate' is present or not.</td></tr>
+<tr><td>Success !! 'Payment bypassed for replacement certificate' is present</td></tr>
+<tr><td>Step 9 : Go to the Admin > Certification Activity page and verify Activity should be logged as 'Replacement Certificate ordered for <student name link>'.Agency User name link with <'n' hrs/days> ago. 'Quantity#'</td></tr>
+<tr><td>Success !! student name link is displayed</td></tr>
+<tr><td>Success !! 'Replacement Certificate(s) Ordered' with Date-time stamp is displayed</td></tr>
+<tr><td>Success !!  Certificate 'Quantity: #' is match with user selected quantity</td></tr>
+<tr><td>Success !!  Agency user name link is present</td></tr>
+<tr><td>Step 10 : Go to the 'My Profile' page. and verify Activity should be logged as 'Replacement Certificate ordered for <student name link>' with Date-Time stamp. 'Quantity#''</td></tr>
+<tr><td>Success !! student name link is displayed</td></tr>
+<tr><td>Success !! 'Replacement Certificate(s) Ordered' with Date-time stamp is displayed</td></tr>
+<tr><td>Success !!  Certificate 'Quantity: #' is match with user selected quantity</td></tr>
+<tr><td>---- Test Failed. Please check the console or TestNg report for details</td></tr>
+<tr><td>====
+Test 1 : Verify user can navigate to reports section
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login with valid credentials</td></tr>
+<tr><td>Step 3: Click on Report tab and verify control is redirected to Report Page</td></tr>
+<tr><td>Success !! Control is redirected to Report Page. i.e. Toggle Reports Menu</td></tr>
+<tr><td>Step 4: Click On  'toggle reports menu' link  for  Hide filter</td></tr>
+<tr><td>Failure !! Toggle Reports Menu  link Filter  is not  Hide</td></tr>
+<tr><td>Step 5: Click On  'toggle reports menu' link  for  UnHide filter</td></tr>
+<tr><td>Success !! Toggle Reports Menu  link Filter  is   UnHide</td></tr>
+<tr><td>Step 6 : Observe Details on Reports Menu</td></tr>
+<tr><td>Success !! State  Text  Box is Present</td></tr>
+<tr><td>Success !! Course  Text  Box is Present</td></tr>
+<tr><td>Success !! FromDate Slsect Field is present </td></tr>
+<tr><td>Success !! ToDate Slsect Field  is present</td></tr>
+<tr><td>Success !! Generate Button   is present</td></tr>
+<tr><td>Step 7: Verify report is generated</td></tr>
+<tr><td>Success !! Dashboard  Tab is Present</td></tr>
+<tr><td>Success !! Details  Tab is Present</td></tr>
+<tr><td>---- Test Failed. Please check the console or TestNg report for details</td></tr>
+<tr><td>====
+Test 3 : Verify multiple orders (same card) do not put multiple requests
+====</td></tr>
+<tr><td>Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</td></tr>
+<tr><td>Step 2 : Login to application and navigating to User Create New Certification page</td></tr>
+<tr><td>Step 3 : Creating new Certificate</td></tr>
+<tr><td>Success !! alert message is displayed i.e. Certification was successfully created.</td></tr>
+<tr><td>Step 4 : Verify single request is present for multiple orders for same card</td></tr>
+<tr><td>Success !! Single request is present for multiple orders for same card</td></tr>
+<tr><td>Success !! Multiple orders are present under single request for same card.  i.e. 2</td></tr>
+<tr><td>====
+Test 11 : Verify all the activity gets logged
+====</td></tr>
+<tr><td>Step 1 : Navigate to ILMC Application : https://citizen-portal.staging.kalkomey.com/</td></tr>
+<tr><td>Step 2 : Select state and course and go to search page</td></tr>
+<tr><td>Step 3 : Enter valid record and go to certification page</td></tr>
+<tr><td>Step 4 : Verify user can place order successfully</td></tr>
+<tr><td>Success !! Order placed successfully. i.e. The payment was successfully processed.</td></tr>
+<tr><td>Success !! Correct Support Text is displayed. i.e. Your receipt and temporary certificate have been emailed to you. You may print your temporary certificate for use until your permanent card arrives. If you have any problems, you may contact Kalkomey customer service at support@ilostmycard.com or by calling 800-830-2268.</td></tr>
+<tr><td>Step 6 :  Login As  Admin  User and navigating to Certification page</td></tr>
+<tr><td>Step 7 : Verify Able to Search </td></tr>
+<tr><td>Success !! Certification manager icon is present in the header</td></tr>
+</table>

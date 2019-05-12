@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Bowhunter-Ed Automation Run on Win / Chrome(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Bowhunter-Ed Automation Run on Win / Chrome(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 23 14:37:25 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1697 seconds (1697915 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='courses.BowhunterEd.CourseContentsAndQuizzesTest.Contents_NavigateNextPreviousPages()'><b>Contents_NavigateNextPreviousPages</b><br>Test class: courses.BowhunterEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-2032990226" onClick='toggleBox("Output-2032990226", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2032990226" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2032990226">
+====
+Test 5 : Verify that user can navigate to 'Next' & 'Previous' pages
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 3 : On Contnets page, verify that user can navigate to 'Next' & 'Previous' pages<br/>
+Success !! Unit number is correctUnit 1 of 8<br/>
+Success !! Topic number is correctTopic 1 of 3<br/>
+Success !! Page number is correctPage 2 of 4<br/>
+Success !! Unit number is correctUnit 1 of 8<br/>
+Success !! Topic number is correctTopic 1 of 3<br/>
+Success !! Page number is correctPage 1 of 4<br/>
+</div>
+</td>
+<td></td>
+<td>364</td>
+<td>courses.BowhunterEd.CourseContentsAndQuizzesTest@59a6e353</td></tr>
+<tr>
+<td title='courses.BowhunterEd.CourseContentsAndQuizzesTest.Contents_ResumeLinkWorkingAsExpected()'><b>Contents_ResumeLinkWorkingAsExpected</b><br>Test class: courses.BowhunterEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-920535979" onClick='toggleBox("Output-920535979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-920535979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-920535979">
+====
+Test 2 : Verify that the link where user has to start again is displayed and working as expected 
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 3 : On Unit page, waiting for timer to over and then clicking on Next Button<br/>
+Step 4 : Navigating to Contents page and verifying whether Start Again link is displayed and on click to it, user is navigated to correct page<br/>
+Success !! link is present<br/>
+Success !! User is navigated to correct page <br/>
+</div>
+</td>
+<td></td>
+<td>251</td>
+<td>courses.BowhunterEd.CourseContentsAndQuizzesTest@59a6e353</td></tr>
+<tr>
+<td title='courses.BowhunterEd.DashboardTest.Dashboard_ReLogin()'><b>Dashboard_ReLogin</b><br>Test class: courses.BowhunterEd.DashboardTest<br/>
+<a href="#Output-402546480" onClick='toggleBox("Output-402546480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-402546480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402546480">
+====
+Test 3 : Verify that on re-login, user is landed on Course list page with 'Continue Where you left off' button
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Clicking on 'Contents' link from top header<br/>
+Step 3 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 5 : On Unit page, waiting for timer to over and then clicking on Next Button<br/>
+Step 6 : Logout and login again<br/>
+Step 7 : Navigating to Contents page and verifying whether Start Again link is displayed and on click to it, user is navigated to correct page<br/>
+Success !! link is present<br/>
+Success !! User is navigated to correct page <br/>
+</div>
+</td>
+<td></td>
+<td>272</td>
+<td>courses.BowhunterEd.DashboardTest@35f983a6</td></tr>
+<tr>
+<td title='courses.BowhunterEd.ProfileTest.Profile_ValidationMessageForMandatoryFields()'><b>Profile_ValidationMessageForMandatoryFields</b><br>Test class: courses.BowhunterEd.ProfileTest<br/>
+<a href="#Output-2128573985" onClick='toggleBox("Output-2128573985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2128573985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2128573985">
+====
+Test 10: Verify validation message are displayed for mandatory fields
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 1 : Navigate to Login page : https://qa1.bowhunter-ed.com/register/edit<br/>
+Step 3 : Clicking on 'Update Profile' button without entering any detials on page<br/>
+Step 4 : Verifying whether correct validaiton message is displayed or not<br/>
+Success !! correct validation messages are displayed for mandatory fields<br/>
+</div>
+</td>
+<td></td>
+<td>210</td>
+<td>courses.BowhunterEd.ProfileTest@7f690630</td></tr>
+<tr>
+<td title='courses.BowhunterEd.CourseContentsAndQuizzesTest.Video_Transcript_BW()'><b>Video_Transcript_BW</b><br>Test class: courses.BowhunterEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-1288848638" onClick='toggleBox("Output-1288848638", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1288848638" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1288848638">
+====
+Test 19 : Verify that video transcript is displayed along with video
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Navigating on KE Cousers Admin and performing 'Fast Forward Pass' and navigating back to Exam result page<br/>
+Step 3 : Clicking on 'Complete the Application' button<br/>
+-- Success !! 'Complete the Application' button is working as expected<br/>
+Step 4 : Go to Video Transcript page<br/>
+-- Success !! Video transcript button is present<br/>
+-- Success !! Video transcript text is present<br/>
+</div>
+</td>
+<td></td>
+<td>406</td>
+<td>courses.BowhunterEd.CourseContentsAndQuizzesTest@59a6e353</td></tr>
+</table><p>
+</body>
+</html>

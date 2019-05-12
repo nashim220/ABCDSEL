@@ -1,0 +1,2 @@
+last_name,first_name,middle_name,suffix,email,gender,dob,p_address1,p_address2,p_city,p_state,p_country,p_zip,p_phone,s_address1,s_address2,s_city,s_state,s_country,s_zip,s_phone,original_id,certified_at,issued_at,certification_name,certification_provider,class_type
+Smith,John,A,Jr.,john.smith@example.com,M,1/1/1970,123 Main St,Apt 5,Anytown,TX,US,12345,9725555555,,,,,,,,12345,10/15/2013,1/1/2014,test,Provider Name,internet

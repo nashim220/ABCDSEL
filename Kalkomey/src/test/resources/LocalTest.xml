@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [KalKomey EM - Register-Ed Automation Suite]">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="browser" value="chrome_EM"/>
+  <listeners>
+    <listener class-name="utility.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="EM - Register-Ed Automation Run on Google Chrome(Run2)">
+    <classes>
+      <class name="products.EM.RegistrationStatus">
+        <methods>
+          <include name="RegistrationStatusWithWaitListEanabled"/>
+          <include name="SpecialResistrationStatus"/>
+          <include name="VerifyDetailsRegistrationOpen"/>
+          <include name="RegistrationStatusClosed"/>
+          <include name="RegistrationStatusFewStudentsEnrolled"/>
+          <include name="VerifyRegistrationStatusForFutureEvents"/>
+          <include name="setUp"/>
+          <include name="VerifyGroupRegistration"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.EM.RegistrationStatus -->
+      <class name="products.EM.EMStudentWaitList">
+        <methods>
+          <include name="teardown"/>
+          <include name="VerifyWaitListStatus"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.EM.EMStudentWaitList -->
+      <class name="products.EM.SuperAdminTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.EM.SuperAdminTest -->
+      <class name="products.EM.EventListingTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.EM.EventListingTest -->
+      <class name="products.EM.MinimumAgeValidationTest">
+        <methods>
+          <include name="MinimumAgePolicy"/>
+          <include name="teardown"/>
+          <include name="AgeValidationRegisterEd"/>
+          <include name="setUp"/>
+          <include name="AgeValidationEM"/>
+          <include name="VerifyMinAgeMessageUnderDOB"/>
+          <include name="VerifyMinAgePolicyAtEventDetails"/>
+        </methods>
+      </class> <!-- products.EM.MinimumAgeValidationTest -->
+      <class name="products.EM.RegistrationFirstStepTest">
+        <methods>
+          <include name="VerifyConfirmEmailValidation"/>
+          <include name="VerifyFunctionalityRegisterNow"/>
+          <include name="setUp"/>
+          <include name="RegisterWithCanadianAddress"/>
+          <include name="VerifyInlineMessageForContactSection"/>
+          <include name="VerifyUIRegistrationPageOne"/>
+          <include name="teardown"/>
+          <include name="USPSValidationForMO"/>
+          <include name="VerifyPhysicalAddressHideUnhide"/>
+          <include name="VerifyMandatoryFieldValidation"/>
+          <include name="AddPhysicalAddress"/>
+          <include name="VerifyCancelLinkFunctionality"/>
+          <include name="VerifyOptionalFields"/>
+          <include name="VerifyUserRedirectedToStep2"/>
+          <include name="VerifyUserCanSelectCountryAndSuffix"/>
+        </methods>
+      </class> <!-- products.EM.RegistrationFirstStepTest -->
+      <class name="products.EM.CreateUserTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Verify_CustomerServiceRole"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.EM.CreateUserTest -->
+      <class name="products.EM.FederalReportingTest">
+        <methods>
+          <include name="VerifyAdminRejectEvent"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="UploadFilePINDisable"/>
+        </methods>
+      </class> <!-- products.EM.FederalReportingTest -->
+      <class name="products.EM.SpecialCasesTest">
+        <methods>
+          <include name="Back_Search"/>
+          <include name="teardown"/>
+          <include name="VerifyInstructorNameAndEmail"/>
+          <include name="EventStatusHistoryAdminApproval"/>
+          <include name="LocationRoomView"/>
+          <include name="EM_StudentRegistrationCollapsibleSections"/>
+          <include name="setUp"/>
+          <include name="UploadFileXLSX_VerifyDescription"/>
+          <include name="EM_SMSPreferencesForNA"/>
+          <include name="SendMessageEventAdmin"/>
+          <include name="NullValueDateWindow"/>
+        </methods>
+      </class> <!-- products.EM.SpecialCasesTest -->
+      <class name="products.EM.MaximumNumberOfRegistrationsTest">
+        <methods>
+          <include name="VerifyLimitExceedsForMaxRegistration"/>
+          <include name="GroupRegistrationWithSameEmail"/>
+          <include name="VerifyNoValidationAtEM"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.EM.MaximumNumberOfRegistrationsTest -->
+      <class name="products.EM.StudentResult">
+        <methods>
+          <include name="ReviewAndSubmitResult"/>
+          <include name="ValidationInstructorHrs"/>
+          <include name="NavigateToEventInfoAndUpdate"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="NavigateToStudentResultAndUpdateStudent"/>
+          <include name="NavigateToResult_UIVerification"/>
+          <include name="AdminEventResultApproval"/>
+          <include name="ClearInstructorInformation"/>
+          <include name="InstructorInfoUpdate"/>
+          <include name="TNAllowQuarterHoursForInstructor"/>
+        </methods>
+      </class> <!-- products.EM.StudentResult -->
+      <class name="products.EM.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.EM.LoginTest -->
+      <class name="products.EM.MaximumAgeValidationTest">
+        <methods>
+          <include name="AgeValidationEM"/>
+          <include name="AgeValidationRegisterEd"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="MaximumAgePolicy"/>
+        </methods>
+      </class> <!-- products.EM.MaximumAgeValidationTest -->
+      <class name="products.EM.ForgotPasswordTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.EM.ForgotPasswordTest -->
+      <class name="products.EM.EventDetailsFullEventWithWaitListTest">
+        <methods>
+          <include name="VerifyValidationInvalidInput"/>
+          <include name="setUp"/>
+          <include name="UI_EventFullWithWaitList"/>
+          <include name="VerifyUserAbleToJoinWaitList"/>
+          <include name="WaitListMandatoryFieldValidation"/>
+          <include name="teardown"/>
+          <include name="EventDetails"/>
+        </methods>
+      </class> <!-- products.EM.EventDetailsFullEventWithWaitListTest -->
+      <class name="products.EM.RegistrationSecondStepTest">
+        <methods>
+          <include name="UI_Step2WithPayment"/>
+          <include name="teardown"/>
+          <include name="VerifyCancelLinkFunctionalityStep2"/>
+          <include name="setUp"/>
+          <include name="AddAnotherStudentLinkStep2"/>
+          <include name="UI_Step2WithoutPayment"/>
+          <include name="EditStudentDetails"/>
+        </methods>
+      </class> <!-- products.EM.RegistrationSecondStepTest -->
+      <class name="products.EM.SearchTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="SearchType_Name"/>
+        </methods>
+      </class> <!-- products.EM.SearchTest -->
+      <class name="products.EM.ReportTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Report_Link"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.EM.ReportTest -->
+      <class name="products.EM.EventDetailsRegistrationOpenTest">
+        <methods>
+          <include name="UI_EventRegistrationOpen"/>
+          <include name="VerifySendAMessageFunctionality"/>
+          <include name="GroupRegistrationWithMoreThanEventCapacity"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.EM.EventDetailsRegistrationOpenTest -->
+      <class name="products.EM.ManageInstructorTest">
+        <methods>
+          <include name="AddInstructorToFavorite"/>
+          <include name="SendEmailToInstructor"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="AssignInstructorToEvent"/>
+        </methods>
+      </class> <!-- products.EM.ManageInstructorTest -->
+      <class name="products.EM.RegistrationThirdStepTest">
+        <methods>
+          <include name="VerifyEventPoliciesInstructions"/>
+          <include name="VerifyUserRedirectedToStep3"/>
+          <include name="StepPreview"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="VerifyPrintOptionStep3"/>
+          <include name="VerifyWhatNextSection"/>
+          <include name="VerifyHeaderFooter"/>
+          <include name="VerifyHideUnhideStudentDetails"/>
+          <include name="EventDetailsStep3"/>
+          <include name="VerifyUserDownloadFile"/>
+          <include name="VerifyTitleStep3"/>
+        </methods>
+      </class> <!-- products.EM.RegistrationThirdStepTest -->
+      <class name="products.EM.EMConfigurationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Manage_Config_Options"/>
+          <include name="VerifyCancellationPolicy"/>
+          <include name="teardown"/>
+          <include name="VerifyTokenRequiredFunctionality"/>
+          <include name="PreventDuplicateRegistration"/>
+          <include name="VerifyDisplayOnlyEvents"/>
+        </methods>
+      </class> <!-- products.EM.EMConfigurationTest -->
+      <class name="products.EM.EventDetailsRegistrationClosedTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="UI_EventRegistrationClosed"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.EM.EventDetailsRegistrationClosedTest -->
+      <class name="products.EM.MainPagesTest">
+        <methods>
+          <include name="Instructor_Profile_VerifyMessageForMandatoryFields"/>
+          <include name="teardown"/>
+          <include name="Instructor_Profile_Edit"/>
+          <include name="setUp"/>
+          <include name="Instructor_Event_Create"/>
+        </methods>
+      </class> <!-- products.EM.MainPagesTest -->
+      <class name="products.EM.ManageStudentTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="EM_InviteStudent"/>
+          <include name="CityStateAutofillZipcode"/>
+          <include name="SearchStudentViaEM"/>
+          <include name="ResultAllowDuplicateValue"/>
+          <include name="EM_RegisterStudent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.EM.ManageStudentTest -->
+      <class name="products.EM.PaymentTest">
+        <methods>
+          <include name="EM_NumberOfDigitsInCards"/>
+          <include name="VerifyRollUpFunctionality"/>
+          <include name="setUp"/>
+          <include name="MasterCards_Range"/>
+          <include name="teardown"/>
+          <include name="ConfigurePaymentSettings"/>
+          <include name="RegistrationWithPayment"/>
+          <include name="RegistrationWithPaymentModeOff"/>
+          <include name="SetConfigurationAfterEventActivation"/>
+        </methods>
+      </class> <!-- products.EM.PaymentTest -->
+      <class name="products.EM.RegisterEdGeneralTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.EM.RegisterEdGeneralTest -->
+      <class name="products.EM.EventsTest">
+        <methods>
+          <include name="Event_MultiDayCreate"/>
+          <include name="Event_Delete"/>
+          <include name="Event_Edit2"/>
+          <include name="setUp"/>
+          <include name="Event_Edit1"/>
+          <include name="teardown"/>
+          <include name="Event_AdminApprovalRequired"/>
+          <include name="Map_AutoUpdate"/>
+          <include name="Event_Assistant_Instructor_DeleteEvent"/>
+          <include name="Event_Create"/>
+          <include name="Event_Admin_ActivateEvent"/>
+        </methods>
+      </class> <!-- products.EM.EventsTest -->
+      <class name="products.EM.EMCourseRedirection">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.EM.EMCourseRedirection -->
+    </classes>
+  </test> <!-- EM - Register-Ed Automation Run on Google Chrome(failed) -->
+</suite> <!-- Failed suite [KalKomey EM - Register-Ed Automation Suite] -->

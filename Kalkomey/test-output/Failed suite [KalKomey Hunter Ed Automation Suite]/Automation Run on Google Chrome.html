@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  Automation Run on Google Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Automation Run on Google Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 19 12:38:14 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>317 seconds (317373 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='courses.OffroadEd.LoginForgotPasswordTest.Login_LoginFailure_BlankInputs()'><b>Login_LoginFailure_BlankInputs</b><br>Test class: courses.OffroadEd.LoginForgotPasswordTest<br/>
+<a href="#Output-210204740" onClick='toggleBox("Output-210204740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-210204740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-210204740">
+====
+Test 3 : Verify that user can't login with invalid credentials and proper validation messages are displayed  A) Keep both Username/Password blank
+====<br/>
+Step 1 : Navigate to Login page : https://qa1.offroad-ed.com/site/login<br/>
+Step 2 : Clicking on Login button without entering any details<br/>
+Step 4 : Verifying whether validation messages are displayed for mandatory fields<br/>
+Success !! correct validation messages are displayed for mandatory fields<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>courses.OffroadEd.LoginForgotPasswordTest@47b9af7d</td></tr>
+<tr>
+<td title='courses.OffroadEd.LoginForgotPasswordTest.Login_RestrictedPages()'><b>Login_RestrictedPages</b><br>Test class: courses.OffroadEd.LoginForgotPasswordTest<br>Parameters: /register/edit<br/>
+<a href="#Output-276237606" onClick='toggleBox("Output-276237606", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-276237606" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-276237606">
+====
+Test 5 : Verify that user can't access the restricted pages without login
+====<br/>
+Step 1 : Trying to access Restricted Pages and verifying whether user is navigated to Home page or not<br/>
+Success !! User is navigated to Home page<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>courses.OffroadEd.LoginForgotPasswordTest@47b9af7d</td></tr>
+<tr>
+<td title='courses.OffroadEd.LoginForgotPasswordTest.Login_UIElementVerification()'><b>Login_UIElementVerification</b><br>Test class: courses.OffroadEd.LoginForgotPasswordTest<br/>
+<a href="#Output-1079409637" onClick='toggleBox("Output-1079409637", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1079409637" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1079409637">
+====
+Test 1 : Verify UI of Login page
+====<br/>
+Step 1 : Navigate to Login page : https://qa1.offroad-ed.com/site/login<br/>
+Step 2 : Verifying whether page title is correctly displayed on not<br/>
+Success !! Page title is correct<br/>
+Step 3 : Verifying presence of UI elements : Username Textbox,Password Textbox,Forgot Password Link,Log In Button <br/>
+Success !! Username Textbox is present<br/>
+Success !! Password Textbox is present<br/>
+Success !! Log In button is present<br/>
+Success !! Forgot Password link is present<br/>
+</div>
+</td>
+<td></td>
+<td>75</td>
+<td>courses.OffroadEd.LoginForgotPasswordTest@47b9af7d</td></tr>
+</table><p>
+</body>
+</html>

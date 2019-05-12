@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--  @Parameter - 'environment' cab be - "local","grid" "  -->
+<!--  @Parameter - 'browser' cab be - "firefox","chrome" ,"ie"  -->
+<!--  @Parameter - 'os' cab be - "windows 7" -->
+
+<suite name="KalKomey Boat Ed Automation Suite" parallel="classes" thread-count="1">
+<!-- <suite name="KalKomey Automation Suite" > -->
+
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="chrome_EM"/>
+	<parameter name="os" value="windows 7"/>
+	
+ <listeners>
+    
+      
+  <listener class-name="utility.ExtentTestNGIReporterListener" />
+        
+ 
+   </listeners> 
+	<test name="Boat Ed Automation Run on Chrome"> 
+	    <classes>
+
+	         
+	         
+	         
+	         <class name="courses.BoatEd.PaymentTest">
+	         	<methods>
+         			<include name="PaymentStage1_UI_Verification"/> 
+         			<exclude name="PaymentStage1_Validation_MandatoryFields"/> 
+         			<include name="PaymentStage1_Validation_InvalidInputs"/>
+         			<include name="PaymentStage1_RegionLocalityFieldLabelChange"/> 
+         			<include name="PaymentStage1_ConfirmationPopUpDatails"/>   
+         			<include name="PaymentStage1_ConfirmationPopUpDatails_Phy_Address"/>   
+         			<include name="PaymentStage1_EditUpdateFields"/>   
+         			<include name="PaymentStage1_NavigateToNextStage"/>   
+         			<include name="PaymentStage2_UI_Verification"/> 
+         			<include name="PaymentStage2_BillingAddress"/> 
+         			<include name="PaymentStage2_Validation_MandatoryFields"/> 
+         			<include name="PaymentStage2_Validation_InvalidInputs"/> 
+         			<include name="PaymentStage2_ConfirmationPopUpDatails"/>
+         			<include name="PaymentStage2_ConfirmationPopUpDatails_SameAddress"/>
+         			<include name="PaymentStage2_PayWithCoupon"/>
+         			<include name="PaymentStage2_PayWithCreditCard"/>
+         			<exclude name="PaymentStage2_PaymentConfirmationEmail"/>
+       				<include name="PaymentStage3_ViewReceiptPageDetails"/>
+       				<include name="PaymentStage3_NavigateToCourseCompeletePage"/>
+       				<include name="PaymentStage3_VerifyCourseCompeletePage"/>
+       				<include name="BillingInfoPersistAfterCoupon"/>
+       				
+	         	</methods>
+	         </class>
+	         
+	         
+	          <class name="courses.BoatEd.CommonCases">
+	         	<methods>
+	      				<include name="Home_UIElementVerification"/>
+	      				<include name="ErrorPages_Verify500ErrorPage"/>
+	      				<include name="Header_UIElementVarification"/>
+	      				<include name="Home_StateLinks"/>
+	      				<include name="Home_WhatToExpectSection"/>	
+						<include name="Home_Testimonials_GetSafeGetCertified"/>	
+						<include name="CheaterPage"/>
+						<include name="Footer_UIElementVarification"/>
+						<include name="ErrorPages_Verify404ErrorPage"/>		
+						<include name="State_SendUsAnEmail"/>	
+						<include name="VerifyURL"/>	
+						<include name="State_FAQ"/>
+						<include name="State_Home_UIElementVerification"/>				
+	         	</methods>
+         	</class> 
+	         
+	         
+	         <class name="courses.BoatEd.StudyGuideTest">
+	         	<methods>
+       				<include name="Navigate_To_StudyGuide_Page"/>	
+       				<include name="StudyGuide_Not_Exists_FV"/>	
+       				<include name="StudyGuide_Content_Verification"/>	
+       				<include name="StudyGuide_Topic_Sequence"/>			
+	         	</methods>
+	         </class> 
+	         
+	                  
+	         
+	         <class name="courses.BoatEd.PaymentCodeTest">
+	         	<methods>
+       				<include name="PaymentCode_Type_Percentage"/>
+       				<include name="PaymentCode_Type_Pass"/>	
+	         	</methods>
+	         </class> 
+	         
+	         
+	         <class name="courses.BoatEd.PayUpfrontTest">
+	         	<methods>
+       				<include name="PayUpfront_askedToPay"/>
+	               	<include name="PayUpfront_Registration_Contents"/>
+		          	<include name="PayUpfront_PaymentInformation_Validation_MandatoryFields"/>
+		           	<include name="PayUpfront_PaymentInformation_Validation_InvalidValues"/>
+		          	<include name="PayUpfront_PaymentInformation_ConfirmationPopUp"/>
+		           	<include name="PayUpfront_PaymentInformation_ConfirmationPopUp_BillingAddress"/>
+		           	<include name="PayUpfront_PaymentInformation_PayWithCoupon"/>
+		           	<include name="PayUpfront_PaymentInformation_PayWithCC"/>
+		           	<exclude name="PayUpfront_PaymentInformation_ConfirmationEmail"/>
+		           	<include name="PayUpfront_ViewReceipt_VerifyDetails"/>
+		           	<include name="PayUpfront_ViewReceipt_StartYourCourse"/>
+	         	</methods>
+	         </class>
+	        
+	        
+	        <class name="courses.BoatEd.SpecialCases">
+	         	<methods>
+       				<include name="OR_VerifyReplacementCardSection"/>
+       				<exclude name="RI_VerifyDetailsOnPage"/>
+       				<exclude name="Canada_ProvinceLinks"/>
+       				<include name="Payment_CCField_InfoText"/>
+       				<include name="CourseComplete_ShareOnFacebook"/>
+       				<include name="Canada_QuickLinks"/>
+       				<include name="Footer_VerifyAbout_Handbooks_Sections"/>
+       				<include name="WA_SelesTaxVerification"/>
+       				<include name="Payment_PA_FeesPaid"/>
+       				<include name="Payment_WA_FeesPaid"/>
+       				<include name="Canada_Province_VerifyWhoNeedsTheCardLink"/>
+       				<include name="PaymentCode_Absolute_Banner"/>
+       				<include name="PaymentCode__Banner_SpecificCourse"/>
+       				<include name="PaymentCode_Banner_SpecificTimePeriod"/>
+       				<include name="PaymentCode_Percentage_Banner"/>
+       				<include name="PaymentCode_Pass_Banner"/>	
+       				<include name="Override_Global_Banner"/>					
+					<include name="ShoppingFeedbackForm"/>	
+	         	</methods>
+	         </class>
+	        
+	        
+	       	<class name="courses.BoatEd.HandbookTest">
+	         	<methods>
+       				<include name="Handbook_MaineLandingPage"/>
+       				<include name="Handbook_MassachusettsLandingPage"/>      				
+       				<include name="Handbook_Web_VerifyUIElements"/>
+       				<include name="Handbook_Web_ViewContents"/>
+       				<include name="Handbook_Web_DownloadPDF"/> 
+					<include name="Handbook_Web_DownloadPDF"/> 
+					<include name="Handbook_Web_Maine_iBookNookBook"/>
+       				<include name="Handbook_Web_QuickLinks"/>
+					<include name="BuyHandbook"/>
+	         	</methods>
+	         </class>
+	         
+
+	         
+	         <class name="courses.BoatEd.FLViolatorsTest">
+	         	<methods>
+       					<include name="FLV_VerifyAgencyName"/>
+       					<include name="FLV_TimedCourseVerification"/>
+       					<include name="FLV_Stds_Req_International_Address"/>
+       					<include name="FLV_Stds_Req_AgeLimit"/>
+       					<include name="FLV_VerifyFee"/>
+       					<include name="FLV_PracticeExam"/>
+	         	</methods>
+	         </class> 
+	         
+	         <class name="courses.BoatEd.MinnesotaTest">
+	         	<methods>
+       				<include name="MN_VerifyAgencyName"/>
+       				<include name="MN_TimedCourseVerification"/>
+       				<include name="MN_Navigate_To_StudyGuide_Page"/>
+       				<include name="MN_Stds_Req_International_Address"/>
+       				<include name="MN_Stds_Req_AgeLimit"/>
+       				<include name="MN_AskedForPaymentAfterPassingExam"/>
+       				<include name="MN_VerifyFeeAndTaxes"/>
+       				<include name="MN_VerifyPraticeExam"/>	
+	         	</methods>
+	         </class> 
+	         
+	         
+	         <class name="courses.BoatEd.OregonTest">
+	         	<methods>
+       				<include name="OR_VerifyAgencyName"/>
+       				<include name="OR_Navigate_To_StudyGuide_Page"/>
+       				<include name="OR_Stds_Req_International_Address"/>
+       				<include name="OR_Stds_Req_AgeLimit"/>
+       				<include name="OR_VerifyFeeAndTaxes"/>
+       				<include name="OR_VerifyPraticeExam"/>	
+	         	</methods>
+	         </class> 
+	         
+	         <class name="courses.BoatEd.TennesseeTest">
+	         	<methods>
+       				<include name="TN_VerifyAgencyName"/>
+       				<include name="TN_Navigate_To_StudyGuide_Page"/>
+       				<include name="TN_Stds_Req_International_Address"/>
+       				<include name="TN_Stds_Req_AgeLimit"/>
+       				<include name="TN_VerifyFeeAndTaxes"/>	
+	         	</methods>
+	         </class> 
+	         
+	          
+	         
+	          
+	    </classes>
+ 	</test> <!-- Test -->
+  
+</suite> <!-- Suite -->

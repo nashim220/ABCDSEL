@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Failed suite [Failed suite [KalKomey Snowmobile Ed Automation Suite]]]" parallel="classes">
+  <parameter name="os" value="windows 7"/>
+  <parameter name="environment" value="local"/>
+  <parameter name="browser" value="chrome_EM"/>
+  <test name="Snowmobile Ed Automation Run on Win / IE(failed)(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="courses.SnowmobileEd.ExamTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.SnowmobileEd.ExamTest -->
+      <class name="courses.SnowmobileEd.CommonCases">
+        <methods>
+          <include name="ErrorPages_Verify500ErrorPage"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- courses.SnowmobileEd.CommonCases -->
+      <class name="courses.SnowmobileEd.CourseContentsAndQuizzesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.SnowmobileEd.CourseContentsAndQuizzesTest -->
+    </classes>
+  </test> <!-- Snowmobile Ed Automation Run on Win / IE(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [KalKomey Snowmobile Ed Automation Suite]]] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Single Test on Local]" parallel="classes">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Local run on single class(failed)" parallel="classes">
+    <classes>
+      <class name="products.EM.EMStudentWaitList">
+        <methods>
+          <include name="VerifyWaitListStatus"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.EM.EMStudentWaitList -->
+    </classes>
+  </test> <!-- Local run on single class(failed) -->
+</suite> <!-- Failed suite [Single Test on Local] -->

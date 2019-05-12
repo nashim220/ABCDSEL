@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [KalKomey CM - ILMC Automation Suite]" parallel="classes">
+  <parameter name="os" value="windows 7"/>
+  <parameter name="environment" value="local"/>
+  <parameter name="browser" value="chrome_EM"/>
+  <test name="CM - ILMC Automation Run on Firefox(failed)" parallel="classes">
+    <classes>
+      <class name="products.CM.CertificationDetailsTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="StudentActivitylogDetils"/>
+          <include name="ElementsOnStudentInfo"/>
+          <include name="HideAdditionalStudentInfo"/>
+          <include name="setUp"/>
+          <include name="SeeAdditionalStudentInfo"/>
+        </methods>
+      </class> <!-- products.CM.CertificationDetailsTest -->
+      <class name="products.CM.CertificationActivityTest">
+        <methods>
+          <include name="VerifySupporText"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- products.CM.CertificationActivityTest -->
+      <class name="products.CM.ReportTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="RedirectReportsPage"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.CM.ReportTest -->
+      <class name="products.CM.CardPrinterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- products.CM.CardPrinterTest -->
+    </classes>
+  </test> <!-- CM - ILMC Automation Run on Firefox(failed) -->
+</suite> <!-- Failed suite [KalKomey CM - ILMC Automation Suite] -->

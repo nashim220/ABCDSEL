@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [KalKomey Hunter Ed Automation Suite]" parallel="classes">
+  <parameter name="os" value="windows 7"/>
+  <parameter name="environment" value="local"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Hunter Ed Automation Run on Google Chrome(failed)" parallel="classes">
+    <classes>
+      <!-- <class name="courses.HunterEd.UntimedCourseTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> --> <!-- courses.HunterEd.UntimedCourseTest -->
+      <class name="courses.HunterEd.LoginForgotPasswordNewTest">
+        <methods>
+          <include name="Login_PasswordReset"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="Login_PasswordResetEmail"/>
+        </methods>
+      </class> <!-- courses.HunterEd.LoginForgotPasswordNewTest -->
+      <class name="courses.HunterEd.ExamTest">
+        <methods>
+          <include name="FinalExam_MaxAttemptIL"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="PracticeExam_UIElementVerification"/>
+          <include name="FinalExam_ResultsFail_SeeCritique"/>
+          <include name="FinalExam_MaxAttemptAL"/>
+        </methods>
+      </class> <!-- courses.HunterEd.ExamTest -->
+      <!-- <class name="courses.HunterEd.DashboardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> --> <!-- courses.HunterEd.DashboardTest -->
+      <class name="courses.HunterEd.ProfileNewTest">
+        <methods>
+          <include name="Profile_CountryDropdown_Values"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- courses.HunterEd.ProfileNewTest -->
+      <class name="courses.HunterEd.PaymentTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="PaymentStage2_PaymentConfirmationEmail"/>
+          <include name="PaymentStage2_Validation_InvalidInputs"/>
+          <include name="teardown"/>
+          <include name="PaymentStage3_VerifyCourseCompeletePage"/>
+        </methods>
+      </class> <!-- courses.HunterEd.PaymentTest -->
+      <!-- <class name="courses.HunterEd.CourseContentsAndQuizzesTest">
+        <methods>
+          <include name="Contents_ContentVerification"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> --> <!-- courses.HunterEd.CourseContentsAndQuizzesTest -->
+      <!-- <class name="courses.HunterEd.StudyGuideTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="StudyGuide_Content_Verification"/>
+          <include name="teardown"/>
+        </methods>
+      </class>  --><!-- courses.HunterEd.StudyGuideTest -->
+      <!-- <class name="courses.HunterEd.PaymentCodeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> --> <!-- courses.HunterEd.PaymentCodeTest -->
+      <class name="courses.HunterEd.SpecialCases">
+        <methods>
+          <include name="teardown"/>
+          <include name="VerifyPowderHookMapsPage"/>
+          <include name="setUp"/>
+          <include name="Payment_CCField_InfoText"/>
+          <include name="Payment_AL_FeesPaid"/>
+        </methods>
+      </class> <!-- courses.HunterEd.SpecialCases -->
+      <class name="courses.HunterEd.RegistrationNewTest">
+        <methods>
+          <include name="Registration_ResidencyRequirement" invocation-numbers="0 1"/>
+          <include name="Registration_ValidationMessageForChooseUsername2"/>
+          <include name="Registration_ValidationMessageForMandatoryFields"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="Registration_VerifyAccountCreationEmail"/>
+          <include name="Registration_ValidationMessageForDOB1"/>
+          <include name="Registration_InputDataMessageCheck"/>
+          <include name="Registration_MimAgeValidation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- courses.HunterEd.RegistrationNewTest -->
+      <class name="courses.HunterEd.CommonCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="TrushPilotReview"/>
+          <include name="State_Home_UIElementVerification"/>
+          <include name="Home_UIElementVerification"/>
+          <include name="teardown"/>
+          <include name="Footer_UIElementVarification"/>
+          <include name="Header_UIElementVarification"/>
+        </methods>
+      </class> <!-- courses.HunterEd.CommonCases -->
+      <class name="courses.HunterEd.CertificateTest">
+        <methods>
+          <include name="Certificate_Email"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.HunterEd.CertificateTest -->
+    </classes>
+  </test> <!-- Hunter Ed Automation Run on Google Chrome(failed) -->
+</suite> <!-- Failed suite [KalKomey Hunter Ed Automation Suite] -->

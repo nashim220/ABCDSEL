@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--  @Parameter - 'environment' cab be - "local","grid" "  -->
+<!--  @Parameter - 'browser' cab be - "firefox","chrome" ,"ie"  -->
+<!--  @Parameter - 'os' cab be - "windows 7" -->
+
+<suite name="KalKomey Handgun Safety Course Automation Suite" parallel="classes" thread-count="1">
+<!-- <suite name="KalKomey Automation Suite" > -->
+
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="ie"/>
+	<parameter name="os" value="windows 7"/>
+	
+	 <listeners>
+    
+        <listener class-name="utility.ExtentTestNGIReporterListener" />
+        
+    </listeners> 
+    
+	<test name="Handgun Safety Course Automation Run on Internet Explorer"> 
+	    <classes>
+	    
+	       	
+	        
+	        <class name="courses.Handgun.ProfileTest">
+	         	<methods>
+	         		<include name="Profile_UIElementVerification"/>
+	         		<include name="Profile_YourBoaEdAccountSection"/>
+	         		<include name="Profile_ResetPassword"/>
+	         		<include name="Profile_Edit1"/>
+	         		<include name="Profile_Edit2"/>
+	         		<include name="Profile_DefaultValues"/>
+	         		<include name="Profile_ValidationMessageForInvalidEmail"/>
+	         		<include name="Profile_ValidationMessageForInvalidZip"/>
+	         		<include name="Profile_ValidationMessageForInvalidPhone"/>
+	         		<exclude name="Profile_ValidationMessageForMandatoryFields"/>
+	         		<include name="Profile_HideUnhidePhysicalAddress"/>
+	         		<include name="Profile_RegionLocalityFieldLabelChange"/>
+	         		<include name="Profile_CountryDropdown_Values"/>    
+	         	</methods>
+	         </class>
+	         
+	         
+	          <class name="courses.Handgun.RegistrationTest">
+	         	<methods>
+	         		<include name="Registration"/>
+	         	 	<include name="Registration_ValidationMessageForMandatoryFields"/>
+	         		<include name="Registration_ValidationMessageForChooseUsername1"/> 
+	         		<include name="Registration_ValidationMessageForChooseUsername2"/>
+	         	 	<include name="Registration_ValidationMessageForPassword1"/>
+	         		<include name="Registration_ValidationMessageForPassword2"/>
+	         		<include name="Registration_ValidationMessageForPassword3"/>
+	         		<include name="Registration_ValidationMessageForPasswordRepeatPassword"/>
+	         		<include name="Registration_ValidationMessageForDOB1"/>
+	         		<include name="Registration_ValidationMessageForDOB2"/>
+	      	 		<include name="Registration_ValidationMessageForEmailAddress"/>
+	         	 	<include name="Registration_ValidationMessageForEmailRepeatEmailAddress"/>
+	         		<include name="Registration_UsernameUniqueCheck"/>
+	      			<include name="Registration_VerifyTitle"/> 
+	           		<include name="Registration_InputDataMessageCheck"/>
+	         	 	<include name="Registration_VerifyAccountCreationEmail"/>
+	         		<include name="Registration_ModelReminder"/>
+	         		<include name="Registration_MimAgeValidation"/>
+	         	</methods>
+	         </class>
+	         
+	          
+	          
+	          <class name="courses.Handgun.LoginForgotPasswordTest">
+	         	<methods>
+	         		<include name="Login_UIElementVerification"/>
+	         		<include name="Login_LoginSuccessful"/>
+	         		<include name="Login_LoginFailure_BlankInputs"/>
+	         		<include name="Login_LoginFailure_InvalidInputs"/>
+	         		<include name="Login_RestrictedPages"/>
+	         		<include name="Login_Logout"/>
+	         		<exclude name="Login_PasswordResetEmail"/>
+	         		<exclude name="Login_PasswordReset"/>
+	         		<include name="Login_ForgotPasswordValidationCheck1"/>
+	         		<include name="Login_ForgotPasswordValidationCheck2"/>
+	         		<include name="Login_ForgotPassword_UIElementVerification"/>
+	         		<include name="Login_SessionTimeout"/>
+	         	</methods>
+	         </class>
+	      
+	         
+	          <class name="courses.Handgun.DashboardTest">
+	         	<methods>
+         			<include name="Dashboard_ReLogin"/>
+         			<include name="Dashboard_ResumeQuiz"/>
+         			<include name="Dashboard_CompleteApplication"/>	
+         			<include name="Dashboard_VerifyAfterPayment"/>	
+	         	</methods>
+	         </class>
+	         
+	       
+	            <class name="courses.Handgun.StudyGuideTest">
+	         	<methods>
+       				<include name="Navigate_To_StudyGuide_Page"/>	
+       				<include name="StudyGuide_Content_Verification"/>	
+       				<include name="StudyGuide_Topic_Sequence"/>			
+	         	</methods>
+	      </class>
+	      
+	      
+	         <class name="courses.Handgun.PayUpfrontTest">
+	         	<methods>
+       				<include name="PayUpfront_askedToPay"/>
+	               		<include name="PayUpfront_Registration_Contents"/>
+		          	<include name="PayUpfront_PaymentInformation_Validation_MandatoryFields"/>
+		           	<include name="PayUpfront_PaymentInformation_Validation_InvalidValues"/>
+		          	<include name="PayUpfront_PaymentInformation_ConfirmationPopUp"/>
+		           	<include name="PayUpfront_PaymentInformation_ConfirmationPopUp_BillingAddress"/>
+		           	<include name="PayUpfront_PaymentInformation_PayWithCoupon"/>
+		           	<include name="PayUpfront_PaymentInformation_PayWithCC"/>
+		           	<exclude name="PayUpfront_PaymentInformation_ConfirmationEmail"/>
+		           	<include name="PayUpfront_ViewReceipt_VerifyDetails"/>
+		           	<include name="PayUpfront_ViewReceipt_StartYourCourse"/>
+		           	<include name="BillingInfoPersistAfterCoupon"/>
+	         	</methods>
+	         </class>
+	              
+	       <class name="courses.Handgun.PaymentCodeTest">
+	         	<methods>
+       				<include name="PaymentCode_Type_Percentage"/>
+       				<include name="PaymentCode_Type_Pass"/>	
+	         	</methods>
+	         </class> 
+	         
+	         
+	         
+	          <class name="courses.Handgun.CommonCases">
+	         	<methods>
+	      				<include name="Home_UIElementVerification"/>
+	      				<include name="ErrorPages_Verify500ErrorPage"/>
+	      				<include name="Header_UIElementVarification"/>
+	      				<include name="Home_GetCertifiedIn3StepsSection"/>	
+						<include name="Footer_UIElementVarification"/>
+						<include name="ErrorPages_Verify404ErrorPage"/>
+						<include name="State_SendUsAnEmail"/>	
+						<include name="State_FAQ"/>	
+	         	</methods>
+         	</class> 
+
+		  
+	          <class name="courses.Handgun.SpecialCases">
+	         	<methods>
+       				<include name="VerifyILostMyCardSectionLinks"/>
+       				<include name="VerifyURL"/>
+	         	</methods>
+	         </class> 	         
+	         
+
+			<class name="courses.Handgun.ExamTest">
+	         	<methods>
+	         		<include name="PracticeExam_UIElementVerification"/>
+	         		<include name="PracticeExam_UI_Buttons"/>
+	         		<include name="PracticeExam_ResumeExam"/>
+	         		<include name="PracticeExam_QuitExam"/>
+	         		<include name="FinalExam_UIElementVerification"/>
+	         		<include name="FinalExam_UI_Buttons"/>
+	         		<include name="FinalExam_QuestionPage_UIVerification_1"/>
+	         		<include name="FinalExam_QuestionPage_UIVerification_2"/>
+	         		<include name="FinalExam_ResumeExam"/>
+	         		<include name="FinalExam_ResultsFail"/>
+	         		<include name="FinalExam_ResultsFail_SeeCritique"/>
+	   				<include name="FinalExam_ResultsPass"/>
+	   				<include name="FinalExam_ResultsPass_CompleteApplicationButton"/>
+	         	</methods>
+	         </class>
+	         
+	         
+	        
+	         <class name="courses.Handgun.CourseContentsAndQuizzesTest">
+	        	<methods>
+	          		<include name="Contents_Navigation"/>
+         			<include name="Contents_ResumeLinkWorkingAsExpected"/>
+	       	  		<include name="Contents_ContinueLeftOffButtonWorkingAsExpected"/>
+         			<include name="Contents_VerifyUnitTopicPageNumber"/>
+         	 		<include name="Contents_NavigateNextPreviousPages"/>
+         			<include name="Contents_NextButton_Timer_Tooltip"/> 
+         			<include name="Quiz_IntroductionPage"/> 
+         			<include name="Quiz_Questionnaire1"/> 
+         			<include name="Quiz_Questionnaire2"/>
+         			<include name="Quiz_ResumeQuiz"/> 
+         			<include name="Quiz_QuizResultFail"/>  
+         			<include name="Quiz_QuizResultPass"/> 
+         			<include name="Quiz_QuizResultFail_SeeCritiquebutton"/> 
+        			<include name="Quiz_QuizResultFail_Previousbutton"/>  
+         	 		<include name="Quiz_QuizResultPass_NextPreviousButtons"/>
+         			<include name="Contents_course_outline"/> 
+         			<include name="Contents_ContentVerification"/> 
+         			<include name="Contents_TimedCourseVerification"/> 
+	         	</methods>
+	         </class>
+
+			 
+	    </classes>
+ 	</test> <!-- Test -->
+  
+</suite> <!-- Suite -->

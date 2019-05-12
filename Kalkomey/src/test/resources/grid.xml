@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- 
+ @Parameter - 'environment' cab be - "local","grid" " 
+ @Parameter - 'browser' cab be - "firefox","chrome" ,"ie" 
+ @Parameter - 'os' cab be - "windows 7"
+ -->
+ 
+<suite name="KalKomey CM - ILMC Automation Suite" parallel="tests"  thread-count="2" verbose="2" >
+
+
+	
+<!-- 	<test name="CM - ILMC Automation Run on Firefox"> 
+	   	<parameter name="environment" value="Grid"/>
+		<parameter name="browser" value="firefox"/>
+		<parameter name="os" value="windows 7"/>
+	    		
+	    		<classes>     
+	         	           <class name="products.CM.LoginTest">.
+	         					<methods>
+	         	    					<include name="Login_UIElementVerification"/> 
+								</methods>
+	         				</class> 
+	      	     </classes> 
+	    
+ 	</test>  -->
+ 	
+ 	<test name="CM - ILMC Automation Run on Chrome"> 
+	   	<parameter name="environment" value="Grid"/>
+		<parameter name="browser" value="chrome"/>
+		<parameter name="os" value="windows 7"/>
+	   
+				<classes>     
+	         	           <class name="products.CM.LoginTest">.
+	         					<methods>
+	         	    					<include name="Login_UIElementVerification"/> 
+								</methods>
+	         				</class>        
+	     		</classes> 
+	    
+ 	</test> <!-- Test -->
+  
+</suite> <!-- Suite -->

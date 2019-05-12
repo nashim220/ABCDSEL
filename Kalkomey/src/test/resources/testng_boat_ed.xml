@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--  @Parameter - 'environment' cab be - "local","grid" "  -->
+<!--  @Parameter - 'browser' cab be - "firefox","chrome" ,"ie"  -->
+<!--  @Parameter - 'os' cab be - "windows 7" -->
+
+<suite name="KalKomey Boat Ed Automation Suite" parallel="classes" thread-count="1">
+<!-- <suite name="KalKomey Automation Suite" > -->
+
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="ie"/>
+	<parameter name="os" value="windows 7"/>
+	
+ <listeners>
+    
+      
+  <listener class-name="utility.ExtentTestNGIReporterListener" />
+        
+ 
+   </listeners> 
+	<test name="Boat Ed Automation Run on Chrome"> 
+	    <classes>
+	        
+	        
+	        <class name="courses.BoatEd.ExamTest">
+	         	<methods>
+	         		<include name="PracticeExam_UIElementVerification"/>
+	         		<include name="PracticeExam_UI_Buttons"/>
+	         		<include name="PracticeExam_ResumeExam"/>
+	         		<include name="PracticeExam_QuitExam"/>
+	         		<include name="FinalExam_UIElementVerification"/>
+	         		<include name="FinalExam_UI_Buttons"/>
+	         		<include name="FinalExam_QuestionPage_UIVerification_1"/>
+	         		<include name="FinalExam_QuestionPage_UIVerification_2"/>
+	         		<include name="FinalExam_ResumeExam"/>
+	         		<include name="FinalExam_ResultsFail"/>
+	         		<include name="FinalExam_ResultsFail_SeeCritique"/>
+	   				<include name="FinalExam_ResultsPass"/>
+	   				<include name="FinalExam_ResultsPass_CompleteApplicationButton"/>
+	   				<include name="FinalExam_MaxAttemptFV"/>
+	   				<include name="FinalExam_MaxAttemptOR"/>
+	   				
+	         	</methods>
+	         </class>
+	        
+	        <class name="courses.BoatEd.CourseContentsAndQuizzesTest">
+	         	<methods>
+	         		<include name="Contents_Navigation"/>
+	         		<include name="Contents_ResumeLinkWorkingAsExpected"/>
+	         		<include name="Contents_ContinueLeftOffButtonWorkingAsExpected"/>
+         			<include name="Contents_VerifyUnitTopicPageNumber"/>
+         			<include name="Contents_NavigateNextPreviousPages"/>
+         			<include name="Contents_NextButton_Timer_Tooltip"/>
+         			<include name="Quiz_IntroductionPage"/> 
+         			<include name="Quiz_Questionnaire1"/> 
+         			<include name="Quiz_Questionnaire2"/>
+         			<include name="Quiz_ResumeQuiz"/> 
+         			<include name="Quiz_QuizResultFail"/> 
+         			<include name="Quiz_QuizResultPass"/> 
+         			<include name="Quiz_QuizResultFail_SeeCritiquebutton"/>  
+         			<include name="Quiz_QuizResultFail_Previousbutton"/> 
+         			<include name="Quiz_QuizResultPass_NextPreviousButtons"/> 
+         			<include name="Contents_course_outline"/> 
+         			<include name="Contents_ContentVerification"/> 
+         			<include name="Contents_TimedCourseVerification"/>     
+					<include name="Video_Transcript_BT"/>  					
+	         	</methods>
+	         </class>
+	        
+	         <class name="courses.BoatEd.ProfileTest">
+	         	<methods>
+	         		<include name="Profile_UIElementVerification"/>
+	         		<include name="Profile_YourBoaEdAccountSection"/>
+	         		<include name="Profile_ResetPassword"/>
+	         		<include name="Profile_Edit1"/>
+	         		<include name="Profile_Edit2"/>
+	         		<include name="Profile_DefaultValues"/>
+	         		<include name="Profile_ValidationMessageForInvalidEmail"/>
+	         		<include name="Profile_ValidationMessageForInvalidZip"/>
+	         		<include name="Profile_ValidationMessageForInvalidPhone"/>
+	         		<exclude name="Profile_ValidationMessageForMandatoryFields"/>
+	         		<include name="Profile_HideUnhidePhysicalAddress"/>
+	         		<include name="Profile_RegionLocalityFieldLabelChange"/>
+	         		<include name="Profile_CountryDropdown_Values"/>    
+	         	</methods>
+	         </class>
+	         
+	         
+	          <class name="courses.BoatEd.RegistrationTest">
+	         	<methods>
+	         		<include name="Registration"/>
+	         		<include name="Registration_ChooseAnotherLink"/>
+	         		<include name="Registration_ValidationMessageForMandatoryFields"/>
+	         		<include name="Registration_ValidationMessageForChooseUsername1"/>
+	         		<include name="Registration_ValidationMessageForChooseUsername2"/>
+	         		<include name="Registration_ValidationMessageForPassword1"/>
+	         		<include name="Registration_ValidationMessageForPassword2"/>
+	         		<include name="Registration_ValidationMessageForPassword3"/>
+	         		<include name="Registration_ValidationMessageForPasswordRepeatPassword"/>
+	         		<include name="Registration_ValidationMessageForDOB1"/>
+	         		<include name="Registration_ValidationMessageForDOB2"/>
+	         		<include name="Registration_ValidationMessageForEmailAddress"/>
+	         		<exclude name="Registration_ValidationMessageForEmailRepeatEmailAddress"/>
+	         		<include name="Registration_UsernameUniqueCheck"/>
+	         		<include name="Registration_VerifyTitle"/>
+	         		<include name="Registration_InputDataMessageCheck"/>
+	         		<exclude name="Registration_VerifyAccountCreationEmail"/>
+	         		<include name="Registration_ResidencyRequirement"/>
+	         		<include name="Registration_ModelReminder"/>
+	         		<include name="Registration_MimAgeValidation"/>
+	         	</methods>
+	         </class>
+	         
+	           
+	          
+	         
+	         
+	          <class name="courses.BoatEd.LoginForgotPasswordTest">
+	         	<methods>
+	         		<include name="Login_UIElementVerification"/>
+	         		<include name="Login_LoginSuccessful"/>
+	         		<include name="Login_LoginFailure_BlankInputs"/>
+	         		<include name="Login_LoginFailure_InvalidInputs"/>
+	         		<include name="Login_RestrictedPages"/>
+	         		<include name="Login_Logout"/>
+	         		<exclude name="Login_PasswordResetEmail"/>
+	         		<exclude name="Login_PasswordReset"/>
+	         		<include name="Login_ForgotPasswordValidationCheck1"/>
+	         		<include name="Login_ForgotPasswordValidationCheck2"/>
+	         		<include name="Login_ForgotPassword_UIElementVerification"/>
+	         		<include name="Login_SessionTimeout"/>
+	         	</methods>
+	         </class>
+	      
+	         
+	          <class name="courses.BoatEd.DashboardTest">
+	         	<methods>
+         			<include name="Dashboard_WelComeAboardModel"/> 
+         			<include name="Dashboard_ReLogin"/>
+         			<include name="Dashboard_ResumeQuiz"/>
+         			<include name="Dashboard_CompleteApplication"/>	
+         			<include name="Dashboard_VerifyAfterPayment"/>	
+	         	</methods>
+	         </class>
+	         
+	         
+	         
+	         <class name="courses.BoatEd.PaymentTest">
+	         	<methods>
+         			<include name="PaymentStage1_UI_Verification"/> 
+         			<exclude name="PaymentStage1_Validation_MandatoryFields"/> 
+         			<include name="PaymentStage1_Validation_InvalidInputs"/>
+         			<include name="PaymentStage1_RegionLocalityFieldLabelChange"/> 
+         			<include name="PaymentStage1_ConfirmationPopUpDatails"/>   
+         			<include name="PaymentStage1_ConfirmationPopUpDatails_Phy_Address"/>   
+         			<include name="PaymentStage1_EditUpdateFields"/>   
+         			<include name="PaymentStage1_NavigateToNextStage"/>   
+         			<include name="PaymentStage2_UI_Verification"/> 
+         			<include name="PaymentStage2_BillingAddress"/> 
+         			<include name="PaymentStage2_Validation_MandatoryFields"/> 
+         			<include name="PaymentStage2_Validation_InvalidInputs"/> 
+         			<include name="PaymentStage2_ConfirmationPopUpDatails"/>
+         			<include name="PaymentStage2_ConfirmationPopUpDatails_SameAddress"/>
+         			<include name="PaymentStage2_PayWithCoupon"/>
+         			<include name="PaymentStage2_PayWithCreditCard"/>
+         			<exclude name="PaymentStage2_PaymentConfirmationEmail"/>
+       				<include name="PaymentStage3_ViewReceiptPageDetails"/>
+       				<include name="PaymentStage3_NavigateToCourseCompeletePage"/>
+       				<include name="PaymentStage3_VerifyCourseCompeletePage"/>
+       				<include name="BillingInfoPersistAfterCoupon"/>
+       				
+	         	</methods>
+	         </class>
+	         
+	         
+	          <class name="courses.BoatEd.CommonCases">
+	         	<methods>
+	      				<include name="Home_UIElementVerification"/>
+	      				<include name="ErrorPages_Verify500ErrorPage"/>
+	      				<include name="Header_UIElementVarification"/>
+	      				<include name="Home_StateLinks"/>
+	      				<include name="Home_WhatToExpectSection"/>	
+						<include name="Home_Testimonials_GetSafeGetCertified"/>	
+						<include name="CheaterPage"/>
+						<include name="Footer_UIElementVarification"/>
+						<include name="ErrorPages_Verify404ErrorPage"/>		
+						<include name="State_SendUsAnEmail"/>	
+						<include name="VerifyURL"/>	
+						<include name="State_FAQ"/>
+						<include name="State_Home_UIElementVerification"/>				
+	         	</methods>
+         	</class> 
+	         
+	         
+	         <class name="courses.BoatEd.StudyGuideTest">
+	         	<methods>
+       				<include name="Navigate_To_StudyGuide_Page"/>	
+       				<include name="StudyGuide_Not_Exists_FV"/>	
+       				<include name="StudyGuide_Content_Verification"/>	
+       				<include name="StudyGuide_Topic_Sequence"/>			
+	         	</methods>
+	         </class> 
+	         
+	                  
+	         
+	         <class name="courses.BoatEd.PaymentCodeTest">
+	         	<methods>
+       				<include name="PaymentCode_Type_Percentage"/>
+       				<include name="PaymentCode_Type_Pass"/>	
+	         	</methods>
+	         </class> 
+	         
+	         
+	         <class name="courses.BoatEd.PayUpfrontTest">
+	         	<methods>
+       				<include name="PayUpfront_askedToPay"/>
+	               	<include name="PayUpfront_Registration_Contents"/>
+		          	<include name="PayUpfront_PaymentInformation_Validation_MandatoryFields"/>
+		           	<include name="PayUpfront_PaymentInformation_Validation_InvalidValues"/>
+		          	<include name="PayUpfront_PaymentInformation_ConfirmationPopUp"/>
+		           	<include name="PayUpfront_PaymentInformation_ConfirmationPopUp_BillingAddress"/>
+		           	<include name="PayUpfront_PaymentInformation_PayWithCoupon"/>
+		           	<include name="PayUpfront_PaymentInformation_PayWithCC"/>
+		           	<exclude name="PayUpfront_PaymentInformation_ConfirmationEmail"/>
+		           	<include name="PayUpfront_ViewReceipt_VerifyDetails"/>
+		           	<include name="PayUpfront_ViewReceipt_StartYourCourse"/>
+	         	</methods>
+	         </class>
+	        
+	        
+	        <class name="courses.BoatEd.SpecialCases">
+	         	<methods>
+       				<include name="OR_VerifyReplacementCardSection"/>
+       				<exclude name="RI_VerifyDetailsOnPage"/>
+       				<exclude name="Canada_ProvinceLinks"/>
+       				<include name="Payment_CCField_InfoText"/>
+       				<include name="CourseComplete_ShareOnFacebook"/>
+       				<include name="Canada_QuickLinks"/>
+       				<include name="Footer_VerifyAbout_Handbooks_Sections"/>
+       				<include name="WA_SelesTaxVerification"/>
+       				<include name="Payment_PA_FeesPaid"/>
+       				<include name="Payment_WA_FeesPaid"/>
+       				<include name="Canada_Province_VerifyWhoNeedsTheCardLink"/>
+       				<include name="PaymentCode_Absolute_Banner"/>
+       				<include name="PaymentCode__Banner_SpecificCourse"/>
+       				<include name="PaymentCode_Banner_SpecificTimePeriod"/>
+       				<include name="PaymentCode_Percentage_Banner"/>
+       				<include name="PaymentCode_Pass_Banner"/>	
+       				<include name="Override_Global_Banner"/>					
+					<include name="ShoppingFeedbackForm"/>	
+	         	</methods>
+	         </class>
+	        
+	        
+	       	<class name="courses.BoatEd.HandbookTest">
+	         	<methods>
+       				<include name="Handbook_MaineLandingPage"/>
+       				<include name="Handbook_MassachusettsLandingPage"/>      				
+       				<include name="Handbook_Web_VerifyUIElements"/>
+       				<include name="Handbook_Web_ViewContents"/>
+       				<include name="Handbook_Web_DownloadPDF"/> 
+					<include name="Handbook_Web_DownloadPDF"/> 
+					<include name="Handbook_Web_Maine_iBookNookBook"/>
+       				<include name="Handbook_Web_QuickLinks"/>
+					<include name="BuyHandbook"/>
+	         	</methods>
+	         </class>
+	         
+	         <class name="courses.BoatEd.CanadaTest">
+	         	<methods>
+       				<include name="Canada_VerifyAgencyName"/>
+       				<include name="Canada_TimedCourseVerification"/>
+       				<include name="Canada_Navigate_To_StudyGuide_Page"/>
+       				<include name="Canada_Stds_Req_International_Address"/>
+       				<include name="Canada_Stds_Req_NoAgeLimit"/>
+       				<include name="Canada_AskedForPaymentAfterPassingExam"/>
+       				<include name="Canada_VerifyFeeAndTaxes"/>
+       				<include name="Canada_VerifyPraticeExam"/>
+       				<include name="Canada_ViewingCouponDiscount"/>
+       				<include name="Canada_DisablingCouponDiscount"/> 	
+					<include name="Canada_VerifyApplyCodeNotDisplayed"/> 	
+					<exclude name="CanadaProvinceTrustPilot"/> 	
+	         	</methods>
+	         </class>
+	        	 
+	         
+	         <class name="courses.BoatEd.FLViolatorsTest">
+	         	<methods>
+       					<include name="FLV_VerifyAgencyName"/>
+       					<include name="FLV_TimedCourseVerification"/>
+       					<include name="FLV_Stds_Req_International_Address"/>
+       					<include name="FLV_Stds_Req_AgeLimit"/>
+       					<include name="FLV_VerifyFee"/>
+       					<include name="FLV_PracticeExam"/>
+	         	</methods>
+	         </class> 
+	         
+	         <class name="courses.BoatEd.MinnesotaTest">
+	         	<methods>
+       				<include name="MN_VerifyAgencyName"/>
+       				<include name="MN_TimedCourseVerification"/>
+       				<include name="MN_Navigate_To_StudyGuide_Page"/>
+       				<include name="MN_Stds_Req_International_Address"/>
+       				<include name="MN_Stds_Req_AgeLimit"/>
+       				<include name="MN_AskedForPaymentAfterPassingExam"/>
+       				<include name="MN_VerifyFeeAndTaxes"/>
+       				<include name="MN_VerifyPraticeExam"/>	
+	         	</methods>
+	         </class> 
+	         
+	         
+	         <class name="courses.BoatEd.OregonTest">
+	         	<methods>
+       				<include name="OR_VerifyAgencyName"/>
+       				<include name="OR_Navigate_To_StudyGuide_Page"/>
+       				<include name="OR_Stds_Req_International_Address"/>
+       				<include name="OR_Stds_Req_AgeLimit"/>
+       				<include name="OR_VerifyFeeAndTaxes"/>
+       				<include name="OR_VerifyPraticeExam"/>	
+	         	</methods>
+	         </class> 
+	         
+	         <class name="courses.BoatEd.TennesseeTest">
+	         	<methods>
+       				<include name="TN_VerifyAgencyName"/>
+       				<include name="TN_Navigate_To_StudyGuide_Page"/>
+       				<include name="TN_Stds_Req_International_Address"/>
+       				<include name="TN_Stds_Req_AgeLimit"/>
+       				<include name="TN_VerifyFeeAndTaxes"/>	
+	         	</methods>
+	         </class> 
+	         
+	          
+	         
+	          
+	    </classes>
+ 	</test> <!-- Test -->
+  
+</suite> <!-- Suite -->

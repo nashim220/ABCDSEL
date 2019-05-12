@@ -1,0 +1,473 @@
+<html>
+<head>
+<title>TestNG:  Snowmobile Ed Automation Run on Win / Chrome(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Snowmobile Ed Automation Run on Win / Chrome(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 28 14:17:38 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>5150 seconds (5150670 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='courses.SnowmobileEd.CommonCases.ErrorPages_Verify500ErrorPage()'><b>ErrorPages_Verify500ErrorPage</b><br>Test class: courses.SnowmobileEd.CommonCases<br/>
+<a href="#Output-139970953" onClick='toggleBox("Output-139970953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-139970953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-139970953">
+====
+Test 2 : Error pages - Verify 500 error page
+====<br/>
+Step 1: Navigated to 500 error page and verifying UI elements<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Timed out after 40 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Sarfaraj_Doni&apos;, ip: &apos;169.254.112.137&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at courses.SnowmobileEd.CommonCases.ErrorPages_Verify500ErrorPage(CommonCases.java:295)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.error h1&quot;}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Sarfaraj_Doni&apos;, ip: &apos;169.254.112.137&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\SARFAR~1\AppData\Local\Temp\scoped_dir8264_32313}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 43978d13767bfd69507cf3e64ac887ca
+*** Element info: {Using=css selector, value=div.error h1}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+	... 16 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace139970953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace139970953'><pre>org.openqa.selenium.NoSuchElementException: Timed out after 40 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Sarfaraj_Doni&apos;, ip: &apos;169.254.112.137&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at courses.SnowmobileEd.CommonCases.ErrorPages_Verify500ErrorPage(CommonCases.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.error h1&quot;}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Sarfaraj_Doni&apos;, ip: &apos;169.254.112.137&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\SARFAR~1\AppData\Local\Temp\scoped_dir8264_32313}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 43978d13767bfd69507cf3e64ac887ca
+*** Element info: {Using=css selector, value=div.error h1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+	... 16 more
+</pre></div></td>
+<td>96</td>
+<td>courses.SnowmobileEd.CommonCases@edf4efb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Contents_ContentVerification()'><b>Contents_ContentVerification</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-1782929369" onClick='toggleBox("Output-1782929369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1782929369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1782929369">
+====
+Test 17 : Verify Course content is properly displayed
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : On Contents page, verifying Page Header, Introduction Text, Units, Exams related text<br/>
+Success !! Page header is correct<br/>
+Success !! Introduction text is correct<br/>
+Success !! Unit 1 is present<br/>
+Success !! Unit 2 is present<br/>
+Success !! Unit 3 is present<br/>
+Success !! Unit 4 is present<br/>
+Success !! Unit 5 is present<br/>
+Success !! 'Final Exam' and 'Practice Exam' links are present<br/>
+</div>
+</td>
+<td></td>
+<td>257</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Contents_ContinueLeftOffButtonWorkingAsExpected()'><b>Contents_ContinueLeftOffButtonWorkingAsExpected</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-1896924229" onClick='toggleBox("Output-1896924229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1896924229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1896924229">
+====
+Test 3 : Verify that 'Continue where you left off' button is displayed and working as expected
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 3 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 4 : On Unit page, waiting for timer to over and then clicking on Next Button<br/>
+Step 5 : Navigating to Contents page and verifying whether 'Continue where you left off' button is displayed and on click to it, user is navigated to correct page<br/>
+Success !! Button is present<br/>
+Success !! Button text is correct<br/>
+Success !! User is navigated to correct page <br/>
+</div>
+</td>
+<td></td>
+<td>330</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Contents_NavigateNextPreviousPages()'><b>Contents_NavigateNextPreviousPages</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-999419812" onClick='toggleBox("Output-999419812", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-999419812" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-999419812">
+====
+Test 5 : Verify that user can navigate to 'Next' & 'Previous' pages
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 3 : On Contents page, verify that user can navigate to 'Next' & 'Previous' pages<br/>
+Success !! Unit number is correctUnit 1 of 6<br/>
+Success !! Topic number is correctTopic 1 of 5<br/>
+Success !! Page number is correctPage 2 of 7<br/>
+Success !! Unit number is correctUnit 1 of 6<br/>
+Success !! Topic number is correctTopic 1 of 5<br/>
+Success !! Page number is correctPage 1 of 7<br/>
+</div>
+</td>
+<td></td>
+<td>302</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Contents_NextButton_Timer_Tooltip()'><b>Contents_NextButton_Timer_Tooltip</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-2078365811" onClick='toggleBox("Output-2078365811", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2078365811" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2078365811">
+====
+Test 6 : Verify that Timer/Tooltip is displayed on 'Next' button on each page
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 3 : Verifying whether timer is displayed on 'Next' button<br/>
+Success !! Timer is displayed<br/>
+Step 4 : Verifying whether tooltip is displayed on 'Next' button<br/>
+Success !! Tooltip is displayed<br/>
+Step 5 : Verifying whether button text changed to 'Next'<br/>
+Success !! button text changed to 'Next'<br/>
+</div>
+</td>
+<td></td>
+<td>283</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Contents_ResumeLinkWorkingAsExpected()'><b>Contents_ResumeLinkWorkingAsExpected</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-2127764786" onClick='toggleBox("Output-2127764786", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2127764786" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2127764786">
+====
+Test 2 : Verify that the link where user has to start again is displayed and working as expected 
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 3 : On Unit page, waiting for timer to over and then clicking on Next Button<br/>
+Step 4 : Navigating to Contents page and verifying whether Start Again link is displayed and on click to it, user is navigated to correct page<br/>
+Success !! link is present<br/>
+Success !! User is navigated to correct page <br/>
+</div>
+</td>
+<td></td>
+<td>306</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Contents_TimedCourseVerification()'><b>Contents_TimedCourseVerification</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-506679650" onClick='toggleBox("Output-506679650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-506679650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-506679650">
+====
+Test 18 : Verify that user has to move in a particular sequence page wise (at user's pace) for a timed course
+====<br/>
+Step 1 : Navigate to Registration page : https://qa1.snowmobile-ed.com/indiana<br/>
+Step 2 : Register as a New user<br/>
+Step 3 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 4 : Verifying whether timer is displayed on 'Next' button<br/>
+Success !! Timer is displayed<br/>
+Step 5 : Navigating back to Contents page and Expanding Unit 1, Expanding Topic 3 , clicking on Page 1 link<br/>
+Success !! User is NOT navigated to Unit 1 > Topic 3 > Page 1<br/>
+Step 6 : Navigating back to Contents page and Expanding Unit 1, Expanding Topic 1 , clicking on Page 2 link<br/>
+Success !! User is navigated to Unit 1 > Topic 1 > Page 2<br/>
+</div>
+</td>
+<td></td>
+<td>263</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Contents_VerifyUnitTopicPageNumber()'><b>Contents_VerifyUnitTopicPageNumber</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-1609481287" onClick='toggleBox("Output-1609481287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1609481287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1609481287">
+====
+Test 4 : Verify that Unit/Topic/Page number correctly displayed on contents page
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 3 : On Contnets page, verify that Unit/Topic/Page number correctly displayed on contents page<br/>
+Success !! Unit number is correctUnit 1 of 6<br/>
+Success !! Topic number is correctTopic 1 of 5<br/>
+Success !! Page number is correctPage 2 of 7<br/>
+</div>
+</td>
+<td></td>
+<td>295</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Contents_course_outline()'><b>Contents_course_outline</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-1006715980" onClick='toggleBox("Output-1006715980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1006715980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1006715980">
+====
+Test 16 : Verify user can see hide/show course outline and see his progress
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 3 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 4 : Clicking on 'View Entire Course Outline' link<br/>
+-- Course outline pop is opened <br/>
+Step 5 : Clicking on 'Hide Entire Course Outline' link<br/>
+-- Course outline pop is closed <br/>
+Step 6 : Verifying whether current topic is clickable on Course outline pop up<br/>
+ -- Topic is clickable on Course outline pop up <br/>
+</div>
+</td>
+<td></td>
+<td>312</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.DashboardTest.Dashboard_ReLogin()'><b>Dashboard_ReLogin</b><br>Test class: courses.SnowmobileEd.DashboardTest<br/>
+<a href="#Output-1933208181" onClick='toggleBox("Output-1933208181", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1933208181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1933208181">
+====
+Test 3 : Verify that on re-login, user is landed on Course list page with 'Continue Where you left off' button
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Clicking on 'Contents' link from top header<br/>
+Step 3 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 5 : On Unit page, waiting for timer to over and then clicking on Next Button<br/>
+Step 6 : Logout and login again<br/>
+Step 7 : Navigating to Contents page and verifying whether Start Again link is displayed and on click to it, user is navigated to correct page<br/>
+Success !! link is present<br/>
+Success !! User is navigated to correct page <br/>
+</div>
+</td>
+<td></td>
+<td>347</td>
+<td>courses.SnowmobileEd.DashboardTest@2f7a2457</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.ExamTest.FinalExam_MaxAttemptAL()'><b>FinalExam_MaxAttemptAL</b><br>Test class: courses.SnowmobileEd.ExamTest<br/>
+<a href="#Output-718026560" onClick='toggleBox("Output-718026560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718026560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718026560">
+====
+Test 14 :  Final Exam : To verify max exam attempts for Today's Hunter in Alabama Course 
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Navigating on KE Cousers Admin and performing 'Fast Forward Fail' and navigating back to Exam result page<br/>
+Step 3 : Verifying Final Exam result page when result = Fail<br/>
+-- Success !! Correct page header i.e. Certification Exam<br/>
+-- Success !! user is allowed to attemp exam 2 times<br/>
+-- Attempting exam 2 time<br/>
+Step 3 : Verifying Final Exam result page when result = Fail<br/>
+-- Success !! Correct page header i.e. Certification Exam<br/>
+-- Success !! user is allowed to attemp exam 2 times<br/>
+</div>
+</td>
+<td></td>
+<td>507</td>
+<td>courses.SnowmobileEd.ExamTest@7f690630</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.ExamTest.FinalExam_MaxAttemptAR()'><b>FinalExam_MaxAttemptAR</b><br>Test class: courses.SnowmobileEd.ExamTest<br/>
+<a href="#Output-833864890" onClick='toggleBox("Output-833864890", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-833864890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-833864890">
+====
+Test 15 :   Final Exam : To verify max exam attempts for Today's Hunter in Arkansas Course 
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Navigating on KE Cousers Admin and performing 'Fast Forward Fail' and navigating back to Exam result page<br/>
+Step 3 : Verifying Final Exam result page when result = Fail<br/>
+-- Success !! Correct page header i.e. Certification Exam<br/>
+-- Success !! user is allowed to attemp exam 2 times<br/>
+-- Attempting exam 2 time<br/>
+Step 3 : Verifying Final Exam result page when result = Fail<br/>
+-- Success !! Correct page header i.e. Certification Exam<br/>
+-- Success !! user is allowed to attemp exam 2 times<br/>
+</div>
+</td>
+<td></td>
+<td>556</td>
+<td>courses.SnowmobileEd.ExamTest@7f690630</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.ExamTest.FinalExam_MaxAttemptIL()'><b>FinalExam_MaxAttemptIL</b><br>Test class: courses.SnowmobileEd.ExamTest<br/>
+<a href="#Output-1060797886" onClick='toggleBox("Output-1060797886", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1060797886" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1060797886">
+====
+Test 16 :    Final Exam : To verify max exam attempts for Today's Hunter in Illinois Course 
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Navigating on KE Cousers Admin and performing 'Fast Forward Fail' and navigating back to Exam result page<br/>
+Step 3 : Verifying Final Exam result page when result = Fail<br/>
+-- Success !! Correct page header i.e. Certification Exam<br/>
+-- Success !! user is allowed to attemp exam 2 times<br/>
+-- Attempting exam 2 time<br/>
+Step 3 : Verifying Final Exam result page when result = Fail<br/>
+-- Success !! Correct page header i.e. Certification Exam<br/>
+-- Success !! user is allowed to attemp exam 2 times<br/>
+</div>
+</td>
+<td></td>
+<td>521</td>
+<td>courses.SnowmobileEd.ExamTest@7f690630</td></tr>
+<tr>
+<td title='courses.SnowmobileEd.CourseContentsAndQuizzesTest.Video_Transcript_SM()'><b>Video_Transcript_SM</b><br>Test class: courses.SnowmobileEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-1344590360" onClick='toggleBox("Output-1344590360", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1344590360" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1344590360">
+====
+Test 19 : Verfiy that video transcript is displayed along with video
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 4 : Go to Video Transcript page<br/>
+-- Success !! Video transcript button is present<br/>
+-- Success !! Video transcript text is present<br/>
+</div>
+</td>
+<td></td>
+<td>262</td>
+<td>courses.SnowmobileEd.CourseContentsAndQuizzesTest@7a0ac6e3</td></tr>
+</table><p>
+</body>
+</html>

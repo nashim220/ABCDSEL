@@ -1,0 +1,375 @@
+<html>
+<head>
+<title>TestNG:  Hunter Ed Automation Run on Win / Chrome(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Hunter Ed Automation Run on Win / Chrome(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 23 18:47:57 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>3119 seconds (3119560 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='courses.HunterEd.SpecialCases.VerifyPowderHookMapsPage()'><b>VerifyPowderHookMapsPage</b><br>Test class: courses.HunterEd.SpecialCases<br/>
+<a href="#Output-2107575479" onClick='toggleBox("Output-2107575479", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2107575479" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2107575479">
+====
+Test 8 : Verify that user can land on page with the Powder Hook maps app
+====<br/>
+Step 1: Step 1: Navigating to page with the Powder Hook maps app i.e. /places-to-hunt/ <br/>
+Success!! User is navigated to /places-to-hunt/ successfully  i.e. https://qa1.hunter-ed.com/places-to-hunt/<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;logo&quot;}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Sarfaraj_Doni&apos;, ip: &apos;169.254.112.137&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\SARFAR~1\AppData\Local\Temp\scoped_dir8756_5682}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95e86f6d1171bf91e36f19be5b14bb2f
+*** Element info: {Using=id, value=logo}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at utility.SeleniumFunctions.GetAttributeValue(SeleniumFunctions.java:276)
+	at courses.HunterEd.SpecialCases.VerifyPowderHookMapsPage(SpecialCases.java:836)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2107575479", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2107575479'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;logo&quot;}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Sarfaraj_Doni&apos;, ip: &apos;169.254.112.137&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\SARFAR~1\AppData\Local\Temp\scoped_dir8756_5682}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95e86f6d1171bf91e36f19be5b14bb2f
+*** Element info: {Using=id, value=logo}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at utility.SeleniumFunctions.GetAttributeValue(SeleniumFunctions.java:276)
+	at courses.HunterEd.SpecialCases.VerifyPowderHookMapsPage(SpecialCases.java:836)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>87</td>
+<td>courses.HunterEd.SpecialCases@566776ad</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='courses.HunterEd.CourseContentsAndQuizzesTest.Contents_ContinueLeftOffButtonWorkingAsExpected()'><b>Contents_ContinueLeftOffButtonWorkingAsExpected</b><br>Test class: courses.HunterEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-856982191" onClick='toggleBox("Output-856982191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-856982191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-856982191">
+====
+Test 3 : Verify that 'Continue where you left off' button is displayed and working as expected
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 3 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 4 : On Unit page, waiting for timer to over and then clicking on Next Button<br/>
+Step 5 : Navigating to Contents page and verifying whether 'Continue where you left off' button is displayed and on click to it, user is navigated to correct page<br/>
+Success !! Button is present<br/>
+Success !! Button text is correct<br/>
+Success !! User is navigated to correct page <br/>
+</div>
+</td>
+<td></td>
+<td>318</td>
+<td>courses.HunterEd.CourseContentsAndQuizzesTest@6108b2d7</td></tr>
+<tr>
+<td title='courses.HunterEd.CourseContentsAndQuizzesTest.Contents_NavigateNextPreviousPages()'><b>Contents_NavigateNextPreviousPages</b><br>Test class: courses.HunterEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-1351235617" onClick='toggleBox("Output-1351235617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1351235617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1351235617">
+====
+Test 5 : Verify that user can navigate to 'Next' & 'Previous' pages
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 3 : On Contnets page, verify that user can navigate to 'Next' & 'Previous' pages<br/>
+Success !! Unit number is correctUnit 1 of 9<br/>
+Success !! Topic number is correctTopic 1 of 4<br/>
+Success !! Page number is correctPage 2 of 2<br/>
+Success !! Unit number is correctUnit 1 of 9<br/>
+Success !! Topic number is correctTopic 1 of 4<br/>
+Success !! Page number is correctPage 1 of 2<br/>
+</div>
+</td>
+<td></td>
+<td>268</td>
+<td>courses.HunterEd.CourseContentsAndQuizzesTest@6108b2d7</td></tr>
+<tr>
+<td title='courses.HunterEd.CourseContentsAndQuizzesTest.Contents_ResumeLinkWorkingAsExpected()'><b>Contents_ResumeLinkWorkingAsExpected</b><br>Test class: courses.HunterEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-649091887" onClick='toggleBox("Output-649091887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-649091887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-649091887">
+====
+Test 2 : Verify that the link where user has to start again is displayed and working as expected 
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 3 : On Unit page, waiting for timer to over and then clicking on Next Button<br/>
+Step 4 : Navigating to Contents page and verifying whether Start Again link is displayed and on click to it, user is navigated to correct page<br/>
+Success !! link is present<br/>
+Success !! User is navigated to correct page <br/>
+</div>
+</td>
+<td></td>
+<td>378</td>
+<td>courses.HunterEd.CourseContentsAndQuizzesTest@6108b2d7</td></tr>
+<tr>
+<td title='courses.HunterEd.DashboardTest.Dashboard_ReLogin()'><b>Dashboard_ReLogin</b><br>Test class: courses.HunterEd.DashboardTest<br/>
+<a href="#Output-1606070225" onClick='toggleBox("Output-1606070225", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1606070225" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1606070225">
+====
+Test 3 : Verify that on re-login, user is landed on Course list page with 'Continue Where you left off' button
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 2 : Clicking on 'Contents' link from top header<br/>
+Step 3 : Expanding Unit 1, Expanding Topic 1 , clicking on 'Start Here' button<br/>
+Step 5 : On Unit page, waiting for timer to over and then clicking on Next Button<br/>
+Step 6 : Logout and login again<br/>
+Step 7 : Navigating to Contents page and verifying whether Start Again link is displayed and on click to it, user is navigated to correct page<br/>
+Success !! link is present<br/>
+Success !! User is navigated to correct page <br/>
+</div>
+</td>
+<td></td>
+<td>418</td>
+<td>courses.HunterEd.DashboardTest@edf4efb</td></tr>
+<tr>
+<td title='courses.HunterEd.SpecialCases.Payment_CCField_InfoText()'><b>Payment_CCField_InfoText</b><br>Test class: courses.HunterEd.SpecialCases<br/>
+<a href="#Output-306339874" onClick='toggleBox("Output-306339874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-306339874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-306339874">
+====
+Test 1 : Payment : Verify Info message for CC field (i.e.Unfortunately, we do not accept PayPal, gift cards, or preloaded debit or bank cards as payment at this time.)
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 3 : Editing all fields (i.e. Gender, , Email Address, Mailing Address) and clicking on 'Update Profile' button<br/>
+Step 2 : Navigating on KE Cousers Admin and performing 'Fast Forward Pass' and navigating back to Exam result page<br/>
+Step 3 : Clicking on 'Complete the Application' button<br/>
+-- Success !! 'Complete the Application' button is working as expected<br/>
+Step 4 : On Application page - Stage 1 : Certification Information ,  updating User info, Contact info, navigating to Step 2 - Payment Informaiton page<br/>
+-- Success !! user is navigated to step 2 ( i.e. Payment Information)<br/>
+Step 5 : On Payment Information page - Stage 2 , , verfiying Credit Card info text<br/>
+-- Success !! Credit Card info text is correct i.e. Sorry, we do not accept PayPal, gift cards, or prepaid cards.<br/>
+</div>
+</td>
+<td></td>
+<td>410</td>
+<td>courses.HunterEd.SpecialCases@566776ad</td></tr>
+<tr>
+<td title='courses.HunterEd.RegistrationNewTest.Registration_ValidationMessageForChooseUsername2()'><b>Registration_ValidationMessageForChooseUsername2</b><br>Test class: courses.HunterEd.RegistrationNewTest<br/>
+<a href="#Output-1882832416" onClick='toggleBox("Output-1882832416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1882832416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1882832416">
+====
+Test 4 : Verify that validation message is displayed if input criteria doesn't match for 'Choose a Username' field B) if username is < 4 charater or >32 character
+====<br/>
+Step 1 : Navigate Applicaiton URL : https://qa1.hunter-ed.com<br/>
+Step 2 : Navigate to Registration page : https://qa1.hunter-ed.com/texas<br/>
+Step 3 : Entering < 4 charater in 'Choose a Username' field e.g abc<br/>
+Step 4 : Entering data in other field and click on 'Create Account' button<br/>
+Step 5 : Verifying whether validation messages are displayed for 'Choose a Username' field<br/>
+Success !! correct validation messages are displayed for mandatory fields<br/>
+</div>
+</td>
+<td></td>
+<td>130</td>
+<td>courses.HunterEd.RegistrationNewTest@1554909b</td></tr>
+<tr>
+<td title='courses.HunterEd.RegistrationNewTest.Registration_ValidationMessageForMandatoryFields()'><b>Registration_ValidationMessageForMandatoryFields</b><br>Test class: courses.HunterEd.RegistrationNewTest<br/>
+<a href="#Output-1400295169" onClick='toggleBox("Output-1400295169", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1400295169" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1400295169">
+====
+Test 2 : Verify that validation messages are displayed for mandatory fields
+====<br/>
+Step 1 : Navigate Applicaiton URL : https://qa1.hunter-ed.com<br/>
+Step 2 : Navigate to Registration page : https://qa1.hunter-ed.com/texas<br/>
+Step 3 : Clicking on 'Create Account' button without entering any data on registration page<br/>
+Step 4 : Verifying whether validation messages are displayed for mandatory fields<br/>
+Success !! correct validation messages are displayed for mandatory fields<br/>
+</div>
+</td>
+<td></td>
+<td>127</td>
+<td>courses.HunterEd.RegistrationNewTest@1554909b</td></tr>
+<tr>
+<td title='courses.HunterEd.StudyGuideTest.StudyGuide_Content_Verification()'><b>StudyGuide_Content_Verification</b><br>Test class: courses.HunterEd.StudyGuideTest<br/>
+<a href="#Output-1279989497" onClick='toggleBox("Output-1279989497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1279989497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1279989497">
+====
+Test 3 : Verify Contents of Study Guide page
+====<br/>
+Step 1: Navigating State specific page for course<br/>
+Step 2 : Click on 'Study Guide' link<br/>
+Step 3 : Verifying contents on 'Study Guide' page<br/>
+-- Success !! About section has correct heading i.e. About the Study Guide<br/>
+-- Success !! About section has correct text i.e. You are looking at a preview of what’s in the timed Arkansas Hunter Ed Course. Feel free to look around, but you’ll need to register to begin progress toward getting your Hunter Education Certificate.<br/>
+-- Success !! 'Learn More' button is presentLearn More<br/>
+-- Success !! 'Register for the Course' button is presentRegister for the Course<br/>
+-- Success !! Content section has correct header i.e. Study Guide for Hunter Education Certificate<br/>
+Step 4 : Clicking on 'Learn More' button<br/>
+-- Success !! user is navigated to Course page i.e. https://qa1.hunter-ed.com/arkansas/<br/>
+Step 5 : Clicking on 'Register for the Course' button<br/>
+-- Success !! user is navigated to Course registration page i.e. https://qa1.hunter-ed.com/arkansas/sign-up/<br/>
+Step 6 : Verifying whether Units/Topics are displayed on page<br/>
+-- Success !! Unit 1 is present on page<br/>
+-- Success !! Topic 1 is present on page<br/>
+-- Success !! Unit 2 is present on page<br/>
+-- Success !! Topic 2 is present on page<br/>
+-- Success !! Unit 3 is present on page<br/>
+-- Success !! Topic 3 is present on page<br/>
+-- Success !! Unit 4 is present on page<br/>
+-- Success !! Topic 4 is present on page<br/>
+-- Success !! Unit 5 is present on page<br/>
+-- Success !! Topic 5 is present on page<br/>
+-- Success !! Unit 6 is present on page<br/>
+-- Success !! Topic 6 is present on page<br/>
+Step 7 : Verifying whether Quiz/Exmas are displayed on page<br/>
+-- Success !! Quiz is NOT present on page<br/>
+-- Success !! Practice Exam is NOT present on page<br/>
+</div>
+</td>
+<td></td>
+<td>168</td>
+<td>courses.HunterEd.StudyGuideTest@71be98f5</td></tr>
+<tr>
+<td title='courses.HunterEd.CourseContentsAndQuizzesTest.Video_Transcript_HT()'><b>Video_Transcript_HT</b><br>Test class: courses.HunterEd.CourseContentsAndQuizzesTest<br/>
+<a href="#Output-731422719" onClick='toggleBox("Output-731422719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-731422719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-731422719">
+====
+Test 19 : Verify that video transcript is displayed along with video
+====<br/>
+Step 1: Signing up as new User<br/>
+Step 3 : Editing all fields (i.e. Gender, , Email Address, Mailing Address) and clicking on 'Update Profile' button<br/>
+Step 2 : Navigating on KE Cousers Admin and performing 'Fast Forward Pass' and navigating back to Exam result page<br/>
+Step 3 : Clicking on 'Complete the Application' button<br/>
+-- Success !! 'Complete the Application' button is working as expected<br/>
+Step 4 : Go to Video Transcript page<br/>
+-- Success !! Video transcript button is present<br/>
+-- Success !! Video transcript text is present<br/>
+</div>
+</td>
+<td></td>
+<td>473</td>
+<td>courses.HunterEd.CourseContentsAndQuizzesTest@6108b2d7</td></tr>
+</table><p>
+</body>
+</html>

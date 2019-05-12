@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Failed suite [KalKomey Handgun Safety Course Automation Suite]]" parallel="classes">
+  <parameter name="os" value="windows 7"/>
+  <parameter name="environment" value="local"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Handgun Safety Course Automation Run on Internet Explorer(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="courses.Handgun.SpecialCases">
+        <methods>
+          <include name="teardown"/>
+          <include name="VerifyURL"/>
+          <include name="VerifyILostMyCardSectionLinks"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- courses.Handgun.SpecialCases -->
+      <class name="courses.Handgun.LoginForgotPasswordTest">
+        <methods>
+          <include name="Login_PasswordResetEmail"/>
+          <include name="Login_PasswordReset"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- courses.Handgun.LoginForgotPasswordTest -->
+      <class name="courses.Handgun.ProfileTest">
+        <methods>
+          <include name="Profile_ResetPassword"/>
+          <include name="Profile_RegionLocalityFieldLabelChange"/>
+          <include name="Profile_HideUnhidePhysicalAddress"/>
+          <include name="Profile_DefaultValues"/>
+          <include name="teardown"/>
+          <include name="Profile_Edit1"/>
+          <include name="Profile_Edit2"/>
+          <include name="Profile_ValidationMessageForInvalidEmail"/>
+          <include name="Profile_ValidationMessageForInvalidPhone"/>
+          <include name="Profile_UIElementVerification"/>
+          <include name="Profile_CountryDropdown_Values"/>
+          <include name="setUp"/>
+          <include name="Profile_ValidationMessageForInvalidZip"/>
+        </methods>
+      </class> <!-- courses.Handgun.ProfileTest -->
+      <class name="courses.Handgun.PayUpfrontTest">
+        <methods>
+          <include name="PayUpfront_askedToPay"/>
+          <include name="PayUpfront_PaymentInformation_PayWithCoupon"/>
+          <include name="PayUpfront_ViewReceipt_StartYourCourse"/>
+          <include name="PayUpfront_PaymentInformation_ConfirmationEmail"/>
+          <include name="setUp"/>
+          <include name="PayUpfront_ViewReceipt_VerifyDetails"/>
+          <include name="PayUpfront_Registration_Contents"/>
+          <include name="PayUpfront_PaymentInformation_PayWithCC"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.Handgun.PayUpfrontTest -->
+      <class name="courses.Handgun.StudyGuideTest">
+        <methods>
+          <include name="Navigate_To_StudyGuide_Page"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="StudyGuide_Content_Verification"/>
+        </methods>
+      </class> <!-- courses.Handgun.StudyGuideTest -->
+      <class name="courses.Handgun.ExamTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="FinalExam_ResumeExam"/>
+          <include name="FinalExam_ResultsFail_SeeCritique"/>
+          <include name="PracticeExam_QuitExam"/>
+          <include name="teardown"/>
+          <include name="PracticeExam_ResumeExam"/>
+        </methods>
+      </class> <!-- courses.Handgun.ExamTest -->
+      <class name="courses.Handgun.CommonCases">
+        <methods>
+          <include name="Header_UIElementVarification"/>
+          <include name="teardown"/>
+          <include name="State_FAQ"/>
+          <include name="setUp"/>
+          <include name="ErrorPages_Verify404ErrorPage"/>
+        </methods>
+      </class> <!-- courses.Handgun.CommonCases -->
+      <class name="courses.Handgun.DashboardTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Dashboard_ReLogin"/>
+          <include name="Dashboard_ResumeQuiz"/>
+          <include name="setUp"/>
+          <include name="Dashboard_VerifyAfterPayment"/>
+          <include name="Dashboard_CompleteApplication"/>
+        </methods>
+      </class> <!-- courses.Handgun.DashboardTest -->
+      <class name="courses.Handgun.PaymentCodeTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="PaymentCode_Type_Pass"/>
+        </methods>
+      </class> <!-- courses.Handgun.PaymentCodeTest -->
+      <class name="courses.Handgun.RegistrationTest">
+        <methods>
+          <include name="Registration_VerifyAccountCreationEmail"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="Registration_UsernameUniqueCheck"/>
+        </methods>
+      </class> <!-- courses.Handgun.RegistrationTest -->
+      <class name="courses.Handgun.CourseContentsAndQuizzesTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Quiz_ResumeQuiz"/>
+          <include name="setUp"/>
+          <include name="Contents_Navigation"/>
+        </methods>
+      </class> <!-- courses.Handgun.CourseContentsAndQuizzesTest -->
+    </classes>
+  </test> <!-- Handgun Safety Course Automation Run on Internet Explorer(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [KalKomey Handgun Safety Course Automation Suite]] -->

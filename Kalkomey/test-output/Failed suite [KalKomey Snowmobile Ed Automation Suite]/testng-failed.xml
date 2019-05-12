@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Failed suite [KalKomey Snowmobile Ed Automation Suite]]" parallel="classes">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="browser" value="chrome_EM"/>
+  <listeners>
+    <listener class-name="utility.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="Snowmobile Ed Automation Run on Win / Chrome(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="courses.SnowmobileEd.CourseContentsAndQuizzesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.SnowmobileEd.CourseContentsAndQuizzesTest -->
+      <class name="courses.SnowmobileEd.ExamTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.SnowmobileEd.ExamTest -->
+      <class name="courses.SnowmobileEd.CommonCases">
+        <methods>
+          <include name="ErrorPages_Verify500ErrorPage"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- courses.SnowmobileEd.CommonCases -->
+      <class name="courses.SnowmobileEd.DashboardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- courses.SnowmobileEd.DashboardTest -->
+    </classes>
+  </test> <!-- Snowmobile Ed Automation Run on Win / Chrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [KalKomey Snowmobile Ed Automation Suite]] -->

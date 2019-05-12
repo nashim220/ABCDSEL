@@ -1,0 +1,548 @@
+<html>
+<head>
+<title>TestNG:  CM - ILMC Automation Run on Firefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CM - ILMC Automation Run on Firefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 07 15:47:05 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>710 seconds (710453 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='products.CM.CertificationDetailsTest.ElementsOnStudentInfo()'><b>ElementsOnStudentInfo</b><br>Test class: products.CM.CertificationDetailsTest<br/>
+<a href="#Output-1031113561" onClick='toggleBox("Output-1031113561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1031113561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1031113561">
+====
+Test 2 : Certification Details - Verify elements on Student info details section
+====<br/>
+Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login<br/>
+Step 2 : Enter valid login credentials and click on Login button.<br/>
+Step 3 : Search for a certification and click on student name.<br/>
+Step 4 : Verify student information page section data is displayed properly or not.<br/>
+Success !! Student name  data is present<br/>
+Failure !! Physical Address data is not present <br/>
+Success !! Physical Phone Number data is present<br/>
+Success !! Date of birth  data is present<br/>
+Success !! Gender data is present<br/>
+Failure !!  Mailling address data is not present <br/>
+Success !! Mailing phone number data is present<br/>
+Success !! Email address Text is present<br/>
+Success !! Show more Information link is present<br/>
+Success !! Edit link is present<br/>
+---- Test Failed. Please check the console or TestNg report for details<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at products.CM.CertificationDetailsTest.ElementsOnStudentInfo(CertificationDetailsTest.java:375)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1031113561", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1031113561'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at products.CM.CertificationDetailsTest.ElementsOnStudentInfo(CertificationDetailsTest.java:375)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</pre></div></td>
+<td>30</td>
+<td>products.CM.CertificationDetailsTest@5724c22f</td></tr>
+<tr>
+<td title='products.CM.CertificationDetailsTest.HideAdditionalStudentInfo()'><b>HideAdditionalStudentInfo</b><br>Test class: products.CM.CertificationDetailsTest<br/>
+<a href="#Output-572535616" onClick='toggleBox("Output-572535616", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-572535616" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-572535616">
+====
+Test 5 : Certification Details - Verify that user can hide additional student info.
+====<br/>
+Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login<br/>
+Step 2 : Login to the application and verify User is logged in successfully.<br/>
+Success !! Login  message is displayed i.e. Signed in!<br/>
+Step 3 : Go to certification details page (select jurisdication say PA , type :Boating while searching for certifications)<br/>
+Step 4 : Click on 'Show more info' link and verify User should be able to see Additional details of the student<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Rohit_Ware&apos;, ip: &apos;192.168.60.192&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=css selector, value=#contact-info div:nth-of-type(3) dl:nth-of-type(1) dd}
+Session ID: a67341a4318164a2c43b027d3521c2e2
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ROHITW~1\AppData\Local\Temp\scoped_dir2564_27026}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at utility.SeleniumFunctions.GetElementText(SeleniumFunctions.java:178)
+	at products.CM.CertificationDetailsTest.HideAdditionalStudentInfo(CertificationDetailsTest.java:759)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace572535616", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace572535616'><pre>org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Rohit_Ware&apos;, ip: &apos;192.168.60.192&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=css selector, value=#contact-info div:nth-of-type(3) dl:nth-of-type(1) dd}
+Session ID: a67341a4318164a2c43b027d3521c2e2
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ROHITW~1\AppData\Local\Temp\scoped_dir2564_27026}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at utility.SeleniumFunctions.GetElementText(SeleniumFunctions.java:178)
+	at products.CM.CertificationDetailsTest.HideAdditionalStudentInfo(CertificationDetailsTest.java:759)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</pre></div></td>
+<td>60</td>
+<td>products.CM.CertificationDetailsTest@5724c22f</td></tr>
+<tr>
+<td title='products.CM.ReportTest.RedirectReportsPage()'><b>RedirectReportsPage</b><br>Test class: products.CM.ReportTest<br/>
+<a href="#Output-2138904776" onClick='toggleBox("Output-2138904776", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2138904776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2138904776">
+====
+Test 1 : Verify user can navigate to reports section
+====<br/>
+Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login<br/>
+Step 2 : Login with valid credentials<br/>
+Step 3: Click on Report tab and verify control is redirected to Report Page<br/>
+Success !! Control is redirected to Report Page. i.e. Toggle Reports Menu<br/>
+Step 4: Click On  'toggle reports menu' link  for  Hide filter<br/>
+Failure !! Toggle Reports Menu  link Filter  is not  Hide<br/>
+Step 5: Click On  'toggle reports menu' link  for  UnHide filter<br/>
+Success !! Toggle Reports Menu  link Filter  is   UnHide<br/>
+Step 6 : Observe Details on Reports Menu<br/>
+Success !! State  Text  Box is Present<br/>
+Success !! Course  Text  Box is Present<br/>
+Success !! FromDate Slsect Field is present <br/>
+Success !! ToDate Slsect Field  is present<br/>
+Success !! Generate Button   is present<br/>
+Step 7: Verify report is generated<br/>
+Success !! Dashboard  Tab is Present<br/>
+Success !! Details  Tab is Present<br/>
+---- Test Failed. Please check the console or TestNg report for details<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at products.CM.ReportTest.RedirectReportsPage(ReportTest.java:247)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2138904776", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2138904776'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at products.CM.ReportTest.RedirectReportsPage(ReportTest.java:247)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</pre></div></td>
+<td>39</td>
+<td>products.CM.ReportTest@3dd36fa0</td></tr>
+<tr>
+<td title='products.CM.CertificationDetailsTest.SeeAdditionalStudentInfo()'><b>SeeAdditionalStudentInfo</b><br>Test class: products.CM.CertificationDetailsTest<br/>
+<a href="#Output-252579858" onClick='toggleBox("Output-252579858", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-252579858" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-252579858">
+====
+Test 3 : Certification Details - Verify that user can see additional student info.
+====<br/>
+Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login<br/>
+Step 2 : Login to the application and verify User is logged in successfully.<br/>
+Success !! Login  message is displayed i.e. Signed in!<br/>
+Step 3 : Go to certification details page (select jurisdication say PA , type :Hunting while searching for certifications)<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Rohit_Ware&apos;, ip: &apos;192.168.60.192&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at pageFactory.CM.EditCertificationPage.ClickOnStudentNametab(EditCertificationPage.java:73)
+	at products.CM.CertificationDetailsTest.SeeAdditionalStudentInfo(CertificationDetailsTest.java:438)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Rohit_Ware&apos;, ip: &apos;192.168.60.192&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=css selector, value=li:nth-of-type(1) header div.span11 h4 a}
+Session ID: 458ba0757a789a166bc0a1f0220bf182
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ROHITW~1\AppData\Local\Temp\scoped_dir7012_1885}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+	... 17 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace252579858", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace252579858'><pre>org.openqa.selenium.NoSuchElementException: Timed out after 15 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Rohit_Ware&apos;, ip: &apos;192.168.60.192&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at pageFactory.CM.EditCertificationPage.ClickOnStudentNametab(EditCertificationPage.java:73)
+	at products.CM.CertificationDetailsTest.SeeAdditionalStudentInfo(CertificationDetailsTest.java:438)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Rohit_Ware&apos;, ip: &apos;192.168.60.192&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=css selector, value=li:nth-of-type(1) header div.span11 h4 a}
+Session ID: 458ba0757a789a166bc0a1f0220bf182
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ROHITW~1\AppData\Local\Temp\scoped_dir7012_1885}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+	... 17 more
+</pre></div></td>
+<td>90</td>
+<td>products.CM.CertificationDetailsTest@5724c22f</td></tr>
+<tr>
+<td title='products.CM.CertificationDetailsTest.StudentActivitylogDetils()'><b>StudentActivitylogDetils</b><br>Test class: products.CM.CertificationDetailsTest<br/>
+<a href="#Output-710467494" onClick='toggleBox("Output-710467494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-710467494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-710467494">
+====
+Test 21 : Details Certification - Testing that quantity is added to a student's activity log when a card is ordered.
+====<br/>
+Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login<br/>
+Step 2 : Login with valid credentials<br/>
+Step 3 : Search Certifications and navigate to user page<br/>
+Step 4 : Verify user has naviagted to  particular student's certification page or not.<br/>
+Success !! User is on cert. details screen<br/>
+Step 5 : Order a certification<br/>
+Step 6 : On the right in the activity log, you should see an action that says 'Replacement Certificate(s) Ordered' with Date-time stamp & agency user name link�and 'Quantity: #' with your selected quantity below.�<br/>
+Success !! 'Replacement Certificate(s) Ordered' with Date-time stamp is displayed<br/>
+Failure !!  Certificate 'Quantity: #' is not match with user selected quantity<br/>
+Success !!  Agency user name link is present<br/>
+Step 7 : Navigate Through the bypass payment<br/>
+Step 8 : Verify an action that says 'Payment bypassed for replacement certificate' is present or not.<br/>
+Success !! 'Payment bypassed for replacement certificate' is present<br/>
+Step 9 : Go to the Admin > Certification Activity page and verify Activity should be logged as 'Replacement Certificate ordered for <student name link>'.Agency User name link with <'n' hrs/days> ago. 'Quantity#'<br/>
+Success !! student name link is displayed<br/>
+Success !! 'Replacement Certificate(s) Ordered' with Date-time stamp is displayed<br/>
+Success !!  Certificate 'Quantity: #' is match with user selected quantity<br/>
+Success !!  Agency user name link is present<br/>
+Step 10 : Go to the 'My Profile' page. and verify Activity should be logged as 'Replacement Certificate ordered for <student name link>' with Date-Time stamp. 'Quantity#''<br/>
+Success !! student name link is displayed<br/>
+Success !! 'Replacement Certificate(s) Ordered' with Date-time stamp is displayed<br/>
+Success !!  Certificate 'Quantity: #' is match with user selected quantity<br/>
+---- Test Failed. Please check the console or TestNg report for details<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at products.CM.CertificationDetailsTest.StudentActivitylogDetils(CertificationDetailsTest.java:2766)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace710467494", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace710467494'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at products.CM.CertificationDetailsTest.StudentActivitylogDetils(CertificationDetailsTest.java:2766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</pre></div></td>
+<td>146</td>
+<td>products.CM.CertificationDetailsTest@5724c22f</td></tr>
+<tr>
+<td title='products.CM.CertificationActivityTest.VerifySupporText()'><b>VerifySupporText</b><br>Test class: products.CM.CertificationActivityTest<br/>
+<a href="#Output-491021921" onClick='toggleBox("Output-491021921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-491021921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-491021921">
+====
+Test 11 : Verify all the activity gets logged
+====<br/>
+Step 1 : Navigate to ILMC Application : https://citizen-portal.staging.kalkomey.com/<br/>
+Step 2 : Select state and course and go to search page<br/>
+Step 3 : Enter valid record and go to certification page<br/>
+Step 4 : Verify user can place order successfully<br/>
+Success !! Order placed successfully. i.e. The payment was successfully processed.<br/>
+Success !! Correct Support Text is displayed. i.e. Your receipt and temporary certificate have been emailed to you. You may print your temporary certificate for use until your permanent card arrives. If you have any problems, you may contact Kalkomey customer service at support@ilostmycard.com or by calling 800-830-2268.<br/>
+Step 6 :  Login As  Admin  User and navigating to Certification page<br/>
+Step 7 : Verify Able to Search <br/>
+Success !! Certification manager icon is present in the header<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Rohit_Ware&apos;, ip: &apos;192.168.60.192&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: 51ab0f5577008dd0d5b1fcc01a11ed4b
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ROHITW~1\AppData\Local\Temp\scoped_dir4388_19016}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:367)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at utility.SeleniumFunctions.IsElementPresent(SeleniumFunctions.java:582)
+	at products.CM.CertificationActivityTest.VerifySupporText(CertificationActivityTest.java:1401)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace491021921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace491021921'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;Rohit_Ware&apos;, ip: &apos;192.168.60.192&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: 51ab0f5577008dd0d5b1fcc01a11ed4b
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ROHITW~1\AppData\Local\Temp\scoped_dir4388_19016}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=50.0.2661.102, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at utility.SeleniumFunctions.IsElementPresent(SeleniumFunctions.java:582)
+	at products.CM.CertificationActivityTest.VerifySupporText(CertificationActivityTest.java:1401)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</pre></div></td>
+<td>82</td>
+<td>products.CM.CertificationActivityTest@6acbc2da</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='products.CM.CardPrinterTest.MultipleOrderSingleRequestForSameCard()'><b>MultipleOrderSingleRequestForSameCard</b><br>Test class: products.CM.CardPrinterTest<br/>
+<a href="#Output-1808194838" onClick='toggleBox("Output-1808194838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1808194838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1808194838">
+====
+Test 3 : Verify multiple orders (same card) do not put multiple requests
+====<br/>
+Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login<br/>
+Step 2 : Login to application and navigating to User Create New Certification page<br/>
+Step 3 : Creating new Certificate<br/>
+Success !! alert message is displayed i.e. Certification was successfully created.<br/>
+Step 4 : Verify single request is present for multiple orders for same card<br/>
+Success !! Single request is present for multiple orders for same card<br/>
+Success !! Multiple orders are present under single request for same card.  i.e. 2<br/>
+</div>
+</td>
+<td></td>
+<td>104</td>
+<td>products.CM.CardPrinterTest@4459116</td></tr>
+</table><p>
+</body>
+</html>
